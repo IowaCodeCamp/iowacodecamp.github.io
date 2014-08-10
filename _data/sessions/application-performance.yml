@@ -1,0 +1,6 @@
+title: Application Performance & The .NET/ASP.NET Developer
+description: This action packed session discusses application performance from the eyes of the developer. Looking into tips, tricks, and tools to help developers keep their applications under control in various situations. This joint session for ASP.NET and Non-ASP.NET developers will help to illustrate the differences that application type, user type, and deployment scenarios can have on the performance needs and issues surrounding an application. Third-party tools will be discussed in this session as a method of helping to diagnose and resolve issues.
+level: 200
+speaker:
+    name: Mitchel Sellers
+    slug: mitchel-sellers

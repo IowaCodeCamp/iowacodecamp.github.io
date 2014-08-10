@@ -1,20 +1,18 @@
 ---
-layout: nil
+layout: null
 ---
 {
   "sessions": {
-    "session": [
-	{% for session in site.data.sessions %}
+    "session": [{% for session_hash in site.data.sessions %}{% assign session = session_hash[1] %}
        {
-	      "title": "{{ session.title }}",
-		  "description": "{{ session.description }}",
-	      "level": "{{ session.level }}",
+	      "title": {{ session.title | jsonify }},
+		  "description": {{ session.description | jsonify }},
+	      "level": {{ session.level | jsonify }},
 	      "author": {
-		      "name": "{{ session.speaker.name }}",
-		      "slug": "{{ session.speaker.slug }}"
+		      "name": {{ session.speaker.name | jsonify }},
+		      "slug": {{ session.speaker.slug | jsonify }}
 	      }
-       },
-  {% endfor %}
+       },{% endfor %}
     ]
   }
 }
