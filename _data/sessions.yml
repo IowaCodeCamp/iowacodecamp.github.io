@@ -1,0 +1,20 @@
+- title: $0 to $60,000 A Month In 6 Months - A Lean Startup Case Study on Agile Software Architecture
+  description: Agile Development and Lean Startup are about creating cultures centered around the pursuit of knowledge, embracing "I Don't Know" as a perfectly acceptable answer, and an unacceptable solution. The companies that learn the fastest, win. From November 2013 through April 2014 MensStyleLab.com's revenue grew over 80% month over month, reaching over $60K in sales in a single month in April 2014. In this session I'll break down the steps that we took and what we learned along the way. We'll investigate the tools that startups use to measure and drive growth on a shoestring budget, and how these same principles can be applied anywhere to grow lean, with very little wasted time, effort, or resources.
+  level: 100
+  speaker:
+    name: Aaron Hoffman
+    slug: aaron-hoffman
+
+- title: Application Performance & The .NET/ASP.NET Developer
+  description: This action packed session discusses application performance from the eyes of the developer. Looking into tips, tricks, and tools to help developers keep their applications under control in various situations. This joint session for ASP.NET and Non-ASP.NET developers will help to illustrate the differences that application type, user type, and deployment scenarios can have on the performance needs and issues surrounding an application. Third-party tools will be discussed in this session as a method of helping to diagnose and resolve issues.
+  level: 200
+  speaker:
+    name: Mitchel Sellers
+    slug: mitchel-sellers
+
+- title: A+ Front End Development with Angular and Azure
+  description: Server Side development is expensive and inefficient. In the world of cloud computing you have to pay for every CPU cycle and gig of RAM that you use. Processing pushed off onto the client will save you big time. This is the promise of Angular and Azure. Using these exciting cutting edge technologies allows us to write standards-based web apps that minimize the amount of server resources we use. This talk will cover the basics of AngularJS and Azure Mobile Services. We will touch on the advantages of using REST-ful services as our backend storage and in doing so minimize the cost of running and maintaining a website. This stuff is cutting-edge, cool, and fun.
+  level: 200
+  speaker:
+    name: Ken Versaw
+    slug: ken-versaw

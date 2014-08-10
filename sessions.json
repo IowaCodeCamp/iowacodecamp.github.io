@@ -1,0 +1,20 @@
+---
+layout: nil
+---
+{
+  "sessions": {
+    "session": [
+	{% for session in site.data.sessions %}
+       {
+	      "title": "{{ session.title }}",
+		  "description": "{{ session.description }}",
+	      "level": "{{ session.level }}",
+	      "author": {
+		      "name": "{{ session.speaker.name }}",
+		      "slug": "{{ session.speaker.slug }}"
+	      }
+       },
+  {% endfor %}
+    ]
+  }
+}
