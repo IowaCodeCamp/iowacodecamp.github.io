@@ -4,18 +4,14 @@ layout: null
 {
   "sessions": [
 {% for session_hash in site.data.sessions %}{% assign session = session_hash[1] %}    {
+      "slug": {{ session.slug | jsonify }},
       "title": {{ session.title | jsonify }},
       "description": {{ session.description | jsonify | strip_newlines }},
       "level": {{ session.level | jsonify }},
       "speaker": {
-	"name": {{ speaker.name | jsonify }},
-	"slug": "Slug1"
+	"speaker": {{ session.speaker | jsonify }}, {% for speaker_hash in site.data.speakers %}{% assign speaker = speaker_hash[1] %}{% if speaker.slug == session.speaker %}
+	"name": {{ speaker.name | jsonify }}{% endif %}{% endfor %}
       }
     }{% if forloop.rindex0 > 0 %}, {% endif %}
 {% endfor %}  ]  
 }
-
-| where:"graduation_year","2014"
-{% for speaker_hash in site.data.speakers %}{% assign speaker = speaker_hash[1] %}
-{{ speaker.name || jsonify }}
-{% endfor %} 
