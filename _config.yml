@@ -2,5 +2,9 @@ name: blog
 
 exclude:
   - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - params.json
 gems:
   - jekyll-redirect-from
