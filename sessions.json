@@ -9,7 +9,7 @@ layout: null
       "description": {{ session.description | jsonify | strip_newlines }},
       "level": {{ session.level | jsonify }},
       "speaker": {
-	"speaker": {{ session.speaker | jsonify }}, {% for speaker_hash in site.data.speakers %}{% assign speaker = speaker_hash[1] %}{% if speaker.slug == session.speaker %}
+	"slug": {{ session.speaker | jsonify }}, {% for speaker_hash in site.data.speakers %}{% assign speaker = speaker_hash[1] %}{% if speaker.slug == session.speaker %}
 	"name": {{ speaker.name | jsonify }}{% endif %}{% endfor %}
       }
     }{% if forloop.rindex0 > 0 %}, {% endif %}
