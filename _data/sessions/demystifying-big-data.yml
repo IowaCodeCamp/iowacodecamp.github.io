@@ -1,0 +1,9 @@
+slug: demystifying-big-data
+code-camp-number: 13
+title: "Demystifying Big Data"
+description: "Big Data is here to stay. And with it comes a deluge of new buzz words and acronyms. Phrases like \"NoSQL\", \"Document Database\", \"Velocity, Volume, and Variety\", \"Hadoop\", and \"Map Reduce\" are now commonplace. To make matters worse, depending on who you talk to, the definitions of these phrases are slightly different. Jon will walk through what big data really means and pull back the curtain on all the buzzwords surrounding it. Jon will explain the origins of NoSQL, what the various NoSQL databases are, and when each would be used. Jon walks you through the concept of MapReduce and how this tool will allow manipulation and aggregation of massive amounts of data in your enterprise.Jon will help you understand what all of these various new technologies really are and how they could impact you and your business. Most importantly, Jon will give you the information you need to make informed decisions about when and where these tools should be used in your enterprise."
+level: 100
+room: Borlaug
+start-time: 9:00 AM
+end-time: 10:15 AM
+speaker: jonathan-mills

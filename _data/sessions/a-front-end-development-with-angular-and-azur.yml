@@ -1,0 +1,9 @@
+slug: a-front-end-development-with-angular-and-azur
+code-camp-number: 13
+title: "A+ Front End Development with Angular and Azure"
+description: "Server Side development is expensive and inefficient. In the world of cloud computing you have to pay for every CPU cycle and gig of RAM that you use. Processing pushed off onto the client will save you big time.  This is the promise of Angular and Azure. Using these exciting cutting edge technologies allows us to write standards-based web apps that minimize the amount of server resources we use.This talk will cover the basics of AngularJS and Azure Mobile Services. We will touch on the advantages of using REST-ful services as our backend storage and in doing so minimize the cost of running and maintaining a website. This stuff is cutting-edge, cool, and fun."
+level: 100
+room: Oakland 4
+start-time: 2:15 PM
+end-time: 3:30 PM
+speaker: ken-versaw

@@ -1,0 +1,9 @@
+slug: sql-server-features-that-will-blow-your-mind
+code-camp-number: 13
+title: "SQL Server Features That Will Blow Your Mind!"
+description: "How many lines of code does it take to generate a running total?  How would you find a value in the next row of data - without using a cursor or loop?  How can you efficiently store rows of data with a lot of optional fields, and how can you quickly find which of those rows have values?  And how can you eliminate locking without resorting to dirty reads?  SQL Server has answers for all of these questions, and none requires more than a few lines of code.  Give me an hour, and I will blow your mind!"
+level: 100
+room: VML Room - Oakdale 3
+start-time: 10:30 AM
+end-time: 11:45 AM
+speaker: ed-leightondick

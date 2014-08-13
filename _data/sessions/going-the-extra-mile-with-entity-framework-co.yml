@@ -1,0 +1,9 @@
+slug: going-the-extra-mile-with-entity-framework-co
+code-camp-number: 13
+title: "Going The Extra Mile with Entity Framework Code First"
+description: "Entity Framework Code First is a breeze to get up and running, but are you taking advantage of some of the more advanced features? Are you getting caught up by common pitfalls? In this presentation, we'll review the history of Entity Framework and the status of the project. We'll cover some core functionality concepts and asynchronous queries. Mike will show how to use StructureMap to easily maintain the lifetime of the DataContext. We'll look at how we can leverage the Projection functionality of AutoMapper to easily write optimized queries. Finally, Mike will demonstrate EF Migrations and how you can tie it into your current continuous integration environment. This presentation assumes you have some knowledge of Entity Framework so we'll try to not get caught up in the basics."
+level: 100
+room: VML Room - Oakdale 3
+start-time: 2:15 PM
+end-time: 3:30 PM
+speaker: mike-cole

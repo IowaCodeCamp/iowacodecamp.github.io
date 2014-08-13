@@ -1,0 +1,9 @@
+slug: respect-the-url
+code-camp-number: 13
+title: "Respect the URL"
+description: "As web developers we seem to have forgotten how powerful the web is. The url used to give us a unique resource, until we started abusing it by using JavaScript to change the content of the page without changing the url. We will take a quick look at what has happened to the url and how these new JavaScript frameworks are helping us to fix what we as web developers have broken."
+level: 100
+room: Platinum Supplemental Ins - Oakland 2
+start-time: 3:45 PM
+end-time: 5:00 PM
+speaker: brandon-williams

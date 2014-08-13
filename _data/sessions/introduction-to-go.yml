@@ -1,0 +1,9 @@
+slug: introduction-to-go
+code-camp-number: 13
+title: "Introduction to Go"
+description: "A talk on what Go is with a gentle introduction to its usefulness and the language itself. Brief overviews of how to use it and why you should use it compared to other emerging languages and patterns. If you're curious about Go and how it compares to other systems this talk is for you.What is Go? Overview of the history of Go. Why Go? Introduction to Go semantics and syntax. Introduction to Go concurrency patterns. Overview of a simple web service built in Go for streaming files. Resources for learning more."
+level: 100
+room: Dev/Iowa Bootcamp Room - Oakland 1
+start-time: 9:00 AM
+end-time: 10:15 AM
+speaker: ross-hendrickson

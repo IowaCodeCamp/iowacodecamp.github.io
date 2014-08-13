@@ -1,0 +1,9 @@
+slug: because-we-can-internet-of-things-beyond-mobi
+code-camp-number: 13
+title: "Because we can: Internet of Things (beyond mobile development)"
+description: "Times are changing and we as developers are now responsible for total user experience thru both the interface as well as interaction with our apps. Further more, a user experience does not end at a web service that is powered by Ruby or ASP.NET MVC, an app that runs on iPhone, android tablet or a touch enabled Windows laptop. What if you can tell your phone to adjust the temperature in your office -- not just once but every time you enter the office? How about saving energy when no one is around? We can expend the user experience beyond the simple screens of mobile phone. What will we discover? During the course of the talk, we'll run into Arduino, Arduino Shields, Arduino Clones (including the Spark Core), sensors, Servo controls and basic electronics including PWM controls as well as simple usage of Transistors. We will gather data from hardware devices using the internet and remotely access and control the micro controllers from our computer."
+level: 100
+room: Dev/Iowa Bootcamp Room - Oakland 1
+start-time: 12:45 PM
+end-time: 2:00 PM
+speaker: lwin-maung
