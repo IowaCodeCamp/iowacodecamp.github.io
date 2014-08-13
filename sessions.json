@@ -3,7 +3,7 @@ layout: null
 ---
 {
   "sessions": [
-{% for session_hash in site.data.sessions %}{% assign session = session_hash[1] %}    {
+{% for session_hash in site.data.sessions %}{% assign session = session_hash[1] %}{% if session.code-camp-number == site.code-camp-number %}    {
       "slug": {{ session.slug | jsonify }},
       "title": {{ session.title | jsonify }},
       "description": {{ session.description | jsonify | strip_newlines }},
@@ -13,5 +13,5 @@ layout: null
 	"name": {{ speaker.name | jsonify }}{% endif %}{% endfor %}
       }
     }{% if forloop.rindex0 > 0 %}, {% endif %}
-{% endfor %}  ]  
+{% endif %}{% endfor %}  ]  
 }

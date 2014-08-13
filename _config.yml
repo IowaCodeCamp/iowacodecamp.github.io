@@ -1,4 +1,5 @@
-name: blog
+name: Iowa Code Camp
+code-camp-number: 12
 
 exclude:
   - CNAME
