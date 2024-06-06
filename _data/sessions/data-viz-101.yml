@@ -1,9 +1,0 @@
-slug: data-viz-101
-code-camp-number: 13
-title: "Data Viz 101"
-description: "The pixel. One single itsy-bitsy pixel can convey a wealth of information. Throw a million pixels into a matrix and you have a communication medium of unparalleled power, yet you use it to look at funny pictures of kittens. As Dr. Sheldon Cooper would say \"For Shame\". Come to this session and I'll go over the strengths and weaknesses of all the basic chart types and what simple steps you can do to make your data more engaging and easier to understand. The general points of this talk are platform agnostic, but most demos will be done using d3.js."
-level: 100
-room: Dev/Iowa Bootcamp Room - Oakland 1
-start-time: 2:15 PM
-end-time: 3:30 PM
-speaker: jon-von-gillern

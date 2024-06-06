@@ -1,9 +1,0 @@
-slug: writing-publishing-consuming-modules-in-javas
-code-camp-number: 13
-title: "Writing, Publishing, Consuming Modules in Javascript"
-description: "Unsure of the different module formats in javascript or if you should be using modules at all? Curious how you might author a javascript library and share it with others? Or maybe you just want to consume other libraries as you build a javascript frontend and you'd like to see how others are being successful today.Join me for a history lesson about the various module formats available and the tradeoffs that come with choosing each one. I'll also create/publish/consume a library during a live coding session to show how it's done in 2014!"
-level: 100
-room: Oakland 4
-start-time: 3:45 PM
-end-time: 5:00 PM
-speaker: toran-billups

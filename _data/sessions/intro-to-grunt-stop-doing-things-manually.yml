@@ -1,9 +1,0 @@
-slug: intro-to-grunt-stop-doing-things-manually
-code-camp-number: 13
-title: "Intro to Grunt:  Stop doing things manually"
-description: "Grunt is a Javascript Task Runner. If you've never heard of Grunt then this presentation is for you. Grunt can help you automatically compile Less/Coffeescript, compile templates, aggregate/minify files, and much more . Don't worry though, you don't have to run Grunt every time you want it to do something. I'll show you the Grunt Watch feature, so you can code faster.See a sample here:https://github.com/crolek/grunt_intro_example"
-level: 100
-room: Oakland 4
-start-time: 12:45 PM
-end-time: 2:00 PM
-speaker: chuck-rolek

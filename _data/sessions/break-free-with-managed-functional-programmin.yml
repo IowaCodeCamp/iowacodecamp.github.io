@@ -1,9 +1,0 @@
-slug: break-free-with-managed-functional-programmin
-code-camp-number: 13
-title: "Break Free with Managed Functional Programming: An Introduction to F#"
-description: "Originally developed by Microsoft Research, Cambridge, F# is an open-source, functional-first language in the ML family. Despite its lofty position as a first-class Visual Studio language for the past two releases and its cross-platform availability it hasn't seen widespread adoption in the enterprise. In this session we'll take an introductory look at F#, exploring how its constructs and terse syntax allow you to write more stable, maintainable code while keeping you focused on the problem rather than the plumbing."
-level: 100
-room: VML Room - Oakdale 3
-start-time: 3:45 PM
-end-time: 5:00 PM
-speaker: dave-fancher

@@ -1,9 +1,0 @@
-slug: introduction-to-haskell
-code-camp-number: 13
-title: "Introduction to Haskell"
-description: "Haskell is a strongly typed functional programming language actively developed by a group of research mathematicians around the world.  While the primary purpose of the language is mathematical research, Haskell can be used for a variety of purposes - including web development.  Many times, Haskell’s strong type system will prevent errors, bugs, and problems within an application at compile. This presentation will focus on the basics of functional programming with Haskell, including an overview of syntax, expressions, basic theory, definitions for important components - all using the Haskell Platform and it’s package manager - cabal."
-level: 100
-room: VML Room - Oakdale 3
-start-time: 9:00 AM
-end-time: 10:15 AM
-speaker: nicholas-starke

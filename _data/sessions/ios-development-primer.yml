@@ -1,9 +1,0 @@
-slug: ios-development-primer
-code-camp-number: 13
-title: "iOS development primer"
-description: "We'll take a look at how to use Xcode 5 to create a simple application, as well as make a user interface with navigation using the Storyboard, Scenes, and Segues. Finally we'll compile the application and run it in the iOS simulator."
-level: 100
-room: Clark
-start-time: 3:45 PM
-end-time: 5:00 PM
-speaker: kirschen-seah

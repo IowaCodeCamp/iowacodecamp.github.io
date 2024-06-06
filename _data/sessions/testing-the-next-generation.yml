@@ -1,9 +1,0 @@
-slug: testing-the-next-generation
-code-camp-number: 13
-title: "Testing the Next Generation"
-description: "Testing: the final frontier. These are the voyages of Software Craftsmanship. Its continuing mission: to explore strange new worlds, to seek out new code and new patterns, to boldly go where no one has gone before.Looking to take your testing to new worlds?  Want to verify your code meetings your user's requirements?Come learn about behavior and property testing in .Net.We'll look at how SpecFlow can get everyone on the same page and how to find more edge cases with property testing using FsCheck."
-level: 100
-room: Oakland 5
-start-time: 12:45 PM
-end-time: 2:00 PM
-speaker: mike-harris

@@ -1,9 +1,0 @@
-slug: whats-next-in-c
-code-camp-number: 13
-title: "What's Next in C#"
-description: "It's a brave new world out there. The new C# compiler (\"Roslyn\") is open source, we can write applications for Andriod, iOS and OSX using C#, cats and dogs living together, mass hysteria! The C# language is one of a developer's best friends, and over the years our friend has grown and matured and become truly epic - from generics to LINQ, lambda expressions to async and await. So what's next? Join me in this session as we explore what's in store for us in project Roslyn, and look at the many new language features in the next version of C#. Spoiler alert: C# v.Next is AWESOME!"
-level: 100
-room: Dev/Iowa Bootcamp Room - Oakland 1
-start-time: 10:30 AM
-end-time: 11:45 AM
-speaker: adam-barney

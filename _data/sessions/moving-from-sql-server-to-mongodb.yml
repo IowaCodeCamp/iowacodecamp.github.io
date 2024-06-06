@@ -1,9 +1,0 @@
-slug: moving-from-sql-server-to-mongodb
-code-camp-number: 13
-title: "Moving from SQL Server to MongoDB"
-description: "When we began hacking away on Hudl we chose SQL Server as our database. After a few years and solid company growth we realized SQL Server was becoming a bottleneck. Because we run in the cloud, vertically scaling our DB was not a great option. That's when we began to look at NoSQL seriously and specifically MongoDB. We wanted something that was fast, flexible and developer-friendly. In this talk we'll take a look at our schema design choices, our migration process and the performance we've seen with MongoDB."
-level: 100
-room: VML Room - Oakdale 3
-start-time: 12:45 PM
-end-time: 2:00 PM
-speaker: jon-dokulil
