@@ -2197,7 +2197,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class RegisterButtonComponent {
   constructor() {
-    this.registerLink = 'https://www.eventbrite.com';
+    this.registerLink = 'https://buytickets.at/iowacodecamp/1300554';
   }
   ngOnInit() {}
   static #_ = this.ɵfac = function RegisterButtonComponent_Factory(t) {
