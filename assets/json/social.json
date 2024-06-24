@@ -2,21 +2,31 @@
   {
     "linkType": "facebook",
     "title": "facebook",
-    "url": ""
+    "url": "https://www.facebook.com/groups/38776603251"
   },
   {
     "linkType": "linkedin",
     "title": "linkedin",
-    "url": ""
+    "url": "https://www.linkedin.com/groups/1857235/"
   },
   {
     "linkType": "github",
     "title": "github",
-    "url": ""
+    "url": "https://github.com/IowaCodeCamp"
   },
   {
     "linkType": "twitter",
     "title": "twitter",
-    "url": ""
+    "url": "https://twitter.com/iowacodecamp"
+  },
+  {
+    "linkType": "mastodon",
+    "title": "mastodon",
+    "url": "https://mastodon.social/@iowacodecamp"
+  },
+  {
+    "linkType": "email",
+    "title": "email",
+    "url": "mailto:leaders@iowacodecamp.com"
   }
 ]
