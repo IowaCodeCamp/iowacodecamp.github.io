@@ -133,7 +133,7 @@ class HomeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](9, "Iowa Code Camp");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](11, "April 2024");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](11, "October 26th, 2024");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](12, "div", 9)(13, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, " For software developers interested in industry-specific topics, such as front-end JavaScript frameworks, IT cloud infrastructure, database architecture, and working with engineering teams ");
