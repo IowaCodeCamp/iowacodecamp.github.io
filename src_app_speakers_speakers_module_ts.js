@@ -178,54 +178,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   SpeakersComponent: () => (/* binding */ SpeakersComponent)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_WebSite_WebSite_browser_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/router */ 7947);
-/* harmony import */ var _layout_components_speaker_speaker_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/components/speaker/speaker.component */ 379);
-/* harmony import */ var _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../layout/components/shell/shell.component */ 1279);
-/* harmony import */ var _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../layout/components/header/header.component */ 8246);
-/* harmony import */ var _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../layout/components/footer/footer.component */ 7114);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/components/shell/shell.component */ 1279);
+/* harmony import */ var _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../layout/components/header/header.component */ 8246);
+/* harmony import */ var _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../layout/components/footer/footer.component */ 7114);
 
 
 
 
 
 
-
-
-function SpeakersComponent_ng_template_10_ng_container_1_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](1, "li", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](2, "app-speaker", 8);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementContainerEnd"]();
-  }
-  if (rf & 2) {
-    const speaker_r4 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("speaker", speaker_r4);
-  }
-}
-function SpeakersComponent_ng_template_10_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, SpeakersComponent_ng_template_10_ng_container_1_Template, 3, 1, "ng-container", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-  }
-  if (rf & 2) {
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx_r0.speakers);
-  }
-}
-function SpeakersComponent_ng_template_11_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "p", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](1, " No Speakers found. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-  }
-}
 class SpeakersComponent {
   constructor(activatedRoute) {
     this.activatedRoute = activatedRoute;
@@ -239,39 +202,28 @@ class SpeakersComponent {
     })();
   }
   static #_ = this.ɵfac = function SpeakersComponent_Factory(t) {
-    return new (t || SpeakersComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_6__.ActivatedRoute));
+    return new (t || SpeakersComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__.ActivatedRoute));
   };
-  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({
     type: SpeakersComponent,
     selectors: [["app-speakers"]],
-    decls: 14,
-    vars: 3,
-    consts: [["pageTitle", "Speakers"], [1, "max-w-640", "mx-auto", "mb-60", "prose"], ["href", "#", 1, "a", "text-orange", 3, "routerLink"], [1, "max-w-1024", "mx-auto"], [3, "ngIf", "ngIfElse"], ["noSpeakers", ""], [4, "ngFor", "ngForOf"], [1, "mb-60"], [3, "speaker"], [1, "text-center"]],
+    decls: 10,
+    vars: 0,
+    consts: [["pageTitle", "Speakers"], [1, "max-w-640", "mx-auto", "mb-60", "prose"], ["href", "https://sessionize.com/iowa-code-camp-fall-2024/", "target", "_blank", 1, "a", "text-orange"]],
     template: function SpeakersComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "router-outlet")(1, "app-header");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](2, "app-shell", 0)(3, "div", 1)(4, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](5, " A variety of speakers, from just starting out to well-known, professional speakers from around the globe ipsum dolor sit amet. If you're interested in speaking at Iowa Code Camp, please ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](6, "a", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](7, "contact us");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](8, "! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](9, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](10, SpeakersComponent_ng_template_10_Template, 2, 1, "ng-template", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](11, SpeakersComponent_ng_template_11_Template, 2, 0, "ng-template", null, 5, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplateRefExtractor"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](13, "app-footer");
-      }
-      if (rf & 2) {
-        const _r1 = _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵreference"](12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("routerLink", "/contact");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.speakers.length > 0)("ngIfElse", _r1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "router-outlet")(1, "app-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "app-shell", 0)(3, "div", 1)(4, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](5, " A variety of speakers, from just starting out to well-known, professional speakers from around the midwest. If you're interested in speaking at Iowa Code Camp, please ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](6, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](7, "submit a session");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](8, "! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](9, "app-footer");
       }
     },
-    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterOutlet, _angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterLink, _layout_components_speaker_speaker_component__WEBPACK_IMPORTED_MODULE_1__.SpeakerComponent, _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_2__.ShellComponent, _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__.HeaderComponent, _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_4__.FooterComponent, _angular_common__WEBPACK_IMPORTED_MODULE_7__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_7__.NgIf],
+    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_5__.RouterOutlet, _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_1__.ShellComponent, _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_2__.HeaderComponent, _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__.FooterComponent],
     encapsulation: 2
   });
 }
