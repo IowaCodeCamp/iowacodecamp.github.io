@@ -17,7 +17,7 @@ module.exports = JSON.parse('{"sessions":[{"id":"c9508c34-0238-4420-8d51-20ad883
   \*****************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"title":"President, Finances, Logistics, Volunteers","firstName":"Greg","lastName":"Sohl","profilePicture":"/assets/images/greg-sohl.jpg"},{"title":"Sponsorship, Speakers, Emails & Communication, Networking Events","firstName":"Nick","lastName":"Parker","profilePicture":"/assets/images/nick-parker.jpg"},{"title":"Sponsorship, Speakers, Event Planning","firstName":"Juan","lastName":"Moya","profilePicture":"/assets/images/juan-moya.jpg"},{"title":"Sponsorship, Speakers","firstName":"Mike","lastName":"Cole","profilePicture":"/assets/images/mike-cole.jpg"},{"title":"Sponsorship, Speakers","firstName":"Zac","lastName":"Harlan","profilePicture":""},{"title":"Sponsorship, Speakers","firstName":"Levi","lastName":"Rosol","profilePicture":"/assets/images/levi-rosol.jpg"}]');
+module.exports = JSON.parse('[{"title":"President, Finances, Logistics, Volunteers","firstName":"Greg","lastName":"Sohl","profilePicture":"/assets/images/greg-sohl.jpg"},{"title":"Sponsorship, Speakers, Emails & Communication, Networking Events","firstName":"Nick","lastName":"Parker","profilePicture":"/assets/images/nick-parker.jpg"},{"title":"Sponsorship, Speakers, Event Planning","firstName":"Juan","lastName":"Moya","profilePicture":"/assets/images/juan-moya.jpg"},{"title":"Sponsorship, Speakers","firstName":"Mike","lastName":"Cole","profilePicture":"/assets/images/mike-cole.jpg"},{"title":"Sponsorship, Speakers","firstName":"Levi","lastName":"Rosol","profilePicture":"/assets/images/levi-rosol.jpg"}]');
 
 /***/ })
 
