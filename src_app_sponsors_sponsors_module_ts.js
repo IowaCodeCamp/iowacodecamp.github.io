@@ -594,7 +594,7 @@ module.exports = JSON.parse('{"contact_info":{"website":"www.iowacodecamp.com","
   \***************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"name":"Platinum Sponsors","sponsors":[{"url":"https://www.google.com","name":"Google","logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png"},{"url":"https://www.google.com","name":"Google","logoURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png"}]},{"name":"Gold Sponsors","sponsors":[]},{"name":"Silver Sponsors","sponsors":[]},{"name":"Supporters","sponsors":[]},{"name":"Breakfast and Lunch Sponsors","sponsors":[]}]');
+module.exports = JSON.parse('[{"name":"Platinum Sponsors","sponsors":[{"url":"https://www.wewritecode.com","name":"We Write Code","logoURL":"https://wewritecode.com/app/themes/wewritecode/emails/wwc_email_logo.png"}]},{"name":"Gold Sponsors","sponsors":[]},{"name":"Silver Sponsors","sponsors":[]},{"name":"Supporters","sponsors":[]},{"name":"Breakfast and Lunch Sponsors","sponsors":[]}]');
 
 /***/ })
 
