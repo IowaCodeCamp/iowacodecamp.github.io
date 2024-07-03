@@ -349,15 +349,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   ContactComponent: () => (/* binding */ ContactComponent)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_WebSite_WebSite_browser_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/forms */ 8849);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ 8849);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/router */ 7947);
 /* harmony import */ var _layout_components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/components/underlined-heading/underlined-heading.component */ 1976);
 /* harmony import */ var _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../layout/components/shell/shell.component */ 1279);
 /* harmony import */ var _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../layout/components/header/header.component */ 8246);
 /* harmony import */ var _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../layout/components/footer/footer.component */ 7114);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _components_faq_faq_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/faq/faq.component */ 4107);
 
 
 
@@ -367,75 +365,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-function ContactComponent_ng_container_46_ng_container_2_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "li", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "app-faq", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
-  }
-  if (rf & 2) {
-    const faq_r3 = ctx.$implicit;
-    const i_r4 = ctx.index;
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("isEven", i_r4 % 2 === 0 ? true : false)("question", faq_r3.question)("answer", faq_r3.answer);
-  }
-}
-function ContactComponent_ng_container_46_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](2, ContactComponent_ng_container_46_ng_container_2_Template, 3, 3, "ng-container", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
-  }
-  if (rf & 2) {
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngForOf", ctx_r0.faqsPrior);
-  }
-}
-function ContactComponent_ng_container_50_ng_container_2_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "li", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "app-faq", 23);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
-  }
-  if (rf & 2) {
-    const faq_r6 = ctx.$implicit;
-    const i_r7 = ctx.index;
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("isEven", i_r7 % 2 === 0 ? true : false)("question", faq_r6.question)("answer", faq_r6.answer);
-  }
-}
-function ContactComponent_ng_container_50_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](2, ContactComponent_ng_container_50_ng_container_2_Template, 3, 3, "ng-container", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
-  }
-  if (rf & 2) {
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngForOf", ctx_r1.faqsAtEvent);
-  }
-}
 class ContactComponent {
   constructor(formBuilder, activatedRoute) {
     this.formBuilder = formBuilder;
     this.activatedRoute = activatedRoute;
     this.form = this.formBuilder.group({
-      name: this.formBuilder.control(null, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.Validators.required),
-      email: this.formBuilder.control(null, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.Validators.required),
-      subject: this.formBuilder.control(null, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.Validators.required),
-      message: this.formBuilder.control(null, _angular_forms__WEBPACK_IMPORTED_MODULE_7__.Validators.required)
+      name: this.formBuilder.control(null, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.Validators.required),
+      email: this.formBuilder.control(null, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.Validators.required),
+      subject: this.formBuilder.control(null, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.Validators.required),
+      message: this.formBuilder.control(null, _angular_forms__WEBPACK_IMPORTED_MODULE_5__.Validators.required)
     });
     this.mapURL = 'https://goo.gl/maps/rjdq3G6sKLZWrNbE7';
     this.subjectOptions = [{
@@ -505,14 +443,14 @@ class ContactComponent {
     console.log('submit form');
   }
   static #_ = this.ɵfac = function ContactComponent_Factory(t) {
-    return new (t || ContactComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_7__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_8__.ActivatedRoute));
+    return new (t || ContactComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_5__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_7__.ActivatedRoute));
   };
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({
     type: ContactComponent,
     selectors: [["app-contact"]],
-    decls: 52,
-    vars: 8,
-    consts: [["pageTitle", "Contact"], [1, "bg-gray-dark", "px-16", "py-48", "mb-60"], [1, "max-w-1024", "mx-auto", "text-white"], [1, "grid", "md:grid-cols-2", "gap-64"], [1, "col-span-1"], ["text", "Got Questions?", 3, "reverse"], [1, "mb-32"], ["href", "mailto:leaders@iowacodecamp.com", "target", "_blank", 1, "block", "border-2", "text-center", "rounded-8", "px-16", "py-8", "rounded", "transition", "w-full", "bg-red-orange", "border-transparent"], [1, "strong", "text-white"], ["text", "Need Directions?", 3, "reverse"], ["target", "_blank", 1, "block", 3, "href"], ["src", "assets/images/ffa-enrichment-center.jpg", 1, "w-full", "h-auto"], [1, "not-italic"], ["target", "_blank", 1, "a", "text-orange", 3, "href"], [1, "mb-60"], ["text", "Hotels", 3, "alignment"], [1, "max-w-640", "prose", "mx-auto"], ["text", "FAQ", 3, "alignment"], [1, "max-w-1024", "mx-auto"], [1, "grid", "grid-cols-1", "md:grid-cols-2", "gap-32"], [1, "mb-32", "lede"], [4, "ngIf"], [4, "ngFor", "ngForOf"], [3, "isEven", "question", "answer"]],
+    decls: 39,
+    vars: 5,
+    consts: [["pageTitle", "Contact"], [1, "bg-gray-dark", "px-16", "py-48", "mb-60"], [1, "max-w-1024", "mx-auto", "text-white"], [1, "grid", "md:grid-cols-2", "gap-64"], [1, "col-span-1"], ["text", "Got Questions?", 3, "reverse"], [1, "mb-32"], ["href", "mailto:leaders@iowacodecamp.com", "target", "_blank", 1, "block", "border-2", "text-center", "rounded-8", "px-16", "py-8", "rounded", "transition", "w-full", "bg-red-orange", "border-transparent"], [1, "strong", "text-white"], ["text", "Need Directions?", 3, "reverse"], ["target", "_blank", 1, "block", 3, "href"], ["src", "assets/images/ffa-enrichment-center.jpg", 1, "w-full", "h-auto"], [1, "not-italic"], ["target", "_blank", 1, "a", "text-orange", 3, "href"], [1, "mb-60"], ["text", "Hotels", 3, "alignment"], [1, "max-w-640", "prose", "mx-auto"]],
     template: function ContactComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "router-outlet")(1, "app-header");
@@ -547,21 +485,8 @@ class ContactComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](35, "div", 16)(36, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](37, " There are many hotels that are good selections at the intersection of I-35 and SE Oralabor Rd. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](38, "section", 14)(39, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](40, "app-underlined-heading", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](41, "div", 18)(42, "div", 19)(43, "div", 4)(44, "h3", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](45, "Prior to the Event");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](46, ContactComponent_ng_container_46_Template, 3, 1, "ng-container", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](47, "div", 4)(48, "h3", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](49, "At the Event");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](50, ContactComponent_ng_container_50_Template, 3, 1, "ng-container", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](51, "app-footer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](38, "app-footer");
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](7);
@@ -574,15 +499,9 @@ class ContactComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpropertyInterpolate"]("href", ctx.mapURL, _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵsanitizeUrl"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("alignment", "center");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("alignment", "center");
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.faqsPrior.length > 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.faqsAtEvent.length > 0);
       }
     },
-    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_8__.RouterOutlet, _layout_components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_1__.UnderlinedHeadingComponent, _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_2__.ShellComponent, _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__.HeaderComponent, _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_4__.FooterComponent, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _components_faq_faq_component__WEBPACK_IMPORTED_MODULE_5__.FAQComponent],
+    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_7__.RouterOutlet, _layout_components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_1__.UnderlinedHeadingComponent, _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_2__.ShellComponent, _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__.HeaderComponent, _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_4__.FooterComponent],
     encapsulation: 2
   });
 }
