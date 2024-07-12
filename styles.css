@@ -861,6 +861,9 @@ html,
 .gap-16 {
   gap: 1rem;
 }
+.gap-20 {
+  gap: 1.25rem;
+}
 .gap-32 {
   gap: 2rem;
 }
@@ -1050,9 +1053,6 @@ html,
 .p-2\.5 {
   padding: 0.625rem;
 }
-.p-32 {
-  padding: 2rem;
-}
 .p-4 {
   padding: 0.25rem;
 }
@@ -1162,6 +1162,12 @@ html,
 }
 .align-\[-0\.125em\] {
   vertical-align: -0.125em;
+}
+.font-sans {
+  font-family: Karla, sans-serif;
+}
+.text-60 {
+  font-size: 3.75rem;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -1447,6 +1453,9 @@ select::-ms-expand {
   }
   .md\:pt-16 {
     padding-top: 1rem;
+  }
+  .md\:text-104 {
+    font-size: 6.5rem;
   }
 }
 @media (min-width: 1024px) {
