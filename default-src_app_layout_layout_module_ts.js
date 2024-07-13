@@ -1753,32 +1753,65 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+function NavMobileComponent_ng_container_0_ng_container_4_ng_container_2_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 7)(2, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+  }
+  if (rf & 2) {
+    const link_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("href", link_r2.url, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](link_r2.text);
+  }
+}
 const _c0 = function () {
   return {
     exact: true
   };
 };
+function NavMobileComponent_ng_container_0_ng_container_4_ng_container_3_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 8)(2, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+  }
+  if (rf & 2) {
+    const link_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("routerLink", link_r2.url)("routerLinkActiveOptions", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](3, _c0));
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](link_r2.text);
+  }
+}
 function NavMobileComponent_ng_container_0_ng_container_4_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "li")(2, "a", 6)(3, "span");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "li", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](2, NavMobileComponent_ng_container_0_ng_container_4_ng_container_2_Template, 4, 2, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](3, NavMobileComponent_ng_container_0_ng_container_4_ng_container_3_Template, 4, 4, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
     const link_r2 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("routerLink", link_r2.url)("routerLinkActiveOptions", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](3, _c0));
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](link_r2.text);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", link_r2.external);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !link_r2.external);
   }
 }
 function NavMobileComponent_ng_container_0_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "div", 1)(2, "nav", 2)(3, "ul", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](4, NavMobileComponent_ng_container_0_ng_container_4_Template, 5, 4, "ng-container", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](4, NavMobileComponent_ng_container_0_ng_container_4_Template, 4, 2, "ng-container", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "li", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](6, "app-register-button");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
@@ -1807,7 +1840,7 @@ class NavMobileComponent {
     },
     decls: 1,
     vars: 1,
-    consts: [[4, "ngIf"], [1, "lg:hidden", "bg-gray-dark"], [1, "px-8", "py-32"], [1, "flex", "flex-col", "gap-8"], [4, "ngFor", "ngForOf"], [1, "pt-16", "w-200"], ["href", "#", "routerLinkActive", "text-red is-active", 1, "text-white", "h3", 3, "routerLink", "routerLinkActiveOptions"]],
+    consts: [[4, "ngIf"], [1, "lg:hidden", "bg-gray-dark"], [1, "px-8", "py-32"], [1, "flex", "flex-col", "gap-8"], [4, "ngFor", "ngForOf"], [1, "pt-16", "w-200"], [1, "text-white", "h3"], ["target", "_blank", 3, "href"], ["href", "#", "routerLinkActive", "text-red is-active", 3, "routerLink", "routerLinkActiveOptions"]],
     template: function NavMobileComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, NavMobileComponent_ng_container_0_Template, 7, 1, "ng-container", 0);
@@ -1905,7 +1938,7 @@ class NavComponent {
     },
     decls: 5,
     vars: 1,
-    consts: [[1, "flex", "items-center", "gap-32"], [4, "ngFor", "ngForOf"], [3, "href", 4, "ngIf"], ["href", "#", "class", "", "routerLinkActive", "text-red is-active", 3, "routerLink", "routerLinkActiveOptions", 4, "ngIf"], [3, "href"], ["href", "#", "routerLinkActive", "text-red is-active", 1, "", 3, "routerLink", "routerLinkActiveOptions"]],
+    consts: [[1, "flex", "items-center", "gap-32"], [4, "ngFor", "ngForOf"], ["target", "_blank", 3, "href", 4, "ngIf"], ["href", "#", "class", "", "routerLinkActive", "text-red is-active", 3, "routerLink", "routerLinkActiveOptions", 4, "ngIf"], ["target", "_blank", 3, "href"], ["href", "#", "routerLinkActive", "text-red is-active", 1, "", 3, "routerLink", "routerLinkActiveOptions"]],
     template: function NavComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "nav")(1, "ul", 0);
