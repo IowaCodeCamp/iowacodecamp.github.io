@@ -57,7 +57,7 @@
     },
     {
       "sponsor_level": "Registration Desk Sponsor",
-      "remaining": "1",
+      "remaining": "0",
       "cost": "$2,000",
       "benefits": [
         "Exclusive access to support the registration desk the day of the event.",
@@ -101,7 +101,7 @@
     },
     {
       "sponsor_level": "Room Sponsor",
-      "remaining": "8",
+      "remaining": "7",
       "cost": "$500",
       "benefits": [
         "A room named after your organization during the event.",
@@ -111,7 +111,7 @@
     },
     {
       "sponsor_level": "Keynote Sponsor",
-      "remaining": "1",
+      "remaining": "0",
       "cost": "TBD",
       "benefits": [
         "Exclusive opportunity to provide, introduce, and interview a keynote speaker.",

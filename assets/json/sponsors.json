@@ -5,7 +5,7 @@
       {
         "url": "https://www.wewritecode.com",
         "name": "We Write Code",
-        "logoURL": "https://wewritecode.com/app/themes/wewritecode/emails/wwc_email_logo.png"
+        "logoURL": "/assets/images/sponsors/wwc.png"
       }
     ]
   },
@@ -17,6 +17,11 @@
   {
     "name": "Registration Desk Sponsor",
     "sponsors": [
+      {
+        "url": "https://www.qci.com",
+        "name": "QCI",
+        "logoURL": "/assets/images/sponsors/qci.jpeg"
+      }
     ]
   },
   {
