@@ -594,7 +594,7 @@ module.exports = JSON.parse('{"contact_info":{"website":"www.iowacodecamp.com","
   \***************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"name":"Event Sponsor","sponsors":[{"url":"https://www.wewritecode.com","name":"We Write Code","logoURL":"/assets/images/sponsors/wwc.png"}]},{"name":"After Party Sponsor","sponsors":[]},{"name":"Registration Desk Sponsor","sponsors":[{"url":"https://www.qci.com","name":"QCI","logoURL":"/assets/images/sponsors/qci.jpeg"}]},{"name":"Speaker Dinner Sponsor","sponsors":[]},{"name":"Lunch Sponsor","sponsors":[]},{"name":"Breakfast Sponsor","sponsors":[]},{"name":"Room / Table Sponsors","sponsors":[]},{"name":"Keynote Sponsor","sponsors":[]},{"name":"Supporters","sponsors":[]}]');
+module.exports = JSON.parse('[{"name":"Event Sponsor","sponsors":[{"url":"https://www.wewritecode.com","name":"We Write Code","logoURL":"/assets/images/sponsors/wwc.png"}]},{"name":"After Party Sponsor","sponsors":[]},{"name":"Registration Desk Sponsor","sponsors":[{"url":"https://www.qci.com","name":"QCI","logoURL":"/assets/images/sponsors/qci.jpeg"}]},{"name":"Speaker Dinner Sponsor","sponsors":[]},{"name":"Lunch Sponsor","sponsors":[]},{"name":"Breakfast Sponsor","sponsors":[{"url":"https://www.zirous.com/","name":"Zirous","logoURL":"/assets/images/sponsors/zirous.jpg"}]},{"name":"Room / Table Sponsors","sponsors":[]},{"name":"Keynote Sponsor","sponsors":[]},{"name":"Supporters","sponsors":[]}]');
 
 /***/ })
 

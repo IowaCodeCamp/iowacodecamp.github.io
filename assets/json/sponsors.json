@@ -37,6 +37,11 @@
   {
     "name": "Breakfast Sponsor",
     "sponsors": [
+      {
+        "url": "https://www.zirous.com/",
+        "name": "Zirous",
+        "logoURL": "/assets/images/sponsors/zirous.jpg"
+      }
     ]
   },
   {
