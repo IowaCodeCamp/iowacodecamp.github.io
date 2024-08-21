@@ -72,6 +72,11 @@
   {
     "name": "Supporters",
     "sponsors": [
+      {
+        "url": "https://discountasp.net/",
+        "name": "DiscountASP.NET",
+        "logoURL": "/assets/images/sponsors/discount-asp.png"
+      }
     ]
   }
 ]
