@@ -47,6 +47,11 @@
   {
     "name": "Table Sponsors",
     "sponsors": [
+      {
+        "url": "https://www.vgmgroup.com/",
+        "name": "VGM",
+        "logoURL": "/assets/images/sponsors/vgm.png"
+      }
     ]
   },
   {
@@ -61,6 +66,11 @@
         "url": "https://www.sourceallies.com/",
         "name": "Source Allies",
         "logoURL": "/assets/images/sponsors/source-allies.png"
+      },
+      {
+        "url": "https://www.farreachinc.com/",
+        "name": "Far Reach",
+        "logoURL": "/assets/images/sponsors/far-reach.png"
       }
     ]
   },
