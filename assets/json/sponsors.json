@@ -51,6 +51,11 @@
         "url": "https://www.vgmgroup.com/",
         "name": "VGM",
         "logoURL": "/assets/images/sponsors/vgm.png"
+      },
+      {
+        "url": "https://leantechniques.com/",
+        "name": "Lean TECHniques",
+        "logoURL": "/assets/images/sponsors/lt.png"
       }
     ]
   },
