@@ -81,6 +81,11 @@
         "url": "https://executiveresources.com/",
         "name": "Executive Resources",
         "logoURL": "/assets/images/sponsors/executive-resources.png"
+      },
+      {
+        "url": "https://www.turnberrysolutions.com/",
+        "name": "Turnberry Solutions",
+        "logoURL": "/assets/images/sponsors/turnberry.png"
       }
     ]
   },
