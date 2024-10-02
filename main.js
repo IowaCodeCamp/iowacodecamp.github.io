@@ -200,6 +200,12 @@ const routes = [{
   data: {
     title: 'Contact'
   }
+}, {
+  path: 'resources',
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("src_app_resources_resources_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../resources/resources.module */ 4806)).then(m => m.ResourcesModule),
+  data: {
+    title: 'resources'
+  }
 }];
 class AppRoutingModule {
   static #_ = this.ɵfac = function AppRoutingModule_Factory(t) {
