@@ -207,20 +207,16 @@ class SpeakersComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineComponent"]({
     type: SpeakersComponent,
     selectors: [["app-speakers"]],
-    decls: 10,
+    decls: 7,
     vars: 0,
-    consts: [["pageTitle", "Speakers"], [1, "max-w-640", "mx-auto", "mb-60", "prose"], ["href", "https://sessionize.com/iowa-code-camp-fall-2024/", "target", "_blank", 1, "a", "text-orange"]],
+    consts: [["pageTitle", "Speakers"], [1, "max-w-640", "mx-auto", "mb-60", "prose"]],
     template: function SpeakersComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](0, "router-outlet")(1, "app-header");
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](2, "app-shell", 0)(3, "div", 1)(4, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](5, " A variety of speakers, from just starting out to well-known, professional speakers from around the midwest. If you're interested in speaking at Iowa Code Camp, please ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](6, "a", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](7, "submit a session");
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](8, "! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](5, " A variety of speakers, from just starting out to well-known, professional speakers from around the midwest. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](9, "app-footer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelement"](6, "app-footer");
       }
     },
     dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_5__.RouterOutlet, _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_1__.ShellComponent, _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_2__.HeaderComponent, _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__.FooterComponent],

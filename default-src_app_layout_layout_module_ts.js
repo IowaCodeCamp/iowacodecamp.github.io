@@ -1290,12 +1290,15 @@ class HeaderComponent {
     }, {
       text: 'Contact',
       url: '/contact'
-    }, {
-      text: 'Call for Speakers',
-      url: 'https://sessionize.com/iowa-code-camp-fall-2024/',
-      external: true
-    }];
+    }
+    // {
+    //   text: 'Call for Speakers',
+    //   url: 'https://sessionize.com/iowa-code-camp-fall-2024/',
+    //   external: true
+    // },
+    ];
   }
+
   ngOnInit() {}
   ngOnDestroy() {
     this.unsubscribe$.next(true);

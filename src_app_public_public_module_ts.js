@@ -124,9 +124,9 @@ class HomeComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: HomeComponent,
     selectors: [["app-home"]],
-    decls: 26,
-    vars: 3,
-    consts: [[1, "h-screen", "bg-cover", "relative", 2, "background-image", "url(assets/images/background-splash.png)"], [1, "relative", "z-mg", "h-full", "w-full", "flex", "items-center", "justify-center", "px-16"], [1, "text-white", "text-center", "max-w-640"], [1, "w-140", "mx-auto"], [3, "reverse"], [1, "sr-only"], [1, "block", "py-48", "text-white", "font-sans", "text-60", "md:text-104"], [1, "mb-32"], [1, "flex", "gap-20", "justify-center", "items-center", "mx-auto", "max-w-640"], [1, "w-140"], ["target", "_blank", 1, "block", "border-2", "text-center", "rounded-8", "px-16", "py-8", "rounded", "transition", "w-full", "bg-red-orange", "border-transparent", 3, "href"], [1, "strong", "text-white", "whitespace-nowrap"], [1, "w-180"], ["target", "_blank", 1, "block", "border-2", "text-center", "rounded-8", "px-16", "py-8", "rounded", "transition", "w-full", "bg-transparent", "border-white", 3, "href"], [1, "bg-black", "opacity-60", "inset-0", "absolute", "z-bg"]],
+    decls: 22,
+    vars: 2,
+    consts: [[1, "h-screen", "bg-cover", "relative", 2, "background-image", "url(assets/images/background-splash.png)"], [1, "relative", "z-mg", "h-full", "w-full", "flex", "items-center", "justify-center", "px-16"], [1, "text-white", "text-center", "max-w-640"], [1, "w-140", "mx-auto"], [3, "reverse"], [1, "sr-only"], [1, "block", "py-48", "text-white", "font-sans", "text-60", "md:text-104"], [1, "mb-32"], [1, "flex", "gap-20", "justify-center", "items-center", "mx-auto", "max-w-640"], [1, "w-140"], ["target", "_blank", 1, "block", "border-2", "text-center", "rounded-8", "px-16", "py-8", "rounded", "transition", "w-full", "bg-red-orange", "border-transparent", 3, "href"], [1, "strong", "text-white", "whitespace-nowrap"], [1, "bg-black", "opacity-60", "inset-0", "absolute", "z-bg"]],
     template: function HomeComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "section", 2)(3, "div")(4, "h1")(5, "div", 3);
@@ -145,11 +145,8 @@ class HomeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "div", 8)(17, "div", 9)(18, "a", 10)(19, "span", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](20, "Register");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](21, "div", 12)(22, "a", 13)(23, "span", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24, "Call for Speakers");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](25, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](21, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
       }
       if (rf & 2) {
@@ -157,8 +154,6 @@ class HomeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("reverse", true);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](12);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx.registerLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx.speakersLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
       }
     },
     dependencies: [_layout_components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_0__.LogoComponent],
