@@ -178,16 +178,16 @@ const routes = [{
   loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("src_app_public_public_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../public/public.module */ 2772)).then(m => m.PublicModule)
 }, {
   path: 'speakers',
-  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("common"), __webpack_require__.e("src_app_speakers_speakers_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../speakers/speakers.module */ 2574)).then(m => m.SpeakersModule)
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("default-src_assets_json_allSessionizeData_json"), __webpack_require__.e("src_app_speakers_speakers_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../speakers/speakers.module */ 2574)).then(m => m.SpeakersModule)
 }, {
   path: 'sponsors',
   loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("src_app_sponsors_sponsors_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../sponsors/sponsors.module */ 2690)).then(m => m.SponsorsModule)
 }, {
   path: 'sessions',
-  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("common"), __webpack_require__.e("src_app_sessions_sessions_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../sessions/sessions.module */ 1025)).then(m => m.SessionsModule)
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("default-src_assets_json_allSessionizeData_json"), __webpack_require__.e("src_app_sessions_sessions_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../sessions/sessions.module */ 1025)).then(m => m.SessionsModule)
 }, {
   path: 'schedule',
-  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("common"), __webpack_require__.e("src_app_schedule_schedule_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../schedule/schedule.module */ 3585)).then(m => m.ScheduleModule)
+  loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("default-src_assets_json_allSessionizeData_json"), __webpack_require__.e("src_app_schedule_schedule_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../schedule/schedule.module */ 3585)).then(m => m.ScheduleModule)
 }, {
   path: 'about',
   loadChildren: () => Promise.all(/*! import() */[__webpack_require__.e("default-src_app_layout_layout_module_ts"), __webpack_require__.e("common"), __webpack_require__.e("src_app_about_about_module_ts")]).then(__webpack_require__.bind(__webpack_require__, /*! ../../about/about.module */ 8822)).then(m => m.AboutModule),

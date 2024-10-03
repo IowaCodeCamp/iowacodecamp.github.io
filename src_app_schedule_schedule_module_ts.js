@@ -603,6 +603,7 @@ class ScheduleComponent {
   constructor(activatedRoute) {
     this.activatedRoute = activatedRoute;
     this.isBrowser = false;
+    this.jsonFile = 'allSessionizeData.json';
     this.sessionGroups = {};
   }
   ngOnInit() {

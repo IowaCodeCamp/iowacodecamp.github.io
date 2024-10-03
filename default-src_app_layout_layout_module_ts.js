@@ -1268,20 +1268,16 @@ class HeaderComponent {
     this.links = [{
       text: 'Home',
       url: '/'
-    },
-    // {
-    //   text: 'Schedule',
-    //   url: '/schedule',
-    // },
-    {
+    }, {
+      text: 'Schedule',
+      url: '/schedule'
+    }, {
       text: 'Speakers',
       url: '/speakers'
-    },
-    // {
-    //   text: 'Sessions',
-    //   url: '/sessions',
-    // },
-    {
+    }, {
+      text: 'Sessions',
+      url: '/sessions'
+    }, {
       text: 'Sponsors',
       url: '/sponsors'
     }, {
