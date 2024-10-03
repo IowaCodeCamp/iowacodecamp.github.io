@@ -19,15 +19,62 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+function RoomSessionComponent_ng_container_8_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "li", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](2, "app-tag", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
+  }
+  if (rf & 2) {
+    const category_r2 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("text", category_r2);
+  }
+}
+function RoomSessionComponent_ng_container_9_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](1, "div", 10)(2, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](3, "img", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](4, "div")(5, "h3", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "p", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("src", ctx_r1.speaker.profilePicture, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate2"](" ", ctx_r1.speaker.firstName, " ", ctx_r1.speaker.lastName, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", ctx_r1.speaker.title, " ");
+  }
+}
+// import { CategoryItem } from '@app/shared/interfaces/categoryItem';
 class RoomSessionComponent {
   constructor(datePipe) {
     this.datePipe = datePipe;
-    this.isOpen = true;
-    this.sessions = [];
-    this.heading = 'Group Heading';
+    this.categories = [];
   }
   ngOnInit() {
-    // this.heading = this.getConstructedHeading();
+    console.log("session: ", this.session);
+  }
+  getSessionTime() {
+    const startDate = new Date(this.session.startsAt);
+    const endDate = new Date(this.session.endsAt);
+    const startFormatted = this.datePipe.transform(startDate, 'hh:mm a');
+    const endFormatted = this.datePipe.transform(endDate, 'hh:mm a');
+    return `${startFormatted} – ${endFormatted}`;
+  }
+  transformDate(date) {
+    return this.datePipe.transform(date, 'shortTime');
   }
   static #_ = this.ɵfac = function RoomSessionComponent_Factory(t) {
     return new (t || RoomSessionComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_3__.DatePipe));
@@ -36,43 +83,39 @@ class RoomSessionComponent {
     type: RoomSessionComponent,
     selectors: [["app-room-session"]],
     inputs: {
-      sessions: "sessions",
-      heading: "heading"
+      session: "session",
+      categories: "categories",
+      speaker: "speaker"
     },
-    decls: 16,
-    vars: 3,
-    consts: [[1, "border-2", "border-gray-light", "p-16", "relative"], ["alignment", "center", 3, "text"], [1, "flex", "flex-col", "md:flex-row"], [1, "text-red", "h4"], [1, "ml-auto"], [3, "text"], [1, "flex", "items-center", "gap-16"], [1, "w-100", "h-100"], [1, "aspect-square", "object-contain", "rounded-full", 3, "src"], [1, "mb-4", "h5", "text-orange"], [1, "p"]],
+    decls: 10,
+    vars: 4,
+    consts: [[1, "border-2", "border-gray-light", "p-16", "relative"], ["alignment", "center", 3, "text"], [1, "flex", "flex-col", "md:flex-row"], [1, "text-red", "h4"], [1, "ml-auto"], [1, "flex", "items-center"], [4, "ngFor", "ngForOf"], [4, "ngIf"], [1, "py-4"], [3, "text"], [1, "flex", "items-center", "gap-16"], [1, "w-100", "h-100"], [1, "aspect-square", "object-contain", "rounded-full", 3, "src"], [1, "mb-4", "h5", "text-orange"], [1, "p"]],
     template: function RoomSessionComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "article", 0)(1, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](2, "app-underlined-heading", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](3, "div", 2)(4, "h3", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, " Session Title Ipsum Dolor ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](7, "app-tag", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div", 6)(9, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](10, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "div", 4)(7, "ul", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](8, RoomSessionComponent_ng_container_8_Template, 3, 1, "ng-container", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](9, RoomSessionComponent_ng_container_9_Template, 9, 4, "ng-container", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "div")(12, "h3", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, " Firstname Lastname ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "p", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](15, " Job Title at Company ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("text", "9:00 AM \u2013 10:00 AM");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("text", "Level Ipsum");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("text", ctx.getSessionTime());
         _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("src", "/assets/images/persona.png", _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate1"](" ", ctx.session.title, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.categories);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngIf", ctx.speaker);
       }
     },
-    dependencies: [_layout_components_tag_tag_component__WEBPACK_IMPORTED_MODULE_0__.TagComponent, _layout_components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_1__.UnderlinedHeadingComponent],
+    dependencies: [_layout_components_tag_tag_component__WEBPACK_IMPORTED_MODULE_0__.TagComponent, _layout_components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_1__.UnderlinedHeadingComponent, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_3__.NgIf],
     encapsulation: 2
   });
 }
@@ -283,13 +326,12 @@ const routes = [{
   }, {
     path: 'room-posters',
     pathMatch: 'full',
-    component: _views_room_posters_room_posters_component__WEBPACK_IMPORTED_MODULE_3__.RoomPostersComponent
-    // resolve: {
-    //   roomPosterInfo: roomPosterInfoDataResolver
-    // }
+    component: _views_room_posters_room_posters_component__WEBPACK_IMPORTED_MODULE_3__.RoomPostersComponent,
+    resolve: {
+      schedule: _resolvers_schedule_resolver__WEBPACK_IMPORTED_MODULE_2__.scheduleDataResolver
+    }
   }]
 }];
-
 class ScheduleRoutingModule {
   static #_ = this.ɵfac = function ScheduleRoutingModule_Factory(t) {
     return new (t || ScheduleRoutingModule)();
@@ -386,14 +428,17 @@ function RoomPostersComponent_ng_container_2_ng_container_12_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementContainerStart"](0);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "li");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](2, "app-room-session");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](2, "app-room-session", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementContainerEnd"]();
   }
+  if (rf & 2) {
+    const session_r4 = ctx.$implicit;
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("session", session_r4)("speaker", ctx_r3.getSpeaker(session_r4.speakers[0]))("categories", ctx_r3.getCategories(session_r4.categoryItems));
+  }
 }
-const _c0 = function () {
-  return [1, 2, 3, 4, 5];
-};
 function RoomPostersComponent_ng_container_2_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementContainerStart"](0);
@@ -401,55 +446,98 @@ function RoomPostersComponent_ng_container_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](5, "app-logo");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](6, "h1", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](7, "Room #1XX");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](8, "div", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](9, "img", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](10, "div", 8)(11, "ul");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](12, RoomPostersComponent_ng_container_2_ng_container_12_Template, 3, 0, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](12, RoomPostersComponent_ng_container_2_ng_container_12_Template, 3, 3, "ng-container", 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](1, _c0));
+    const group_r1 = ctx.$implicit;
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", ctx_r0.getRoomNameFromId(group_r1.key), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", group_r1.value);
   }
 }
-const _c1 = function () {
-  return [1, 2, 3];
-};
 class RoomPostersComponent {
   constructor(activatedRoute) {
     this.activatedRoute = activatedRoute;
-    this.sponsorLevelColumnHeadings = [];
+    this.isBrowser = false;
+    this.sessionGroups = {};
   }
   ngOnInit() {
-    return (0,_home_runner_work_WebSite_WebSite_browser_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {})();
-  } // this.data = await this.activatedRoute.snapshot.data["sponsorsInfo"];
-  // this.setSponsorLevelHeadings();
+    var _this = this;
+    return (0,_home_runner_work_WebSite_WebSite_browser_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      _this.allSessionizeData = yield _this.activatedRoute.snapshot.data["schedule"];
+      _this.sessionGroups = _this.groupBy(_this.allSessionizeData.sessions, 'roomId');
+      // console.log("sessionGroups: ", this.sessionGroups);
+      console.log("allData: ", _this.allSessionizeData);
+    })();
+  }
+  getSpeaker(id) {
+    return this.allSessionizeData.speakers.find(o => o.id === id);
+  }
+  getCategories(arr) {
+    let retArr = [];
+    // Levels
+    for (let i = 0; i < arr.length; i += 1) {
+      let category = this.allSessionizeData.categories[0].items.find(o => o.id === arr[i]);
+      if (category) {
+        retArr.push(String(category.name));
+      }
+    }
+    // Tracks
+    for (let i = 0; i < arr.length; i += 1) {
+      let category = this.allSessionizeData.categories[1].items.find(o => o.id === arr[i]);
+      if (category) {
+        retArr.push(String(category.name));
+      }
+    }
+    return retArr;
+  }
+  getRoomNameFromId(id) {
+    if (!this.allSessionizeData) {
+      return "Bail";
+    }
+    const room = this.allSessionizeData.rooms.find(o => String(o.id) === id);
+    return room ? room.name : "Room Name";
+  }
+  // lacking built-in Object.groupBy()
+  groupBy(items, key) {
+    return items.reduce((result, item) => ({
+      ...result,
+      [item[key]]: [...(result[item[key]] || []), item]
+    }), {});
+  }
   static #_ = this.ɵfac = function RoomPostersComponent_Factory(t) {
     return new (t || RoomPostersComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__.ActivatedRoute));
   };
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({
     type: RoomPostersComponent,
     selectors: [["app-room-posters"]],
-    decls: 3,
-    vars: 2,
-    consts: [[4, "ngFor", "ngForOf"], [1, "break-inside-avoid", "overflow-hidden", "w-11in", "h-17in", "mx-auto", "border"], [1, "p-32"], [1, "relative", "pt-12"], [1, "w-100", "absolute", "left-0", "top-0"], [1, "h1", "leading-none", "mx-auto", "text-red", "text-center"], [1, "w-160", "mx-auto"], ["alt", "Far Reach logo", "src", "/assets/images/sponsors/far-reach.png", 1, "aspect-square", "object-contain"], [1, ""]],
+    decls: 4,
+    vars: 3,
+    consts: [[4, "ngFor", "ngForOf"], [1, "break-inside-avoid", "overflow-hidden", "w-11in", "h-17in", "mx-auto"], [1, "p-32"], [1, "relative", "pt-12"], [1, "w-100", "absolute", "left-0", "top-0"], [1, "h1", "leading-none", "mx-auto", "text-red", "text-center"], [1, "w-160", "mx-auto"], ["alt", "Far Reach logo", "src", "/assets/images/sponsors/far-reach.png", 1, "aspect-square", "object-contain"], [1, ""], [3, "session", "speaker", "categories"]],
     template: function RoomPostersComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "main");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](2, RoomPostersComponent_ng_container_2_Template, 13, 2, "ng-container", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipe"](3, "keyvalue");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction0"](1, _c1));
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](3, 1, ctx.sessionGroups));
       }
     },
-    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterOutlet, _layout_components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_1__.LogoComponent, _angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _components_room_session_room_session_component__WEBPACK_IMPORTED_MODULE_2__.RoomSessionComponent],
+    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterOutlet, _layout_components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_1__.LogoComponent, _angular_common__WEBPACK_IMPORTED_MODULE_5__.NgForOf, _components_room_session_room_session_component__WEBPACK_IMPORTED_MODULE_2__.RoomSessionComponent, _angular_common__WEBPACK_IMPORTED_MODULE_5__.KeyValuePipe],
     encapsulation: 2
   });
 }
@@ -536,15 +624,18 @@ class ScheduleComponent {
   constructor(activatedRoute) {
     this.activatedRoute = activatedRoute;
     this.isBrowser = false;
-    this.jsonFile = 'allSessionizeData.json';
     this.sessionGroups = {};
   }
   ngOnInit() {
     var _this = this;
     return (0,_home_runner_work_WebSite_WebSite_browser_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-      const allSessionizeData = yield _this.activatedRoute.snapshot.data["schedule"];
-      _this.sessionGroups = _this.groupBy(allSessionizeData.sessions, 'startsAt');
+      _this.allSessionizeData = yield _this.activatedRoute.snapshot.data["schedule"];
+      _this.sessionGroups = _this.groupBy(_this.allSessionizeData.sessions, 'startsAt');
     })();
+  }
+  getRoomNameFromId(id) {
+    const room = this.allSessionizeData.rooms.find(o => o.id === id);
+    return room ? room.name : "";
   }
   // lacking built-in Object.groupBy()
   groupBy(items, key) {
