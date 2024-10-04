@@ -1,6 +1,42 @@
 {
   "sessions": [
     {
+      "id": "2586b5d4-fa15-4955-9991-be672b6b52c2",
+      "title": "Registration Open",
+      "description": "Stop in and get your badge and lanyard, and let us know you're here!",
+      "startsAt": "2024-10-26T09:00:00",
+      "endsAt": "2024-10-26T09:30:00",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 54943,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
+      "id": "be5d58d9-bf52-41c0-8718-c39501083a73",
+      "title": "Opening Session",
+      "description": "Opening Session",
+      "startsAt": "2024-10-26T09:30:00",
+      "endsAt": "2024-10-26T09:50:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51536,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
       "id": "751880",
       "title": "What They Don't Teach You in Programming Class",
       "description": "As a friend of mine always says, \"Technology is easy; people are hard.\" As important as it is to grow your technical skills, it is vitally important to also nurture your personal skills.\r\n\r\nIn this session we will dive into the \"soft\" skills that are often harder than the complex technology we work with every day, using scientific studies and actual case stories where knowing the technology wasn't enough, backed by 15 years of experience in consulting, working with dozens of clients and technologies, and hundreds of individuals from developers to C-Suite executives.",
@@ -161,6 +197,24 @@
       "isConfirmed": false
     },
     {
+      "id": "2d6b75b4-545b-4747-8fbf-f395cd44122f",
+      "title": "Break",
+      "description": "Refreshments available in the Atrium",
+      "startsAt": "2024-10-26T11:00:00",
+      "endsAt": "2024-10-26T11:15:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 54943,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
       "id": "726384",
       "title": "Revolutionizing Communication: Mastering Two-Way Text Messaging Application Interactions",
       "description": "In today's constantly connected, always available world, effective communication is paramount for businesses and organizations to thrive. Two-way text messaging applications have emerged as powerful tools to facilitate real-time, personalized, and interactive conversations with customers, clients, and stakeholders. This conference session aims to delve deep into the world of implementing these interactions and unlocking their potential for enhancing engagement, customer satisfaction, and operational efficiency.\r\n\r\nThis session will explore not only the technical how of implementation but will also explore the personal, legal, and emotional considerations regarding the proper application architecture to ensure that a truly effective communication strategy can be realized.\r\n\r\nWith an example application at hand, the session will explore feature enablement, user experience expectations, feature support, and regulatory impacts of SMS messaging implementation projects.\r\n\r\nAttendees will leave with the tools and insights to create their own solutions within their apps to better service customers in a manner that is repeatable, reliable, and relatable to a wide variety of users.",
@@ -201,15 +255,15 @@
       "isConfirmed": false
     },
     {
-      "id": "737426",
-      "title": "Analyzing Code in .NET",
-      "description": "We all want to have someone else review our C# code to make sure it's written well. Wouldn't it be even better if we can have that review process done automatically? In this session, you'll see how you can use static analysis tools to find all kinds of implementation issues before they show up in a release. You'll also see how you can create your own analyzers to hunt down problematic areas in code.",
+      "id": "729003",
+      "title": "Advanced .NET Testing With In Memory EF and Hosted APIs",
+      "description": "Do you want to test all of your Entity Framework queries without setting up a test database? Do you want to test your API without leaving Visual Studio? Do you want to add integration tests to your CI build without adding another library? Do you want to \"cheat\" and hit 95%+ code coverage? In this talk, I will walk through using the WebApplicationFactory (Microsoft.AspNetCore.Mvc.Testing) library to spin up your API in memory. I will then show how to add an in-memory data connection. Finally, I will pull it all together and show a full integration test.",
       "startsAt": "2024-10-26T11:15:00",
       "endsAt": "2024-10-26T12:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "8723a815-476d-41b4-bed8-c5d2b046bb9e"
+        "8f39cbc1-7221-4c5e-a7e3-461e9e2a861d"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -322,6 +376,24 @@
       "isConfirmed": false
     },
     {
+      "id": "21174c33-37a4-41d6-80c9-33455277a45d",
+      "title": "Lunch",
+      "description": "Lunch",
+      "startsAt": "2024-10-26T12:15:00",
+      "endsAt": "2024-10-26T13:00:00",
+      "isServiceSession": true,
+      "isPlenumSession": false,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 54943,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
+    },
+    {
       "id": "725453",
       "title": "Safely Evolving Legacy Code",
       "description": "A new ticket comes in. It's for \"that app.\" You know the one. The one nobody wants to touch, because the code is a mess and yet the application is business critical. In this talk, the fancy technologies will be put to the side, and instead the the reality most people live in will be acknowledged. You'll learn how we can evolve legacy code from the state it's in today to the value we need to get from it tomorrow",
@@ -362,15 +434,15 @@
       "isConfirmed": true
     },
     {
-      "id": "729003",
-      "title": "Advanced .NET Testing With In Memory EF and Hosted APIs",
-      "description": "Do you want to test all of your Entity Framework queries without setting up a test database? Do you want to test your API without leaving Visual Studio? Do you want to add integration tests to your CI build without adding another library? Do you want to \"cheat\" and hit 95%+ code coverage? In this talk, I will walk through using the WebApplicationFactory (Microsoft.AspNetCore.Mvc.Testing) library to spin up your API in memory. I will then show how to add an in-memory data connection. Finally, I will pull it all together and show a full integration test.",
+      "id": "737426",
+      "title": "Analyzing Code in .NET",
+      "description": "We all want to have someone else review our C# code to make sure it's written well. Wouldn't it be even better if we can have that review process done automatically? In this session, you'll see how you can use static analysis tools to find all kinds of implementation issues before they show up in a release. You'll also see how you can create your own analyzers to hunt down problematic areas in code.",
       "startsAt": "2024-10-26T13:00:00",
       "endsAt": "2024-10-26T14:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "8f39cbc1-7221-4c5e-a7e3-461e9e2a861d"
+        "8723a815-476d-41b4-bed8-c5d2b046bb9e"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -382,15 +454,15 @@
       "isConfirmed": true
     },
     {
-      "id": "733648",
-      "title": "Debugging Burnout",
-      "description": "Working in a product space requires knowing how to take a very complex problem and break it down into iterative chunks.  Far too often, we’re so wrapped up in the problems we’re solving professionally, that we completely forget to introspectively look at ourselves and ask what problems in our own lives need solving.  Burnout is real and worth addressing.  But much like the dev process, understanding the “why” behind behavior leads to a more sustainable outcome. We want to develop a framework and language to properly identify burnout and how we can work through it.  \r\n",
+      "id": "760604",
+      "title": "Fishbowl Conversation",
+      "description": "Come discuss software topics with others, moderated by the Iowa Code Camp leadership. The advantage of fishbowl is that it allows the entire group to participate in a conversation. Several people can join the discussion.",
       "startsAt": "2024-10-26T13:00:00",
       "endsAt": "2024-10-26T14:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "df992bbb-7d7a-4898-b2bf-252076fd9457"
+        "0b5eb7a9-187c-4b74-bfea-010c18b414f4"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -442,15 +514,15 @@
       "isConfirmed": false
     },
     {
-      "id": "728760",
-      "title": "Reverse Engineering and Application Development",
-      "description": "Question: is it possible to introduce new features and provide bug fixes for an application once the source code is lost?\r\n\r\nMost of the time, when approached with this scenario, organizations resort to a very expensive rewrite project.  What happens though, if the legacy application just needs 10-20 bug fixes and it otherwise sufficient for the time being?  \r\n\r\nAdvances in reverse engineering over the last few years have made binary patching and modification much easier than in the past.  Even for bytecode-based languages, such as C# (CLR) and Java (JVM), new tools allow for analyzing and even modifying existing programs, without the source code, without even recompiling!\r\n\r\nNow bugfixes are just an example of the approach, but there is no reason to stop there! Here's a scenario; your business relies on an ancient 3rd party WinForm app for critical business processes; using reverse engineering and binary patching, there is nothing prohibiting you from introducing a REST API on top of the old application, thereby increasing the shelf life of the \"legacy\" software.",
+      "id": "740214",
+      "title": "Introduction to Capture The Flag Challenges",
+      "description": "Have you been looking for fun new ways to improve your critical thinking, programming, and cybersecurity skills? If so, I suggest checking out Capture The Flag competitions! These competitions, often called CTFs for short, are multi-challenge events where you solve puzzles to retrieve flags. To complete these puzzles, you may need to hack a website, crack an encrypted string, decompile code, or even just think critically about a series of picture clues provided to you. \r\n\r\nDoes this sound interesting but you're still not quite sure know how to get started? I'm here to help with that! In this session, I'm going to walk you several common CTF challenges, step by step. These challenges include SQL Injection, Cryptography, Hardware Analysis, and Reverse Engineering. We'll then discuss some tips I have for when I get stuck, and wrap up with some resources for where you can go to practice these new skills on your own. ",
       "startsAt": "2024-10-26T13:00:00",
       "endsAt": "2024-10-26T14:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "1cacbbcc-84f5-4add-96b9-eee5449db9ca"
+        "cd4c1c70-ed3d-4dec-8b6a-11bb854ab655"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -459,18 +531,18 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
-      "id": "739431",
-      "title": "The Effect of GitHub Copilot on Developer Job Satisfaction",
-      "description": "As GitHub's Copilot revolutionizes code generation and automation, its impact on developer job satisfaction is increasingly significant. In this talk, we'll delve into the relationship between Copilot's AI-assisted coding capabilities and the satisfaction developers experience in their day-to-day work and review the current research. In addition, attendees will gain insights into Copilot's benefits, potential drawbacks, and strategies to harness its power while maintaining a fulfilling and engaging work environment. This session is ideal for developers, team leads, and managers seeking to understand the implications of Copilot on job satisfaction and productivity in the software development industry.",
+      "id": "751594",
+      "title": "I Hope I'm Not the Smartest Person in the Room",
+      "description": "Join us as we explore the transformative potential of diverse perspectives, collaboration, and the wisdom of crowds. In this engaging talk, we'll dive into the benefits of surrounding ourselves with people who possess different skills, experiences, and knowledge. We'll examine how embracing intellectual humility and being open to learning from others can lead to groundbreaking insights and innovative solutions.\r\nBy the end of this talk, you'll be inspired to embrace intellectual humility, appreciate the wealth of knowledge that surrounds you, and understand the true power of collaboration in our ever-evolving world.",
       "startsAt": "2024-10-26T13:00:00",
       "endsAt": "2024-10-26T14:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "3a8e7d67-93c8-4324-ac01-5da0c4b8c5a8"
+        "0cfc4167-0700-4bd3-9fa0-96bdbe335c3a"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -479,6 +551,24 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
+      "isConfirmed": false
+    },
+    {
+      "id": "6202e073-de27-4ec1-8b12-dfe9d160ea1c",
+      "title": "Break",
+      "description": "Refreshments available in the Atrium",
+      "startsAt": "2024-10-26T14:00:00",
+      "endsAt": "2024-10-26T14:15:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 54943,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": null,
+      "isInformed": false,
       "isConfirmed": false
     },
     {
@@ -522,15 +612,15 @@
       "isConfirmed": true
     },
     {
-      "id": "737425",
-      "title": "Using Source Generators for Fun (and Maybe Profit)",
-      "description": "One of the features added in C# 9 is called \"source generators\", enabling a developer to create new code at compile time. This can be used for a myriad of cases, such as optimization, automating repetitive code, and dynamic API creation. In this session, I'll cover how source generators work and demonstrate a number of implementations.",
+      "id": "734321",
+      "title": "Automating Code Refactoring with OpenRewrite",
+      "description": "In this presentation, we will explore the powerful capabilities of OpenRewrite, a cutting-edge tool for automating code refactoring and modernization across various programming languages. Attendees will gain insights into how OpenRewrite can streamline large-scale code transformations, enforce best practices, and improve code quality with minimal manual intervention. We'll dive into real-world use cases, demonstrate how to create custom recipes, and discuss best practices for integrating OpenRewrite into your development workflow. Whether you're a developer, architect, or tech lead, this session will equip you with the knowledge to harness OpenRewrite for more efficient and effective code management.",
       "startsAt": "2024-10-26T14:15:00",
       "endsAt": "2024-10-26T15:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "8723a815-476d-41b4-bed8-c5d2b046bb9e"
+        "f325ad0b-4ed5-4be4-83b5-63132f3332b9"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -539,7 +629,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "734769",
@@ -603,15 +693,15 @@
       "isConfirmed": false
     },
     {
-      "id": "740214",
-      "title": "Introduction to Capture The Flag Challenges",
-      "description": "Have you been looking for fun new ways to improve your critical thinking, programming, and cybersecurity skills? If so, I suggest checking out Capture The Flag competitions! These competitions, often called CTFs for short, are multi-challenge events where you solve puzzles to retrieve flags. To complete these puzzles, you may need to hack a website, crack an encrypted string, decompile code, or even just think critically about a series of picture clues provided to you. \r\n\r\nDoes this sound interesting but you're still not quite sure know how to get started? I'm here to help with that! In this session, I'm going to walk you several common CTF challenges, step by step. These challenges include SQL Injection, Cryptography, Hardware Analysis, and Reverse Engineering. We'll then discuss some tips I have for when I get stuck, and wrap up with some resources for where you can go to practice these new skills on your own. ",
+      "id": "728760",
+      "title": "Reverse Engineering and Application Development",
+      "description": "Question: is it possible to introduce new features and provide bug fixes for an application once the source code is lost?\r\n\r\nMost of the time, when approached with this scenario, organizations resort to a very expensive rewrite project.  What happens though, if the legacy application just needs 10-20 bug fixes and it otherwise sufficient for the time being?  \r\n\r\nAdvances in reverse engineering over the last few years have made binary patching and modification much easier than in the past.  Even for bytecode-based languages, such as C# (CLR) and Java (JVM), new tools allow for analyzing and even modifying existing programs, without the source code, without even recompiling!\r\n\r\nNow bugfixes are just an example of the approach, but there is no reason to stop there! Here's a scenario; your business relies on an ancient 3rd party WinForm app for critical business processes; using reverse engineering and binary patching, there is nothing prohibiting you from introducing a REST API on top of the old application, thereby increasing the shelf life of the \"legacy\" software.",
       "startsAt": "2024-10-26T14:15:00",
       "endsAt": "2024-10-26T15:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "cd4c1c70-ed3d-4dec-8b6a-11bb854ab655"
+        "1cacbbcc-84f5-4add-96b9-eee5449db9ca"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -620,7 +710,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "747792",
@@ -641,6 +731,24 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "ee2450df-d5ba-4186-a81b-dd4e9a5981f8",
+      "title": "Break",
+      "description": "Refreshments available in the Atrium",
+      "startsAt": "2024-10-26T15:15:00",
+      "endsAt": "2024-10-26T15:30:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 54943,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": null,
+      "isInformed": false,
+      "isConfirmed": false
     },
     {
       "id": "728119",
@@ -683,15 +791,15 @@
       "isConfirmed": true
     },
     {
-      "id": "734321",
-      "title": "Automating Code Refactoring with OpenRewrite",
-      "description": "In this presentation, we will explore the powerful capabilities of OpenRewrite, a cutting-edge tool for automating code refactoring and modernization across various programming languages. Attendees will gain insights into how OpenRewrite can streamline large-scale code transformations, enforce best practices, and improve code quality with minimal manual intervention. We'll dive into real-world use cases, demonstrate how to create custom recipes, and discuss best practices for integrating OpenRewrite into your development workflow. Whether you're a developer, architect, or tech lead, this session will equip you with the knowledge to harness OpenRewrite for more efficient and effective code management.",
+      "id": "737425",
+      "title": "Using Source Generators for Fun (and Maybe Profit)",
+      "description": "One of the features added in C# 9 is called \"source generators\", enabling a developer to create new code at compile time. This can be used for a myriad of cases, such as optimization, automating repetitive code, and dynamic API creation. In this session, I'll cover how source generators work and demonstrate a number of implementations.",
       "startsAt": "2024-10-26T15:30:00",
       "endsAt": "2024-10-26T16:30:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "f325ad0b-4ed5-4be4-83b5-63132f3332b9"
+        "8723a815-476d-41b4-bed8-c5d2b046bb9e"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -700,18 +808,18 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
-      "id": "751594",
-      "title": "I Hope I'm Not the Smartest Person in the Room",
-      "description": "Join us as we explore the transformative potential of diverse perspectives, collaboration, and the wisdom of crowds. In this engaging talk, we'll dive into the benefits of surrounding ourselves with people who possess different skills, experiences, and knowledge. We'll examine how embracing intellectual humility and being open to learning from others can lead to groundbreaking insights and innovative solutions.\r\nBy the end of this talk, you'll be inspired to embrace intellectual humility, appreciate the wealth of knowledge that surrounds you, and understand the true power of collaboration in our ever-evolving world.",
+      "id": "750848",
+      "title": "Black Boxes and AI Tools",
+      "description": "I would like to cover the importance behind using tools, frameworks, and libraries as black boxes, but making sure that you open the hood and understand what is going on underneath. So often, a lack of deeper understanding about third party code can lead to issues. Performance, security, and just your general approach to development can be improved if you take the time to understand the inner workings of what you are using. Some real world examples will be provided from my experience in the industry and plenty of time for discussion and questions.",
       "startsAt": "2024-10-26T15:30:00",
       "endsAt": "2024-10-26T16:30:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "0cfc4167-0700-4bd3-9fa0-96bdbe335c3a"
+        "a5afc603-5cf5-4828-85c4-082b4ffddc6f"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -783,15 +891,15 @@
       "isConfirmed": false
     },
     {
-      "id": "750848",
-      "title": "Black Boxes and AI Tools",
-      "description": "I would like to cover the importance behind using tools, frameworks, and libraries as black boxes, but making sure that you open the hood and understand what is going on underneath. So often, a lack of deeper understanding about third party code can lead to issues. Performance, security, and just your general approach to development can be improved if you take the time to understand the inner workings of what you are using. Some real world examples will be provided from my experience in the industry and plenty of time for discussion and questions.",
+      "id": "733648",
+      "title": "Debugging Burnout",
+      "description": "Working in a product space requires knowing how to take a very complex problem and break it down into iterative chunks.  Far too often, we’re so wrapped up in the problems we’re solving professionally, that we completely forget to introspectively look at ourselves and ask what problems in our own lives need solving.  Burnout is real and worth addressing.  But much like the dev process, understanding the “why” behind behavior leads to a more sustainable outcome. We want to develop a framework and language to properly identify burnout and how we can work through it.  \r\n",
       "startsAt": "2024-10-26T15:30:00",
       "endsAt": "2024-10-26T16:30:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "a5afc603-5cf5-4828-85c4-082b4ffddc6f"
+        "df992bbb-7d7a-4898-b2bf-252076fd9457"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -800,6 +908,24 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
+      "isConfirmed": true
+    },
+    {
+      "id": "8a1fd8a4-f333-4f80-8132-cdaf1f20a89f",
+      "title": "Closing Session",
+      "description": "Join us for a wrap up and some door prizes!",
+      "startsAt": "2024-10-26T16:30:00",
+      "endsAt": "2024-10-26T17:00:00",
+      "isServiceSession": true,
+      "isPlenumSession": true,
+      "speakers": [],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51536,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": null,
+      "isInformed": false,
       "isConfirmed": false
     }
   ],
@@ -913,6 +1039,22 @@
         749675
       ],
       "fullName": "Heidi Bedier",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "0b5eb7a9-187c-4b74-bfea-010c18b414f4",
+      "firstName": "Iowa",
+      "lastName": "Code Camp",
+      "bio": "Iowa Code Camp is a free, one-day, in-person event for software developers interested in industry-specific topics, such as front-end JavaScript frameworks, IT cloud infrastructure, database architecture, and working with engineering teams.",
+      "tagLine": "Iowa Code Camp Leadership",
+      "profilePicture": null,
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        760604
+      ],
+      "fullName": "Iowa Code Camp",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -1287,22 +1429,6 @@
         733648
       ],
       "fullName": "Samuel Shaw",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "3a8e7d67-93c8-4324-ac01-5da0c4b8c5a8",
-      "firstName": "Scott",
-      "lastName": "Morgan",
-      "bio": "When I was eleven, I wrote a Basic program that moved a circle across the screen of a monochrome monitor, and I was hooked. I have worn many hats in my career, but I have always been a developer.  I am passionate about helping developers produce great work and have the best job satisfaction I can provide.\r\n\r\nI am a lifelong learner, working toward my doctorate (DBA) in business intelligence at Marymount University.\r\n",
-      "tagLine": "Doctor Candidate at Marymount University and IT Leader",
-      "profilePicture": "https://sessionize.com/image/d456-400o400o1-JSAeM6DdMCnJE2MroSWYsk.jpeg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        739431
-      ],
-      "fullName": "Scott Morgan",
       "categoryItems": [],
       "questionAnswers": []
     },
