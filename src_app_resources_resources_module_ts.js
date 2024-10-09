@@ -253,10 +253,10 @@ class ResourcesComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](24, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](25, "app-underlined-heading", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](26, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](27, " Quickly and easily access up-to-date event information using our Sessionize progressive web app. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](27, " Quickly and easily access up-to-date session and speaker information using our Sessionize progressive web app. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](28, "div", 9)(29, "a", 13)(30, "span", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](31, "Get the App");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](31, "Check Info");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](32, "li", 4)(33, "article", 5)(34, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](35, "img", 14);
@@ -282,7 +282,7 @@ class ResourcesComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](13);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("text", "Evaluate Sessions");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("text", "Get the Mobile App");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("text", "Check Event Info");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](12);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("text", "Join Our Discord!");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](6);
