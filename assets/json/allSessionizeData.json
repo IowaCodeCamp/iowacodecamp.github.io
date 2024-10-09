@@ -194,7 +194,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "2d6b75b4-545b-4747-8fbf-f395cd44122f",
@@ -233,26 +233,6 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
-    },
-    {
-      "id": "720849",
-      "title": "Embeddings 101: understanding how my LLM works",
-      "description": "Embeddings are an old-ish idea, first showing up in 1954. They have been used for a lot of things, and today are used with LLMs. In this talk, we'll demystify what an embedding is and how it is created. When we are done, you will understand when embeddings need to be created by the same model, when vector size matters, and how to use vectors in your own applications.",
-      "startsAt": "2024-10-26T11:15:00",
-      "endsAt": "2024-10-26T12:15:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "6dce63cf-86d9-46fa-aaa4-95ff648e4400"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": 51537,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": false
     },
     {
       "id": "729003",
@@ -295,15 +275,15 @@
       "isConfirmed": true
     },
     {
-      "id": "735573",
-      "title": "Modern SQL Server Features That Make Life Better",
-      "description": "Staying ahead in the realm of database administration requires a keen understanding of modern SQL Server features that can enhance performance, scalability, and efficiency.\r\n\r\nThis presentation delves into some of the latest advancements within SQL Server, including SQL Server 2022, offering database administrators and Developers insights into key features and functionalities that can revolutionize their approach to data management and performance. \r\n\r\nDatabase Administrators will be introduced to the power of intelligent query processing, Query Store, and how these are deeply integrated into SQL Server 2022 to make troubleshooting queries and improving performance easier than ever. For example, we’ll learn how memory grant feedback and DOP Feedback work in SQL Server 2022 to enhance performance. \r\n\r\nDevelopers will be excited about modern features such as verbose truncation warnings, updates in T-SQL that allow you to write less code, and how temporal tables can help answer the problem of how to fix data after a disastrous, unintended change to a table. \r\n",
+      "id": "745828",
+      "title": "Using GenAI to Turn Unstructured Data into Structured Data",
+      "description": "Do you have unstructured data sitting around that you can't get value out of? Let's turn it into something useful!  Learn how to navigate pesky mixed-media pdfs and use few shot prompting with images to improve data accuracy.",
       "startsAt": "2024-10-26T11:15:00",
       "endsAt": "2024-10-26T12:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "44276dbf-1902-4657-9b60-a704e9726689"
+        "bdc3c162-02ab-4e2b-a39b-00842eca922e"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -511,7 +491,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "740214",
@@ -551,7 +531,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "6202e073-de27-4ec1-8b12-dfe9d160ea1c",
@@ -1020,6 +1000,7 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
+        745828,
         745826
       ],
       "fullName": "Grey Lovelace",
@@ -1216,22 +1197,6 @@
         727187
       ],
       "fullName": "Kyle Hoehns",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "44276dbf-1902-4657-9b60-a704e9726689",
-      "firstName": "Lee",
-      "lastName": "Markum",
-      "bio": "Lee is a SQL Server Database Administrator who got his start with SQL Server back in 2009. Back in the day, he earned an MCTS certification on SQL Server 2008. That was followed up in 2020 with the AZ-900 Azure Fundamentals and DP-900 Microsoft Azure Data Fundamentals certifications. He now spends his time as a Lead SQL Server DBA on AWS.\r\n\r\nHe has presented at SQL Server Meetups, SQL Saturdays, and was an online speaker for the RedGate PASS Data Community Summit 2022.\r\n\r\nLee blogs at LeeMarkum.com and he loves finding and experimenting with new features in SQL Server. High availability and disaster recovery as well as performance monitoring and troubleshooting are of special interest to Lee. ",
-      "tagLine": "Lead Database Administrator, SQL Server",
-      "profilePicture": "https://sessionize.com/image/9b0e-400o400o1-LMRNYG5ub6tUvSP3f8MUET.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        735573
-      ],
-      "fullName": "Lee Markum",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -1446,22 +1411,6 @@
         725453
       ],
       "fullName": "Scott Sauber",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "6dce63cf-86d9-46fa-aaa4-95ff648e4400",
-      "firstName": "Scott",
-      "lastName": "Seely",
-      "bio": "Scott has written books on distributed application development, taught courses for Pluralsight (and other companies), worked at startups as well as places like Microsoft. He currently works at Seely, Inc., focused on creating tools to automate tasks he just doesn't like to do. AI and LLMs help with this a LOT.",
-      "tagLine": "CTO, Seely Inc",
-      "profilePicture": "https://sessionize.com/image/f328-400o400o1-pT55Vki7bQJHNVBSDsnSJY.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        720849
-      ],
-      "fullName": "Scott Seely",
       "categoryItems": [],
       "questionAnswers": []
     },
