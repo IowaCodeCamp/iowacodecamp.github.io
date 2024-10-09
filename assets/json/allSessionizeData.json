@@ -235,6 +235,26 @@
       "isConfirmed": true
     },
     {
+      "id": "762313",
+      "title": "Full-Stack Web Development with Asp.NET Core Blazor",
+      "description": "Developers who love strongly typed languages like C# but also see the value of rich interactive web applications can now \"have it all\" with Asp.NET Core Blazor! Blazor is a component-based, reactive framework that builds on top of modern .NET, Razor syntax, HTML, and CSS, to create a single-language full-stack application. Components can be statically generated on the server, be live-updated from the server via WebSockets, or run in the client browser just like a JavaScript SPA application.\r\n\r\nIn this session, we will learn how to get started with Blazor, as well as some advanced tips and tricks.",
+      "startsAt": "2024-10-26T11:15:00",
+      "endsAt": "2024-10-26T12:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "b1bd4d43-a244-4aab-95bb-92bcaf427ee4"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 51537,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
       "id": "729003",
       "title": "Advanced .NET Testing With In Memory EF and Hosted APIs",
       "description": "Do you want to test all of your Entity Framework queries without setting up a test database? Do you want to test your API without leaving Visual Studio? Do you want to add integration tests to your CI build without adding another library? Do you want to \"cheat\" and hit 95%+ code coverage? In this talk, I will walk through using the WebApplicationFactory (Microsoft.AspNetCore.Mvc.Testing) library to spin up your API in memory. I will then show how to add an in-memory data connection. Finally, I will pull it all together and show a full integration test.",
@@ -632,15 +652,15 @@
       "isConfirmed": true
     },
     {
-      "id": "745615",
-      "title": "Natural Language to SQL Best Practices",
-      "description": "To query a relational database, you need to use SQL, a special language with many syntax rules. What if you don't know SQL? What if you don’t know the underlying data model? You just want to ask a question in plain English? Natural Language Processing (NLP) to SQL query converters can help you with that. They are tools that take your natural language question as input, and then use artificial intelligence methods to figure out what you mean and how to express it in SQL. Then they output the SQL query that matches your question, so you can run it on the database and get the answer you want.  Join Ross McNeely as he dives into successfully implementing NL2SQL with Databricks Genie, PBI Semantic Model Copilot, Fabric AI Skills, Snowflake Cortex Copilot, and Snowflake Cortex Analyst.  The focus will be on best practices regarding instructions, examples, and modeling.",
+      "id": "763512",
+      "title": "Lightning Talks",
+      "description": "A lightning talk is a very short presentation lasting only a few minutes sharing a technical topic of interest. Come share with others!",
       "startsAt": "2024-10-26T14:15:00",
       "endsAt": "2024-10-26T15:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "6df9e0e3-8233-465e-b92e-c132f8ae087f"
+        "0b5eb7a9-187c-4b74-bfea-010c18b414f4"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -1033,7 +1053,8 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        760604
+        760604,
+        763512
       ],
       "fullName": "Iowa Code Camp",
       "categoryItems": [],
@@ -1366,22 +1387,6 @@
       "questionAnswers": []
     },
     {
-      "id": "6df9e0e3-8233-465e-b92e-c132f8ae087f",
-      "firstName": "Ross",
-      "lastName": "McNeely",
-      "bio": "Ross McNeely is a data and analytics leader with more than 20 years of experience in enterprise data management, delivering comprehensive analytical solutions. He is the Practice Director in Data & Analytics for Solution Architecture at Trace3, where he leads teams providing data solutions for various sectors, such as healthcare, financial services, manufacturing, logistics, and others.  Trace3 deliveries convergent solutions across data, security, and cloud that embrace emerging technology, and deliver measurable value. Ross has expertise across the data domains including governance, architecture, modeling, warehouse, integration, metadata, analytics, security, storage, quality, master, and ML/AI.  Ross specializes in multiple data platforms including MS Fabric, Snowflake, Databricks, and SQL Server.  He works with various frameworks including DAMA, TOGAF, Zachman, and the Azure Well Architected Framework.\r\n",
-      "tagLine": "Trace3 Practice Director for Data & Analytics, Solution Architecture",
-      "profilePicture": "https://sessionize.com/image/7e02-400o400o1-f443m83CGEWyH6BC9W8ZV4.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        745615
-      ],
-      "fullName": "Ross McNeely",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "df992bbb-7d7a-4898-b2bf-252076fd9457",
       "firstName": "Samuel",
       "lastName": "Shaw",
@@ -1427,6 +1432,22 @@
         750848
       ],
       "fullName": "Steve Davis",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "b1bd4d43-a244-4aab-95bb-92bcaf427ee4",
+      "firstName": "Tim",
+      "lastName": "Purdum",
+      "bio": "Creator of GeoBlazor open-source .NET library, Senior Software Engineer and Engineering Manager at dymaptic. Full-stack .NET, Blazor, and GIS specialist.",
+      "tagLine": "Engineering Manager and Senior Software Engineer at dymaptic",
+      "profilePicture": "https://sessionize.com/image/b241-400o400o1-Ev39DNxjv35euDRzYjWvK.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        762313
+      ],
+      "fullName": "Tim Purdum",
       "categoryItems": [],
       "questionAnswers": []
     },
