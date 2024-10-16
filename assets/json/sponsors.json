@@ -86,12 +86,16 @@
         "url": "https://www.turnberrysolutions.com/",
         "name": "Turnberry Solutions",
         "logoURL": "/assets/images/sponsors/turnberry.png"
-      }
-      ,
+      },
       {
         "url": "https://innoventureiowa.com/",
         "name": "InnoVenture Iowa",
         "logoURL": "/assets/images/sponsors/innoventure.jpg"
+      },
+      {
+        "url": "https://cole-consulting.net/",
+        "name": "Cole Consulting",
+        "logoURL": "/assets/images/sponsors/cole-consulting.png"
       }
     ]
   },
