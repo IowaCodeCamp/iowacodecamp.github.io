@@ -235,15 +235,15 @@
       "isConfirmed": true
     },
     {
-      "id": "762313",
-      "title": "Full-Stack Web Development with Asp.NET Core Blazor",
-      "description": "Developers who love strongly typed languages like C# but also see the value of rich interactive web applications can now \"have it all\" with Asp.NET Core Blazor! Blazor is a component-based, reactive framework that builds on top of modern .NET, Razor syntax, HTML, and CSS, to create a single-language full-stack application. Components can be statically generated on the server, be live-updated from the server via WebSockets, or run in the client browser just like a JavaScript SPA application.\r\n\r\nIn this session, we will learn how to get started with Blazor, as well as some advanced tips and tricks.",
+      "id": "745828",
+      "title": "Using GenAI to Turn Unstructured Data into Structured Data",
+      "description": "Do you have unstructured data sitting around that you can't get value out of? Let's turn it into something useful!  Learn how to navigate pesky mixed-media pdfs and use few shot prompting with images to improve data accuracy.",
       "startsAt": "2024-10-26T11:15:00",
       "endsAt": "2024-10-26T12:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "b1bd4d43-a244-4aab-95bb-92bcaf427ee4"
+        "bdc3c162-02ab-4e2b-a39b-00842eca922e"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -295,15 +295,15 @@
       "isConfirmed": true
     },
     {
-      "id": "745828",
-      "title": "Using GenAI to Turn Unstructured Data into Structured Data",
-      "description": "Do you have unstructured data sitting around that you can't get value out of? Let's turn it into something useful!  Learn how to navigate pesky mixed-media pdfs and use few shot prompting with images to improve data accuracy.",
+      "id": "762313",
+      "title": "Full-Stack Web Development with Asp.NET Core Blazor",
+      "description": "Developers who love strongly typed languages like C# but also see the value of rich interactive web applications can now \"have it all\" with Asp.NET Core Blazor! Blazor is a component-based, reactive framework that builds on top of modern .NET, Razor syntax, HTML, and CSS, to create a single-language full-stack application. Components can be statically generated on the server, be live-updated from the server via WebSockets, or run in the client browser just like a JavaScript SPA application.\r\n\r\nIn this session, we will learn how to get started with Blazor, as well as some advanced tips and tricks.",
       "startsAt": "2024-10-26T11:15:00",
       "endsAt": "2024-10-26T12:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "bdc3c162-02ab-4e2b-a39b-00842eca922e"
+        "b1bd4d43-a244-4aab-95bb-92bcaf427ee4"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -632,15 +632,15 @@
       "isConfirmed": true
     },
     {
-      "id": "734769",
-      "title": "Does it Matter How you Give Feedback?",
-      "description": "Good feedback has the power to improve performance, increase team engagement, and lead to higher quality products. The ability to deliver feedback is an essential skill for high performing teams. Good feedback is clear and delivered in a way that preserves working relationships. This talk will explore key elements to include in good feedback and leave attendees able to more confidently and effectively communicate both positive and constructive thoughts to their teammates.\r\n\r\nWe’ve all been in a situation where we want to give feedback but are struggling to find the best way to do it. Maybe a coworker said something in a meeting that undermined your credibility or a teammate is consistently delivering late or low quality work. How do you address the situation in a way that preserves your working relationship, but still solves the issue? Giving feedback can feel awkward. What do I say? Am I going to hurt their feelings?\r\n\r\nWe will explore methods for giving well crafted feedback that make sharing your observations with a teammate feel less daunting and lead to more productive team dynamics.",
+      "id": "726952",
+      "title": "Using Generative AI for Business Success",
+      "description": "This session will explore the influence of generative AI across various business and commercial sectors, highlighting its impact on startups, established businesses, and entire industries. The presenter will delve into how large businesses can leverage AI, particularly in customer operations, where AI-powered chatbots enhance self-service and agent effectiveness, leading to increased efficiency. Also, the potential for generative AI in marketing and sales is immense, automating content development, data utilization, and personalization to boost productivity.\r\n\r\nOn the other end of the scale, for example software engineering-focused startups, the presentation will suggest how generative AI streamlines activities, revolutionizing coding processes and work experiences. Examples of the impacts of AI in product R&D, such as its applications in market analysis, virtual design, simulations, and test preparations, can redefine traditional workflows and enhance efficiency.\r\n\r\nFocusing on the retail industry, the presenter will also share insights on how generative AI could lead to a significant increase in annual revenues, transforming customer service, marketing, sales, and supply chain management through automation and optimization of personalized offerings.\r\n\r\nAcknowledging the economic potential of generative AI, the presentation will also address challenges, such as external inference and adversarial attacks, emphasizing the role of human oversight for quality control and security in AI-era.\r\n\r\nBy the end of this presentation, attendees will have an expanded sense of the potential applications of AI-powered systems in a variety of business and commercial contexts. Information and insight are the fuel for business, and AI promises to supercharge how information is leveraged.",
       "startsAt": "2024-10-26T14:15:00",
       "endsAt": "2024-10-26T15:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "b8f6af91-31e0-48b7-bbdd-850124972b07"
+        "965a98eb-f7aa-4c85-bcc8-34462a76f334"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -771,15 +771,15 @@
       "isConfirmed": true
     },
     {
-      "id": "726952",
-      "title": "Using Generative AI for Business Success",
-      "description": "This session will explore the influence of generative AI across various business and commercial sectors, highlighting its impact on startups, established businesses, and entire industries. The presenter will delve into how large businesses can leverage AI, particularly in customer operations, where AI-powered chatbots enhance self-service and agent effectiveness, leading to increased efficiency. Also, the potential for generative AI in marketing and sales is immense, automating content development, data utilization, and personalization to boost productivity.\r\n\r\nOn the other end of the scale, for example software engineering-focused startups, the presentation will suggest how generative AI streamlines activities, revolutionizing coding processes and work experiences. Examples of the impacts of AI in product R&D, such as its applications in market analysis, virtual design, simulations, and test preparations, can redefine traditional workflows and enhance efficiency.\r\n\r\nFocusing on the retail industry, the presenter will also share insights on how generative AI could lead to a significant increase in annual revenues, transforming customer service, marketing, sales, and supply chain management through automation and optimization of personalized offerings.\r\n\r\nAcknowledging the economic potential of generative AI, the presentation will also address challenges, such as external inference and adversarial attacks, emphasizing the role of human oversight for quality control and security in AI-era.\r\n\r\nBy the end of this presentation, attendees will have an expanded sense of the potential applications of AI-powered systems in a variety of business and commercial contexts. Information and insight are the fuel for business, and AI promises to supercharge how information is leveraged.",
+      "id": "734769",
+      "title": "Does it Matter How you Give Feedback?",
+      "description": "Good feedback has the power to improve performance, increase team engagement, and lead to higher quality products. The ability to deliver feedback is an essential skill for high performing teams. Good feedback is clear and delivered in a way that preserves working relationships. This talk will explore key elements to include in good feedback and leave attendees able to more confidently and effectively communicate both positive and constructive thoughts to their teammates.\r\n\r\nWe’ve all been in a situation where we want to give feedback but are struggling to find the best way to do it. Maybe a coworker said something in a meeting that undermined your credibility or a teammate is consistently delivering late or low quality work. How do you address the situation in a way that preserves your working relationship, but still solves the issue? Giving feedback can feel awkward. What do I say? Am I going to hurt their feelings?\r\n\r\nWe will explore methods for giving well crafted feedback that make sharing your observations with a teammate feel less daunting and lead to more productive team dynamics.",
       "startsAt": "2024-10-26T15:30:00",
       "endsAt": "2024-10-26T16:30:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "965a98eb-f7aa-4c85-bcc8-34462a76f334"
+        "b8f6af91-31e0-48b7-bbdd-850124972b07"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -950,7 +950,7 @@
       "id": "0c4f74c9-6be8-40d0-b588-674d3b783472",
       "firstName": "Brian",
       "lastName": "Gorman",
-      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
+      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
       "tagLine": "Microsoft Azure MVP, Speaker, Author, Trainer, and .Net Developer",
       "profilePicture": "https://sessionize.com/image/a37c-400o400o1-sVRrSNiPt7mLPSR5B51GZs.jpg",
       "isTopSpeaker": false,
