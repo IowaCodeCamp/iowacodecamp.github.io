@@ -629,7 +629,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "734769",
@@ -950,7 +950,7 @@
       "id": "0c4f74c9-6be8-40d0-b588-674d3b783472",
       "firstName": "Brian",
       "lastName": "Gorman",
-      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
+      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
       "tagLine": "Microsoft Azure MVP, Speaker, Author, Trainer, and .Net Developer",
       "profilePicture": "https://sessionize.com/image/a37c-400o400o1-sVRrSNiPt7mLPSR5B51GZs.jpg",
       "isTopSpeaker": false,
@@ -1473,42 +1473,42 @@
   "rooms": [
     {
       "id": 51536,
-      "name": "106",
+      "name": "Delta3Consulting",
       "sort": 0
     },
     {
       "id": 51537,
-      "name": "107",
+      "name": "Source Allies",
       "sort": 1
     },
     {
       "id": 51538,
-      "name": "108",
+      "name": "Innoventure",
       "sort": 2
     },
     {
       "id": 54860,
-      "name": "109",
+      "name": "Executive Resources",
       "sort": 4
     },
     {
       "id": 54861,
-      "name": "112",
+      "name": "Far Reach",
       "sort": 5
     },
     {
       "id": 54862,
-      "name": "113",
+      "name": "Cole Consulting",
       "sort": 6
     },
     {
       "id": 54863,
-      "name": "114",
+      "name": "Turnberry",
       "sort": 7
     },
     {
       "id": 54864,
-      "name": "115",
+      "name": "We Write Code",
       "sort": 8
     },
     {
