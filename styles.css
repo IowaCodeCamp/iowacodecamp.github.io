@@ -718,9 +718,6 @@ html,
 .h-0 {
   height: 0px;
 }
-.h-100 {
-  height: 6.25rem;
-}
 .h-17in {
   height: 17in;
 }
@@ -777,6 +774,9 @@ html,
 }
 .w-32 {
   width: 2rem;
+}
+.w-48 {
+  width: 3rem;
 }
 .w-60 {
   width: 3.75rem;
@@ -1160,6 +1160,9 @@ html,
 .py-8 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.pb-16 {
+  padding-bottom: 1rem;
 }
 .pb-32 {
   padding-bottom: 2rem;
