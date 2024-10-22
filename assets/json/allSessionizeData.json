@@ -2,7 +2,7 @@
   "sessions": [
     {
       "id": "2586b5d4-fa15-4955-9991-be672b6b52c2",
-      "title": "Registration Open",
+      "title": "Registration by QCI & Breakfast by Zirous",
       "description": "Stop in and get your badge and lanyard, and let us know you're here!",
       "startsAt": "2024-10-26T09:00:00",
       "endsAt": "2024-10-26T09:30:00",
@@ -252,7 +252,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "729003",
@@ -312,7 +312,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "725381",
@@ -471,7 +471,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "726662",
@@ -632,15 +632,15 @@
       "isConfirmed": true
     },
     {
-      "id": "726952",
-      "title": "Using Generative AI for Business Success",
-      "description": "This session will explore the influence of generative AI across various business and commercial sectors, highlighting its impact on startups, established businesses, and entire industries. The presenter will delve into how large businesses can leverage AI, particularly in customer operations, where AI-powered chatbots enhance self-service and agent effectiveness, leading to increased efficiency. Also, the potential for generative AI in marketing and sales is immense, automating content development, data utilization, and personalization to boost productivity.\r\n\r\nOn the other end of the scale, for example software engineering-focused startups, the presentation will suggest how generative AI streamlines activities, revolutionizing coding processes and work experiences. Examples of the impacts of AI in product R&D, such as its applications in market analysis, virtual design, simulations, and test preparations, can redefine traditional workflows and enhance efficiency.\r\n\r\nFocusing on the retail industry, the presenter will also share insights on how generative AI could lead to a significant increase in annual revenues, transforming customer service, marketing, sales, and supply chain management through automation and optimization of personalized offerings.\r\n\r\nAcknowledging the economic potential of generative AI, the presentation will also address challenges, such as external inference and adversarial attacks, emphasizing the role of human oversight for quality control and security in AI-era.\r\n\r\nBy the end of this presentation, attendees will have an expanded sense of the potential applications of AI-powered systems in a variety of business and commercial contexts. Information and insight are the fuel for business, and AI promises to supercharge how information is leveraged.",
+      "id": "770421",
+      "title": "Which IAC is right for me",
+      "description": "You’re in the cloud or you’re about to move and you’ve heard about this Infrastructure As Code (IAC) thing. As you start to dive in you realize you’re overwhelmed with options. Terraform? CloudFormation? CDK? Pulumi? Bicep? ARM? Which do I pick?\r\n\r\nIn this talk we’ll demystify what IAC is, why you should be doing it if you aren’t already, give some pros and cons of all the different options out there, and then show real live demos of IAC in action to compare the approaches. You'll also see how to integrate DevSecOps into your pipelines to prevent cloud misconfigurations.\r\n\r\nIf you feel iffy about IAC or cloud configuration in general, this talk is for you.",
       "startsAt": "2024-10-26T14:15:00",
       "endsAt": "2024-10-26T15:15:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "965a98eb-f7aa-4c85-bcc8-34462a76f334"
+        "b0d25d6a-4236-44a5-8e9f-6e21b6e1a429"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -649,7 +649,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "763512",
@@ -669,7 +669,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "741885",
@@ -690,7 +690,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "728760",
@@ -710,7 +710,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "747792",
@@ -828,7 +828,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "725875",
@@ -868,7 +868,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "726313",
@@ -888,7 +888,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "733648",
@@ -931,26 +931,10 @@
   ],
   "speakers": [
     {
-      "id": "965a98eb-f7aa-4c85-bcc8-34462a76f334",
-      "firstName": "Aishwarya",
-      "lastName": "R",
-      "bio": "I'm a Product Manager with over 5+ years of expertise in AI, Cloud, SaaS & EdTech products. Currently, I drive product strategy at a leading AI-Automation SaaS platform in the USA and have previously worked for an Asian EdTech unicorn for four years leading their technology & strategy initiatives.\r\n \r\nMy educational background is in Computer Science from IIT Delhi, which is one of the top Engineering colleges in Asia, and research experience in Artificial Intelligence from the Max Planck Institute for Informatics in Germany.\r\n \r\nI mentor early-stage startups and entrepreneurs and currently volunteer as an advisor, mentor and jury member for several startup incubators, accelerators and educational platforms such as Alchemist Accelerator (USA), Faster Capital (UAE) and GrowthMentor (Europe).",
-      "tagLine": "Product Manager | AI, ML, Data, SaaS | IIT Delhi CS",
-      "profilePicture": "https://sessionize.com/image/8e1a-400o400o1-hWwJKV1a7z1TCSN9VekfP2.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        726952
-      ],
-      "fullName": "Aishwarya R",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "0c4f74c9-6be8-40d0-b588-674d3b783472",
       "firstName": "Brian",
       "lastName": "Gorman",
-      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
+      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
       "tagLine": "Microsoft Azure MVP, Speaker, Author, Trainer, and .Net Developer",
       "profilePicture": "https://sessionize.com/image/a37c-400o400o1-sVRrSNiPt7mLPSR5B51GZs.jpg",
       "isTopSpeaker": false,
@@ -1256,10 +1240,26 @@
       "questionAnswers": []
     },
     {
+      "id": "b0d25d6a-4236-44a5-8e9f-6e21b6e1a429",
+      "firstName": "Matt",
+      "lastName": "Phillips",
+      "bio": "Lifelong learner. Interested in learning about technology and how to impact teams in a positive way.",
+      "tagLine": "Tech Lead at Integrity",
+      "profilePicture": "https://sessionize.com/image/af9c-400o400o1-sffRYAujZcKWJ4HfDa56Tp.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        770421
+      ],
+      "fullName": "Matt Phillips",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "c032ce0e-73a9-445b-a42d-a674d6912262",
       "firstName": "Michael",
       "lastName": "Liendo",
-      "bio": "With a passion for education and lowering barriers-to-entry, I use  my frontend and cloud skillsets to help individuals and teams grow their skillsets.\r\n\r\nWhen my head isn't in the clouds, I can usually be found in VR with my kids or catching up on the latest tech-twitter gossip.",
+      "bio": "As a Senior Developer Advocate at AWS, I’ve had the opportunity to build applications, develop architectures, and speak around the world as a way to remain customer obsessed.\r\n\r\nSince my beginnings as a self-taught developer, I’ve been focused on simplifying complex scenarios so the barrier to entry becomes a door easily opened for new developers.",
       "tagLine": "Instructor/Consultant | Frontend and Serverless Cloud ",
       "profilePicture": "https://sessionize.com/image/fda0-400o400o1-GjEQ93fjZXbZSE6WdPaJ6h.jpg",
       "isTopSpeaker": false,
