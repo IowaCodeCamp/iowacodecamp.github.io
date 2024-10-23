@@ -373,7 +373,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "21174c33-37a4-41d6-80c9-33455277a45d",
@@ -514,15 +514,15 @@
       "isConfirmed": true
     },
     {
-      "id": "740214",
-      "title": "Introduction to Capture The Flag Challenges",
-      "description": "Have you been looking for fun new ways to improve your critical thinking, programming, and cybersecurity skills? If so, I suggest checking out Capture The Flag competitions! These competitions, often called CTFs for short, are multi-challenge events where you solve puzzles to retrieve flags. To complete these puzzles, you may need to hack a website, crack an encrypted string, decompile code, or even just think critically about a series of picture clues provided to you. \r\n\r\nDoes this sound interesting but you're still not quite sure know how to get started? I'm here to help with that! In this session, I'm going to walk you several common CTF challenges, step by step. These challenges include SQL Injection, Cryptography, Hardware Analysis, and Reverse Engineering. We'll then discuss some tips I have for when I get stuck, and wrap up with some resources for where you can go to practice these new skills on your own. ",
+      "id": "771289",
+      "title": "Capture the Flag",
+      "description": "We’re not talking about the outdoor game where you are trying to steal a physical flag and bring it back to your base, this capture the flag is a series of computer security challenges you solve to retrieve a flag and get points!  Solving these challenges require various skills including decrypting content, SQL Injection, reverse engineering and more.  Learn about how capture the flag works, where you find challenges/competitions, and some techniques required to solve them.  I went from never having tried one to winning a competition the next year.  The challenges are not only interesting, they helped change my perspective about how web sites are attacked and how I could better protect them.  ",
       "startsAt": "2024-10-26T13:00:00",
       "endsAt": "2024-10-26T14:00:00",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "cd4c1c70-ed3d-4dec-8b6a-11bb854ab655"
+        "797d42f4-b284-45e7-b400-3f402b151e8b"
       ],
       "categoryItems": [],
       "questionAnswers": [],
@@ -531,7 +531,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "751594",
@@ -649,7 +649,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "763512",
@@ -934,7 +934,7 @@
       "id": "0c4f74c9-6be8-40d0-b588-674d3b783472",
       "firstName": "Brian",
       "lastName": "Gorman",
-      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
+      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
       "tagLine": "Microsoft Azure MVP, Speaker, Author, Trainer, and .Net Developer",
       "profilePicture": "https://sessionize.com/image/a37c-400o400o1-sVRrSNiPt7mLPSR5B51GZs.jpg",
       "isTopSpeaker": false,
@@ -1041,22 +1041,6 @@
         763512
       ],
       "fullName": "Iowa Code Camp",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "cd4c1c70-ed3d-4dec-8b6a-11bb854ab655",
-      "firstName": "Jacob",
-      "lastName": "Astar",
-      "bio": "Throughout his career as a programmer on classified national security projects to serving as an application security engineer at one of the world's largest companies, Jacob has had a passion for learning new skills, and then sharing those skills with others. He holds several degrees in cybersecurity and software engineering, as well as certifications including CISSP, CSSLP, PNPT, and OSWA. In his spare time away from the technical-oriented activities, he enjoys watching movies, playing video games, and recently took up learning the electric guitar! ",
-      "tagLine": "Application Security Engineer at Cargill",
-      "profilePicture": "https://sessionize.com/image/1a66-400o400o1-H3nZFFQY3WvJFjp2FAuDKW.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        740214
-      ],
-      "fullName": "Jacob Astar",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -1380,6 +1364,7 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
+        771289,
         747792
       ],
       "fullName": "Robert Boedigheimer",
