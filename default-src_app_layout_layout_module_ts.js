@@ -1269,6 +1269,9 @@ class HeaderComponent {
       text: 'Home',
       url: '/'
     }, {
+      text: 'Resources',
+      url: '/resources'
+    }, {
       text: 'Schedule',
       url: '/schedule'
     }, {
@@ -1839,7 +1842,7 @@ class NavMobileComponent {
     },
     decls: 1,
     vars: 1,
-    consts: [[4, "ngIf"], [1, "lg:hidden", "bg-gray-dark"], [1, "px-8", "py-32"], [1, "flex", "flex-col", "gap-8"], [4, "ngFor", "ngForOf"], [1, "pt-16", "w-200"], [1, "text-white", "h3"], ["target", "_blank", 3, "href"], ["href", "#", "routerLinkActive", "text-red is-active", 3, "routerLink", "routerLinkActiveOptions"]],
+    consts: [[4, "ngIf"], [1, "lg:hidden", "bg-gray-dark"], [1, "px-8", "py-24"], [1, "flex", "flex-col", "gap-8"], [4, "ngFor", "ngForOf"], [1, "pt-16", "w-200"], [1, "text-white", "h4"], ["target", "_blank", 3, "href"], ["href", "#", "routerLinkActive", "text-red is-active", 3, "routerLink", "routerLinkActiveOptions"]],
     template: function NavMobileComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, NavMobileComponent_ng_container_0_Template, 7, 1, "ng-container", 0);
