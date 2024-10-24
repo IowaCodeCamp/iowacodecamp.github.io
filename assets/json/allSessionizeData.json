@@ -117,26 +117,6 @@
       "isConfirmed": true
     },
     {
-      "id": "726660",
-      "title": "Building Scalable Applications with SQL Server Partitioning",
-      "description": "In this session, we will explore the powerful capabilities of SQL Server partitioning and how it can be leveraged to build scalable, high-performance applications. Join me to learn the best practices for implementing partitioning strategies that optimize query performance and enhance data management efficiency.\r\nI will cover:\r\n- The fundamentals of SQL Server partitioning\r\n- Techniques for creating and managing partitions\r\n- Performance benefits and considerations\r\n- Real-world examples and case studies\r\nWhether you're a database administrator, developer, or IT professional, this session will provide you with valuable insights and practical knowledge to elevate your application's scalability and performance with SQL Server partitioning.",
-      "startsAt": "2024-10-26T10:00:00",
-      "endsAt": "2024-10-26T11:00:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "62f4b027-771d-4796-960c-6473b09f729a"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": 54861,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": false
-    },
-    {
       "id": "746017",
       "title": "Mastering Multi-Cloud Strategies for Enhanced Cost Efficiency and Operational Resilience",
       "description": "As cloud adoption continues to surge, with global spending projected to hit $597.3 billion by 2023, leveraging multi-cloud environments has become essential for businesses aiming to optimize costs and boost operational efficiency. With 89% of enterprises now utilizing multi-cloud strategies, this approach offers a strategic advantage in reducing vendor lock-in, accessing diverse services, and achieving significant financial savings.\r\n\r\nIn this session, we will explore the nuances of multi-cloud implementation, focusing on how to strategically optimize workloads, leverage a diverse array of cloud services, and select the right instance types to maximize cost savings. By presenting data from leading industry reports, we will illustrate how organizations employing multi-cloud strategies have achieved an average of 15% reduction in cloud expenditures and a 93% decrease in unplanned downtime.\r\n\r\nParticipants will learn how to effectively distribute workloads based on performance and cost criteria, utilize various cloud providers to cut costs by up to 90% through spot instances, and enhance system resilience through geographic diversity and redundancy. Additionally, the presentation will emphasize the importance of ongoing benchmarking to ensure real-time cost and performance optimization, offering insights into improving negotiation leverage and refining cloud infrastructure.\r\n\r\nWe will also address common challenges in multi-cloud management, including complexity, data transfer costs, and governance issues, and provide practical solutions such as advanced management tools and standardized processes. Attendees will leave with actionable strategies to develop cost-effective, resilient, and scalable multi-cloud architectures, paving the way for sustained operational success.\r\n\r\n",
@@ -474,26 +454,6 @@
       "isConfirmed": true
     },
     {
-      "id": "726662",
-      "title": "SQL Server Indexing Strategies using query store for Improved Performance",
-      "description": "In this session, discover how Query Store in SQL Server can revolutionize your indexing strategies to boost performance. Learn how Query Store captures query performance data over time, enabling you to identify and analyze performance bottlenecks caused by inefficient indexing. Explore techniques to leverage Query Store reports and insights to make informed decisions on index creation, modification, and removal. Gain practical tips on using Query Store's workload insights to monitor and tune index usage based on actual query patterns. Whether you're new to Query Store or looking to refine your indexing approach, this session equips you with the knowledge and tools to optimize SQL Server performance effectively using Query Store.",
-      "startsAt": "2024-10-26T13:00:00",
-      "endsAt": "2024-10-26T14:00:00",
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "62f4b027-771d-4796-960c-6473b09f729a"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": 54861,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": false
-    },
-    {
       "id": "737186",
       "title": "Protecting Your Secrets using Azure Key Vault, Azure App Configuration, GitHub, and C# MVC",
       "description": "Your team has been working well for a long time, but developers keep checking in the connection strings to Azure Services (like SQL Databases and Storage).  You know that once you check in a secret it should be considered compromised so you've built a robust rotation strategy and you are ready to move forward, but you want to solve the real problem, which is preventing the team from checking in (and even knowing) what your secrets are.  Another problem that you noticed is that Application Insights and your users are logging sensitive information that needs to be sanitized.\r\n\r\nIn this session you will learn how to get notifications when users have checked in secrets using GitHub and third-party tools.  You'll also see how to leverage secrets in your code without having to know the secrets, both locally and at Azure via the Azure Key Vault.  \r\n\r\nYou will then learn how to leverage secrets that need to be shared to Azure App Configuration and have the ability to use them from your local and Azure environments.\r\n\r\nTo complete the journey, you will then learn how to capture output before committing to your logs (or app insights) with a few simple code changes to make sure that sensitive information is sanitized before being permanently recorded.",
@@ -531,7 +491,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "751594",
@@ -934,7 +894,7 @@
       "id": "0c4f74c9-6be8-40d0-b588-674d3b783472",
       "firstName": "Brian",
       "lastName": "Gorman",
-      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
+      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
       "tagLine": "Microsoft Azure MVP, Speaker, Author, Trainer, and .Net Developer",
       "profilePicture": "https://sessionize.com/image/a37c-400o400o1-sVRrSNiPt7mLPSR5B51GZs.jpg",
       "isTopSpeaker": false,
@@ -1301,23 +1261,6 @@
         726384
       ],
       "fullName": "Mitchel Sellers",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "62f4b027-771d-4796-960c-6473b09f729a",
-      "firstName": "Navya Krishna",
-      "lastName": "Alapati",
-      "bio": "Navya Alapati, a Senior Software Engineer at VISA USA, INC is celebrated for her innovative contributions to data processing with a robust background in designing, developing, maintaining and optimizing database solutions that drive business success. With a deep understanding of SQL Server's capabilities, Navya Alapati has spearheaded numerous projects, delivering high-performance databases that support complex applications and large-scale data processing. Beyond technical prowess, Navya is passionate about leveraging data for strategic decision-making and innovation. An advocate for continuous learning and community engagement, Navya frequently shares her knowledge through workshops, webinars, and conferences. She is dedicated to fostering a collaborative environment where knowledge and ideas are freely exchanged. As a speaker, Navya brings a wealth of practical experience and a passion for data-driven innovation. She aims to inspire and educate audiences on the latest advancements in SQL Server, data processing, and the transformative power of inclusive practices in technology.",
-      "tagLine": "Senior Software Engineer, VISA USA, INC",
-      "profilePicture": "https://sessionize.com/image/b10f-400o400o1-wKTkpfBMmmjgyXB5L98TPg.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        726660,
-        726662
-      ],
-      "fullName": "Navya Krishna Alapati",
       "categoryItems": [],
       "questionAnswers": []
     },
