@@ -454,6 +454,26 @@
       "isConfirmed": true
     },
     {
+      "id": "726386",
+      "title": "Selecting the Right Architecture: A .NET MAUI / .NET MAUI Blazor Deep Dive",
+      "description": "The landscape of cross-platform app development has evolved significantly with the introduction of .NET MAUI, and developers are presented with a myriad of architecture choices. In this engaging conference talk, we will embark on a comprehensive exploration of .NET MAUI and its versatile architecture options. Whether you're a seasoned developer looking to expand your horizons or a newcomer eager to make the right architectural choices from the start, this session is designed to equip you with the knowledge and insights needed to navigate the architectural intricacies of .NET MAUI.\r\n\r\nThis talk will explore the differences between the various architectures and how existing team skillsets, business requirements, or legacy code can impact the proper selection of project architecture. \r\n\r\nFilled with practical examples and real-world user feedback and backed with documentation guidance, attendees will leave the session with a keen understanding of the options available to them and why their team may need to go in a particular direction.  Additionally, they will be armed with the proper references to make an educated decision on their project's future direction.\r\n",
+      "startsAt": "2024-10-26T13:00:00",
+      "endsAt": "2024-10-26T14:00:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "a9011c65-6287-4529-ac91-56a8b9daa9a9"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 54861,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
+    },
+    {
       "id": "737186",
       "title": "Protecting Your Secrets using Azure Key Vault, Azure App Configuration, GitHub, and C# MVC",
       "description": "Your team has been working well for a long time, but developers keep checking in the connection strings to Azure Services (like SQL Databases and Storage).  You know that once you check in a secret it should be considered compromised so you've built a robust rotation strategy and you are ready to move forward, but you want to solve the real problem, which is preventing the team from checking in (and even knowing) what your secrets are.  Another problem that you noticed is that Application Insights and your users are logging sensitive information that needs to be sanitized.\r\n\r\nIn this session you will learn how to get notifications when users have checked in secrets using GitHub and third-party tools.  You'll also see how to leverage secrets in your code without having to know the secrets, both locally and at Azure via the Azure Key Vault.  \r\n\r\nYou will then learn how to leverage secrets that need to be shared to Azure App Configuration and have the ability to use them from your local and Azure environments.\r\n\r\nTo complete the journey, you will then learn how to capture output before committing to your logs (or app insights) with a few simple code changes to make sure that sensitive information is sanitized before being permanently recorded.",
@@ -894,7 +914,7 @@
       "id": "0c4f74c9-6be8-40d0-b588-674d3b783472",
       "firstName": "Brian",
       "lastName": "Gorman",
-      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
+      "bio": "Brian is a Microsoft Azure MVP and is an experienced speaker, author, trainer, and .NET developer with MCSA: Web App Certification, MCSD: App Builder, and eleven Azure certifications including Azure Developer, Administrator, DevOps, Architect, Data Administrator, Security, IoT, CosmosDB, and a number of Fundamentals certifications, and has been an MCT since April of 2019. Brian has a masters of science degree in computer information systems, and a bachelor of science degree in computer science. Additionally, Brian has around fifteen years of experience instructing college courses online in computer science, SQL databases, C#/VB.NET/and Java object-oriented programming, and Microsoft Office. Brian has created many online technical training courses that can be found online on various platforms. Brian has also published multiple books with APress, including \"Practical Entity Framework\" and the second edition \"Practical Entity Framework Core 6\".  Brian's latest book, Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204 was released in May of 2023.",
       "tagLine": "Microsoft Azure MVP, Speaker, Author, Trainer, and .Net Developer",
       "profilePicture": "https://sessionize.com/image/a37c-400o400o1-sVRrSNiPt7mLPSR5B51GZs.jpg",
       "isTopSpeaker": false,
@@ -1258,7 +1278,8 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        726384
+        726384,
+        726386
       ],
       "fullName": "Mitchel Sellers",
       "categoryItems": [],
