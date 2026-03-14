@@ -13,7 +13,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const appConfig = {
   registrationOpen: false,
-  registrationUrl: 'https://buytickets.at/iowacodecamp/1300554'
+  registrationUrl: 'https://buytickets.at/iowacodecamp/1300554',
+  eventDate: 'Coming Soon!',
+  eventLocation: 'DMACC, Ankeny'
 };
 
 /***/ }),
