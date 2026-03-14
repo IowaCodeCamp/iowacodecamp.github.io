@@ -1,5 +1,23 @@
 (self["webpackChunkladybird"] = self["webpackChunkladybird"] || []).push([["default-src_app_layout_layout_module_ts"],{
 
+/***/ 7110:
+/*!*******************************!*\
+  !*** ./src/app/app.config.ts ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   appConfig: () => (/* binding */ appConfig)
+/* harmony export */ });
+const appConfig = {
+  registrationOpen: true,
+  registrationUrl: 'https://buytickets.at/iowacodecamp/1300554'
+};
+
+/***/ }),
+
 /***/ 110:
 /*!**********************************************************************************!*\
   !*** ./src/app/layout/components/accordion-button/accordion-button.component.ts ***!
@@ -2263,32 +2281,46 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   RegisterButtonComponent: () => (/* binding */ RegisterButtonComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _app_app_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @app/app.config */ 7110);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common */ 6575);
 
+
+
+function RegisterButtonComponent_a_0_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "a", 1)(1, "span", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "Register");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
+  }
+  if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ctx_r0.registerLink, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+  }
+}
 class RegisterButtonComponent {
   constructor() {
-    this.registerLink = 'https://buytickets.at/iowacodecamp/1300554';
+    this.registrationOpen = _app_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.registrationOpen;
+    this.registerLink = _app_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.registrationUrl;
   }
-  ngOnInit() {}
   static #_ = this.ɵfac = function RegisterButtonComponent_Factory(t) {
     return new (t || RegisterButtonComponent)();
   };
-  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({
     type: RegisterButtonComponent,
     selectors: [["app-register-button"]],
-    decls: 3,
+    decls: 1,
     vars: 1,
-    consts: [["target", "_blank", 1, "block", "border-2", "text-center", "rounded-8", "px-16", "py-8", "rounded", "transition", "w-full", "bg-red-orange", "border-transparent", 3, "href"], [1, "strong", "text-white"]],
+    consts: [["class", "block border-2 text-center rounded-8 px-16 py-8 rounded transition w-full bg-red-orange border-transparent", "target", "_blank", 3, "href", 4, "ngIf"], ["target", "_blank", 1, "block", "border-2", "text-center", "rounded-8", "px-16", "py-8", "rounded", "transition", "w-full", "bg-red-orange", "border-transparent", 3, "href"], [1, "strong", "text-white"]],
     template: function RegisterButtonComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 0)(1, "span", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Register");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, RegisterButtonComponent_a_0_Template, 3, 1, "a", 0);
       }
       if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx.registerLink, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.registrationOpen);
       }
     },
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgIf],
     encapsulation: 2
   });
 }
