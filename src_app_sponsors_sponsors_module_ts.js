@@ -440,16 +440,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   SponsorsComponent: () => (/* binding */ SponsorsComponent)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_WebSite_WebSite_browser_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ 7947);
-/* harmony import */ var _layout_components_sponsorship_doc_link_sponsorship_doc_link_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/components/sponsorship-doc-link/sponsorship-doc-link.component */ 9223);
-/* harmony import */ var _layout_components_hr_hr_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../layout/components/hr/hr.component */ 4079);
-/* harmony import */ var _layout_components_sponsor_sponsor_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../layout/components/sponsor/sponsor.component */ 8823);
-/* harmony import */ var _layout_components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../layout/components/underlined-heading/underlined-heading.component */ 1976);
-/* harmony import */ var _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../layout/components/shell/shell.component */ 1279);
-/* harmony import */ var _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../layout/components/header/header.component */ 8246);
-/* harmony import */ var _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../layout/components/footer/footer.component */ 7114);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _app_app_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @app/app.config */ 7110);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _layout_components_sponsorship_doc_link_sponsorship_doc_link_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../layout/components/sponsorship-doc-link/sponsorship-doc-link.component */ 9223);
+/* harmony import */ var _layout_components_hr_hr_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../layout/components/hr/hr.component */ 4079);
+/* harmony import */ var _layout_components_sponsor_sponsor_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../layout/components/sponsor/sponsor.component */ 8823);
+/* harmony import */ var _layout_components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../layout/components/underlined-heading/underlined-heading.component */ 1976);
+/* harmony import */ var _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../layout/components/shell/shell.component */ 1279);
+/* harmony import */ var _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../layout/components/header/header.component */ 8246);
+/* harmony import */ var _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../layout/components/footer/footer.component */ 7114);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common */ 6575);
+
 
 
 
@@ -463,71 +465,72 @@ __webpack_require__.r(__webpack_exports__);
 
 function SponsorsComponent_ng_container_14_ng_template_4_ng_container_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "li");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](2, "app-sponsor", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](1, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](2, "app-sponsor", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
     const sponsor_r8 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("sponsor", sponsor_r8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("sponsor", sponsor_r8);
   }
 }
 function SponsorsComponent_ng_container_14_ng_template_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ul", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, SponsorsComponent_ng_container_14_ng_template_4_ng_container_1_Template, 3, 1, "ng-container", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "ul", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](1, SponsorsComponent_ng_container_14_ng_template_4_ng_container_1_Template, 3, 1, "ng-container", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
-    const level_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", level_r1.sponsors);
+    const level_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngForOf", level_r1.sponsors);
   }
 }
 function SponsorsComponent_ng_container_14_ng_template_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1, " No sponsors have signed up for this sponsorship level yet. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "p", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1, " No sponsors have signed up for this sponsorship level yet. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
   }
 }
 function SponsorsComponent_ng_container_14_app_hr_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](0, "app-hr");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "app-hr");
   }
 }
 function SponsorsComponent_ng_container_14_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](2, "app-underlined-heading", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](4, SponsorsComponent_ng_container_14_ng_template_4_Template, 2, 1, "ng-template", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](5, SponsorsComponent_ng_container_14_ng_template_5_Template, 2, 0, "ng-template", null, 8, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, SponsorsComponent_ng_container_14_app_hr_7_Template, 1, 0, "app-hr", 9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](1, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](2, "app-underlined-heading", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](3, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](4, SponsorsComponent_ng_container_14_ng_template_4_Template, 2, 1, "ng-template", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](5, SponsorsComponent_ng_container_14_ng_template_5_Template, 2, 0, "ng-template", null, 8, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplateRefExtractor"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](7, SponsorsComponent_ng_container_14_app_hr_7_Template, 1, 0, "app-hr", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
     const level_r1 = ctx.$implicit;
     const i_r2 = ctx.index;
-    const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵreference"](6);
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("text", level_r1.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", level_r1.sponsors.length > 0)("ngIfElse", _r4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", i_r2 < ctx_r0.sponsorData.length - 1);
+    const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵreference"](6);
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("text", level_r1.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", level_r1.sponsors.length > 0)("ngIfElse", _r4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", i_r2 < ctx_r0.sponsorData.length - 1);
   }
 }
 class SponsorsComponent {
   constructor(activatedRoute) {
     this.activatedRoute = activatedRoute;
+    this.year = _app_app_config__WEBPACK_IMPORTED_MODULE_1__.appConfig.year;
   }
   ngOnInit() {
     var _this = this;
@@ -536,42 +539,44 @@ class SponsorsComponent {
     })();
   }
   static #_ = this.ɵfac = function SponsorsComponent_Factory(t) {
-    return new (t || SponsorsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_9__.ActivatedRoute));
+    return new (t || SponsorsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_10__.ActivatedRoute));
   };
-  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineComponent"]({
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineComponent"]({
     type: SponsorsComponent,
     selectors: [["app-sponsors"]],
     decls: 16,
-    vars: 2,
-    consts: [["pageTitle", "Sponsors"], [1, "max-w-640", "prose", "mx-auto", "mb-48"], ["href", "#", 1, "a", "text-orange", 3, "routerLink"], [1, "max-w-1024", "mx-auto", "mb-60"], [4, "ngFor", "ngForOf"], ["alignment", "center", 3, "text"], [1, "py-16"], [3, "ngIf", "ngIfElse"], ["noSponsors", ""], [4, "ngIf"], [1, "flex", "flex-wrap", "justify-center", "gap-32"], [3, "sponsor"], [1, "p", "text-center"]],
+    vars: 3,
+    consts: [[3, "pageTitle"], [1, "max-w-640", "prose", "mx-auto", "mb-48"], ["href", "#", 1, "a", "text-orange", 3, "routerLink"], [1, "max-w-1024", "mx-auto", "mb-60"], [4, "ngFor", "ngForOf"], ["alignment", "center", 3, "text"], [1, "py-16"], [3, "ngIf", "ngIfElse"], ["noSponsors", ""], [4, "ngIf"], [1, "flex", "flex-wrap", "justify-center", "gap-32"], [3, "sponsor"], [1, "p", "text-center"]],
     template: function SponsorsComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](0, "router-outlet")(1, "app-header");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "app-shell", 0)(3, "div", 1)(4, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](5, " Iowa Code Camp is funded only by the good will of the community and our sponsors. Make sure you drop by the sponsor booths between sessions to win prizes and meet some pretty awesome supporters! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](7, "If you're interested in becoming a sponsor, please review our ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](8, "app-sponsorship-doc-link");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](9, " and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "a", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](11, "contact us");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](12, "!");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](14, SponsorsComponent_ng_container_14_Template, 8, 4, "ng-container", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](15, "app-footer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "router-outlet")(1, "app-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](2, "app-shell", 0)(3, "div", 1)(4, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](5, " Iowa Code Camp is funded only by the good will of the community and our sponsors. Make sure you drop by the sponsor booths between sessions to win prizes and meet some pretty awesome supporters! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](6, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](7, "If you're interested in becoming a sponsor, please review our ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](8, "app-sponsorship-doc-link");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](9, " and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](10, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](11, "contact us");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](12, "!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](13, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](14, SponsorsComponent_ng_container_14_Template, 8, 4, "ng-container", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](15, "app-footer");
       }
       if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("routerLink", "/contact");
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", ctx.sponsorData);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("pageTitle", ctx.year + " Sponsors");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("routerLink", "/contact");
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngForOf", ctx.sponsorData);
       }
     },
-    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_9__.RouterOutlet, _angular_router__WEBPACK_IMPORTED_MODULE_9__.RouterLink, _layout_components_sponsorship_doc_link_sponsorship_doc_link_component__WEBPACK_IMPORTED_MODULE_1__.SponsorshipDocLinkComponent, _layout_components_hr_hr_component__WEBPACK_IMPORTED_MODULE_2__.HRComponent, _layout_components_sponsor_sponsor_component__WEBPACK_IMPORTED_MODULE_3__.SponsorComponent, _layout_components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_4__.UnderlinedHeadingComponent, _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_5__.ShellComponent, _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_6__.HeaderComponent, _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_7__.FooterComponent, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_10__.NgIf],
+    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_10__.RouterOutlet, _angular_router__WEBPACK_IMPORTED_MODULE_10__.RouterLink, _layout_components_sponsorship_doc_link_sponsorship_doc_link_component__WEBPACK_IMPORTED_MODULE_2__.SponsorshipDocLinkComponent, _layout_components_hr_hr_component__WEBPACK_IMPORTED_MODULE_3__.HRComponent, _layout_components_sponsor_sponsor_component__WEBPACK_IMPORTED_MODULE_4__.SponsorComponent, _layout_components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_5__.UnderlinedHeadingComponent, _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_6__.ShellComponent, _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_7__.HeaderComponent, _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_8__.FooterComponent, _angular_common__WEBPACK_IMPORTED_MODULE_11__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_11__.NgIf],
     encapsulation: 2
   });
 }

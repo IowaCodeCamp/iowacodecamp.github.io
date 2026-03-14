@@ -15,7 +15,8 @@ const appConfig = {
   registrationOpen: false,
   registrationUrl: 'https://buytickets.at/iowacodecamp/1300554',
   eventDate: 'Coming Soon!',
-  eventLocation: 'DMACC, Ankeny'
+  eventLocation: '',
+  year: 2024
 };
 
 /***/ }),

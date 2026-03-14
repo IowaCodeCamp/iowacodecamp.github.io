@@ -1494,9 +1494,6 @@ select::-ms-expand {
   .md\:pt-16 {
     padding-top: 1rem;
   }
-  .md\:text-104 {
-    font-size: 6.5rem;
-  }
 }
 @media (min-width: 1024px) {
   .lg\:block {

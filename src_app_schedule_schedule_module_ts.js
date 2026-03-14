@@ -633,13 +633,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   ScheduleComponent: () => (/* binding */ ScheduleComponent)
 /* harmony export */ });
 /* harmony import */ var _home_runner_work_WebSite_WebSite_browser_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/router */ 7947);
-/* harmony import */ var _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/components/shell/shell.component */ 1279);
-/* harmony import */ var _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../layout/components/header/header.component */ 8246);
-/* harmony import */ var _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../layout/components/footer/footer.component */ 7114);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _components_time_block_time_block_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/time-block/time-block.component */ 5302);
+/* harmony import */ var _app_app_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @app/app.config */ 7110);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../layout/components/shell/shell.component */ 1279);
+/* harmony import */ var _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../layout/components/header/header.component */ 8246);
+/* harmony import */ var _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../layout/components/footer/footer.component */ 7114);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _components_time_block_time_block_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/time-block/time-block.component */ 5302);
+
 
 
 
@@ -650,21 +652,22 @@ __webpack_require__.r(__webpack_exports__);
 
 function ScheduleComponent_ng_container_9_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](1, "li", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](2, "app-time-block", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](1, "li", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](2, "app-time-block", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
     const group_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("sessions", group_r1.value);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("sessions", group_r1.value);
   }
 }
 class ScheduleComponent {
   constructor(activatedRoute) {
     this.activatedRoute = activatedRoute;
+    this.year = _app_app_config__WEBPACK_IMPORTED_MODULE_1__.appConfig.year;
     this.isBrowser = false;
     this.jsonFile = 'allSessionizeData.json';
     this.sessionGroups = {};
@@ -688,32 +691,34 @@ class ScheduleComponent {
     }), {});
   }
   static #_ = this.ɵfac = function ScheduleComponent_Factory(t) {
-    return new (t || ScheduleComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_6__.ActivatedRoute));
+    return new (t || ScheduleComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_7__.ActivatedRoute));
   };
-  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({
     type: ScheduleComponent,
     selectors: [["app-schedule"]],
     decls: 12,
-    vars: 3,
-    consts: [["pageTitle", "Schedule"], [1, "max-w-640", "mx-auto", "mb-60"], [1, "prose"], [1, "max-w-1024", "mx-auto", "mb-60"], [4, "ngFor", "ngForOf"], [1, "mb-32"], [3, "sessions"]],
+    vars: 4,
+    consts: [[3, "pageTitle"], [1, "max-w-640", "mx-auto", "mb-60"], [1, "prose"], [1, "max-w-1024", "mx-auto", "mb-60"], [4, "ngFor", "ngForOf"], [1, "mb-32"], [3, "sessions"]],
     template: function ScheduleComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "router-outlet")(1, "app-header");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](2, "app-shell", 0)(3, "div", 1)(4, "div", 2)(5, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6, " Drop by the sponsor booths between sessions to win prizes and meet some pretty awesome supporters! ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](7, "div", 3)(8, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](9, ScheduleComponent_ng_container_9_Template, 3, 1, "ng-container", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](10, "keyvalue");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](11, "app-footer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "router-outlet")(1, "app-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "app-shell", 0)(3, "div", 1)(4, "div", 2)(5, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6, " Drop by the sponsor booths between sessions to win prizes and meet some pretty awesome supporters! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](7, "div", 3)(8, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](9, ScheduleComponent_ng_container_9_Template, 3, 1, "ng-container", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](10, "keyvalue");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](11, "app-footer");
       }
       if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](10, 1, ctx.sessionGroups));
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("pageTitle", ctx.year + " Schedule");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](10, 2, ctx.sessionGroups));
       }
     },
-    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_6__.RouterOutlet, _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_1__.ShellComponent, _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_2__.HeaderComponent, _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__.FooterComponent, _angular_common__WEBPACK_IMPORTED_MODULE_7__.NgForOf, _components_time_block_time_block_component__WEBPACK_IMPORTED_MODULE_4__.TimeBlockComponent, _angular_common__WEBPACK_IMPORTED_MODULE_7__.KeyValuePipe],
+    dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_7__.RouterOutlet, _layout_components_shell_shell_component__WEBPACK_IMPORTED_MODULE_2__.ShellComponent, _layout_components_header_header_component__WEBPACK_IMPORTED_MODULE_3__.HeaderComponent, _layout_components_footer_footer_component__WEBPACK_IMPORTED_MODULE_4__.FooterComponent, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _components_time_block_time_block_component__WEBPACK_IMPORTED_MODULE_5__.TimeBlockComponent, _angular_common__WEBPACK_IMPORTED_MODULE_8__.KeyValuePipe],
     encapsulation: 2
   });
 }

@@ -101,12 +101,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _app_app_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @app/app.config */ 7110);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 6575);
 /* harmony import */ var _layout_components_register_button_register_button_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../layout/components/register-button/register-button.component */ 7762);
 /* harmony import */ var _layout_components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../layout/components/svg-components/logo/logo.component */ 4789);
 
 
 
 
+
+function HomeComponent_ng_container_13_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](3, " | ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementContainerEnd"]();
+  }
+  if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx_r0.eventLocation);
+  }
+}
 class HomeComponent {
   constructor() {
     this.eventDate = _app_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.eventDate;
@@ -120,9 +137,9 @@ class HomeComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({
     type: HomeComponent,
     selectors: [["app-home"]],
-    decls: 20,
+    decls: 19,
     vars: 3,
-    consts: [[1, "h-screen", "bg-cover", "relative", 2, "background-image", "url(assets/images/background-splash.png)"], [1, "relative", "z-mg", "h-full", "w-full", "flex", "items-center", "justify-center", "px-16"], [1, "text-white", "text-center", "max-w-640"], [1, "w-140", "mx-auto"], [3, "reverse"], [1, "sr-only"], [1, "block", "py-48", "text-white", "font-sans", "text-60", "md:text-104"], [1, "mb-32"], [1, "flex", "gap-20", "justify-center", "items-center", "mx-auto", "max-w-640"], [1, "w-140"], [1, "bg-black", "opacity-60", "inset-0", "absolute", "z-bg"]],
+    consts: [[1, "h-screen", "bg-cover", "relative", 2, "background-image", "url(assets/images/background-splash.png)"], [1, "relative", "z-mg", "h-full", "w-full", "flex", "items-center", "justify-center", "px-16"], [1, "text-white", "text-center", "max-w-640"], [1, "w-140", "mx-auto"], [3, "reverse"], [1, "sr-only"], [1, "block", "py-48", "text-white", "font-sans", "text-60"], [1, "mb-32"], [4, "ngIf"], [1, "flex", "gap-20", "justify-center", "items-center", "mx-auto", "max-w-640"], [1, "w-140"], [1, "bg-black", "opacity-60", "inset-0", "absolute", "z-bg"]],
     template: function HomeComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "section", 2)(3, "div")(4, "h1")(5, "div", 3);
@@ -134,15 +151,14 @@ class HomeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](9, "span", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](10);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](11, "div", 7)(12, "p")(13, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](15, " | For software developers interested in industry-specific topics, such as front-end JavaScript frameworks, IT cloud infrastructure, database architecture, and working with engineering teams ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](11, "div", 7)(12, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](13, HomeComponent_ng_container_13_Template, 4, 1, "ng-container", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14, "For software developers interested in industry-specific topics, such as front-end JavaScript frameworks, IT cloud infrastructure, database architecture, and working with engineering teams ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](16, "div", 8)(17, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](18, "app-register-button");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](15, "div", 9)(16, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](17, "app-register-button");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](19, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](18, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       }
       if (rf & 2) {
@@ -150,11 +166,11 @@ class HomeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("reverse", true);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", ctx.eventDate, " ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx.eventLocation);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.eventLocation);
       }
     },
-    dependencies: [_layout_components_register_button_register_button_component__WEBPACK_IMPORTED_MODULE_1__.RegisterButtonComponent, _layout_components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_2__.LogoComponent],
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.NgIf, _layout_components_register_button_register_button_component__WEBPACK_IMPORTED_MODULE_1__.RegisterButtonComponent, _layout_components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_2__.LogoComponent],
     encapsulation: 2
   });
 }
