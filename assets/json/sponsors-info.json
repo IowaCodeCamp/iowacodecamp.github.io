@@ -19,12 +19,11 @@
   "sponsor_levels": [
     {
       "sponsor_level": "Event Sponsor",
-      "remaining": "0",
+      "remaining": "1",
       "cost": "$3,500",
       "benefits": [
         "The overall Iowa Code Camp is promoted as 'sponsored by' your organization.",
         "Exclusive opportunity to provide name badges and lanyards for all attendees.",
-        "Exclusive invitation for 4 to the speaker dinner.",
         "Dedicated banner with your logo and ICC branding.",
         "All benefits of the Table Sponsor",
         "Prominent logo placement among sponsors."
@@ -33,10 +32,9 @@
     {
       "sponsor_level": "After Party Sponsor",
       "remaining": "1",
-      "cost": "$2,500",
+      "cost": "$2,000",
       "benefits": [
         "After party promoted with the name of your organization.",
-        "Exclusive invitation for 8 to the speaker dinner.",
         "Dedicated banner with your logo and ICC branding.",
         "The opportunity to exclusively distribute swag at after party.",
         "All benefits of the Table Sponsor",
@@ -46,7 +44,7 @@
     {
       "sponsor_level": "Lunch Sponsor",
       "remaining": "1",
-      "cost": "$2,500",
+      "cost": "$2,000",
       "benefits": [
         "Lunch is promoted as 'sponsored by' your organization",
         "Example: 'Lunch sponsored by ABC Company'",
@@ -57,22 +55,20 @@
     },
     {
       "sponsor_level": "Registration Desk Sponsor",
-      "remaining": "0",
+      "remaining": "1",
       "cost": "$2,000",
       "benefits": [
         "Exclusive access to support the registration desk the day of the event.",
-        "Exclusive invitation for 2 to the speaker dinner.",
         "All benefits of the Table Sponsor",
         "Prominent logo placement among sponsors."
       ]
     },
     {
-      "sponsor_level": "Speaker Dinner Sponsor",
+      "sponsor_level": "Speaker and Sponsor Dinner Sponsor",
       "remaining": "1",
       "cost": "$2,000",
       "benefits": [
-        "Speaker Dinner is promoted as 'sponsored by' your organization.",
-        "Exclusive invitation for 8 to the speaker dinner.",
+        "Speaker and Sponsor Dinner is promoted as 'sponsored by' your organization.",
         "Dedicated banner with your logo and ICC branding.",
         "All benefits of the Table Sponsor",
         "Prominent logo placement among sponsors."
@@ -80,7 +76,7 @@
     },
     {
       "sponsor_level": "Breakfast Sponsor",
-      "remaining": "0",
+      "remaining": "1",
       "cost": "$1,500",
       "benefits": [
         "Breakfast promoted as 'sponsored by' your organization",
@@ -90,7 +86,7 @@
     },
     {
       "sponsor_level": "Table Sponsor",
-      "remaining": "4",
+      "remaining": "8",
       "cost": "$1,500",
       "benefits": [
         "A table and black tablecloth at the event to use how you see fit.",
@@ -101,7 +97,7 @@
     },
     {
       "sponsor_level": "Room Sponsor",
-      "remaining": "2",
+      "remaining": "8",
       "cost": "$500",
       "benefits": [
         "A room named after your organization during the event.",
