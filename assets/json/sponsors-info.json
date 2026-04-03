@@ -18,7 +18,7 @@
   },
   "sponsor_levels": [
     {
-      "sponsor_level": "Event Sponsor",
+      "sponsor_level": "Event",
       "remaining": "1",
       "cost": "$3,500",
       "benefits": [
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "sponsor_level": "After Party Sponsor",
+      "sponsor_level": "After Party",
       "remaining": "1",
       "cost": "$2,000",
       "benefits": [
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "sponsor_level": "Lunch Sponsor",
+      "sponsor_level": "Lunch",
       "remaining": "1",
       "cost": "$2,000",
       "benefits": [
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "sponsor_level": "Registration Desk Sponsor",
+      "sponsor_level": "Registration Desk",
       "remaining": "1",
       "cost": "$2,000",
       "benefits": [
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "sponsor_level": "Speaker and Sponsor Dinner Sponsor",
+      "sponsor_level": "Speaker and Sponsor Dinner",
       "remaining": "1",
       "cost": "$2,000",
       "benefits": [
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "sponsor_level": "Breakfast Sponsor",
+      "sponsor_level": "Breakfast",
       "remaining": "1",
       "cost": "$1,500",
       "benefits": [
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "sponsor_level": "Table Sponsor",
+      "sponsor_level": "Table",
       "remaining": "8",
       "cost": "$1,500",
       "benefits": [
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "sponsor_level": "Room Sponsor",
+      "sponsor_level": "Room",
       "remaining": "8",
       "cost": "$500",
       "benefits": [
@@ -106,8 +106,8 @@
       ]
     },
     {
-      "sponsor_level": "Keynote Sponsor",
-      "remaining": "0",
+      "sponsor_level": "Keynote",
+      "remaining": "1",
       "cost": "TBD",
       "benefits": [
         "Exclusive opportunity to provide, introduce, and interview a keynote speaker.",
