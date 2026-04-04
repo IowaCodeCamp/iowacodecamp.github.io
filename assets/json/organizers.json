@@ -1,26 +1,38 @@
 [
   {
-    "title": "President, Finances, Logistics, Volunteers",
+    "title": "President",
     "firstName":"Greg",
     "lastName": "Sohl",
     "profilePicture": "/assets/images/greg-sohl.jpg"
   },
   {
-    "title": "Sponsorship, Speakers, Emails & Communication, Networking Events",
+    "title": "",
     "firstName":"Nick",
     "lastName": "Parker",
     "profilePicture": "/assets/images/nick-parker.jpg"
   },
   {
-    "title": "Sponsorship, Speakers",
+    "title": "",
     "firstName":"Mike",
     "lastName": "Cole",
     "profilePicture": "/assets/images/mike-cole.jpg"
   },
   {
-    "title": "Sponsorship, Speakers",
+    "title": "",
     "firstName":"Levi",
     "lastName": "Rosol",
     "profilePicture": "/assets/images/levi-rosol.jpg"
+  },
+  {
+    "title": "",
+    "firstName":"Scott",
+    "lastName": "Sauber",
+    "profilePicture": "/assets/images/scott-sauber.png"
+  },
+  {
+    "title": "",
+    "firstName":"Dustin",
+    "lastName": "Thostenson",
+    "profilePicture": "/assets/images/dustin-thostenson.png"
   }
 ]
