@@ -17,7 +17,10 @@ const appConfig = {
   eventDate: 'Coming Soon!',
   eventLocation: '',
   year: 2024,
-  showResources: false
+  showResources: false,
+  showSchedule: false,
+  showSpeakers: false,
+  showSessions: false
 };
 
 /***/ }),
@@ -1295,16 +1298,16 @@ class HeaderComponent {
     }, ...(_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.showResources ? [{
       text: 'Resources',
       url: '/resources'
-    }] : []), {
+    }] : []), ...(_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.showSchedule ? [{
       text: 'Schedule',
       url: '/schedule'
-    }, {
+    }] : []), ...(_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.showSpeakers ? [{
       text: 'Speakers',
       url: '/speakers'
-    }, {
+    }] : []), ...(_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.showSessions ? [{
       text: 'Sessions',
       url: '/sessions'
-    }, {
+    }] : []), {
       text: 'Sponsors',
       url: '/sponsors'
     }, {
