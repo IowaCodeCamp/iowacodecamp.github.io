@@ -463,40 +463,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function SponsorsComponent_ng_container_14_ng_template_4_ng_container_1_Template(rf, ctx) {
+function SponsorsComponent_ng_container_14_ng_container_5_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementContainerStart"](0);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](1, "li");
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](2, "app-sponsor", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](2, "app-sponsor", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
-    const sponsor_r8 = ctx.$implicit;
+    const sponsor_r5 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("sponsor", sponsor_r8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("sponsor", sponsor_r5);
   }
 }
-function SponsorsComponent_ng_container_14_ng_template_4_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "ul", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](1, SponsorsComponent_ng_container_14_ng_template_4_ng_container_1_Template, 3, 1, "ng-container", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
-  }
-  if (rf & 2) {
-    const level_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngForOf", level_r1.sponsors);
-  }
-}
-function SponsorsComponent_ng_container_14_ng_template_5_Template(rf, ctx) {
-  if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](0, "p", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](1, " No sponsors have signed up for this sponsorship level yet. ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
-  }
-}
-function SponsorsComponent_ng_container_14_app_hr_7_Template(rf, ctx) {
+function SponsorsComponent_ng_container_14_app_hr_6_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "app-hr");
   }
@@ -506,24 +487,22 @@ function SponsorsComponent_ng_container_14_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementContainerStart"](0);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](1, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](2, "app-underlined-heading", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](3, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](4, SponsorsComponent_ng_container_14_ng_template_4_Template, 2, 1, "ng-template", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](5, SponsorsComponent_ng_container_14_ng_template_5_Template, 2, 0, "ng-template", null, 8, _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplateRefExtractor"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](7, SponsorsComponent_ng_container_14_app_hr_7_Template, 1, 0, "app-hr", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](3, "div", 6)(4, "ul", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](5, SponsorsComponent_ng_container_14_ng_container_5_Template, 3, 1, "ng-container", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](6, SponsorsComponent_ng_container_14_app_hr_6_Template, 1, 0, "app-hr", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
     const level_r1 = ctx.$implicit;
     const i_r2 = ctx.index;
-    const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵreference"](6);
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("text", level_r1.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", level_r1.sponsors.length > 0)("ngIfElse", _r4);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngForOf", level_r1.sponsors);
+    _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵproperty"]("ngIf", i_r2 < ctx_r0.sponsorData.length - 1);
   }
 }
@@ -535,7 +514,8 @@ class SponsorsComponent {
   ngOnInit() {
     var _this = this;
     return (0,_home_runner_work_WebSite_WebSite_browser_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-      _this.sponsorData = yield _this.activatedRoute.snapshot.data["sponsors"];
+      const data = yield _this.activatedRoute.snapshot.data["sponsors"];
+      _this.sponsorData = data.filter(level => level.sponsors.length > 0);
     })();
   }
   static #_ = this.ɵfac = function SponsorsComponent_Factory(t) {
@@ -546,7 +526,7 @@ class SponsorsComponent {
     selectors: [["app-sponsors"]],
     decls: 16,
     vars: 3,
-    consts: [[3, "pageTitle"], [1, "max-w-640", "prose", "mx-auto", "mb-48"], ["href", "#", 1, "a", "text-orange", 3, "routerLink"], [1, "max-w-1024", "mx-auto", "mb-60"], [4, "ngFor", "ngForOf"], ["alignment", "center", 3, "text"], [1, "py-16"], [3, "ngIf", "ngIfElse"], ["noSponsors", ""], [4, "ngIf"], [1, "flex", "flex-wrap", "justify-center", "gap-32"], [3, "sponsor"], [1, "p", "text-center"]],
+    consts: [[3, "pageTitle"], [1, "max-w-640", "prose", "mx-auto", "mb-48"], ["href", "#", 1, "a", "text-orange", 3, "routerLink"], [1, "max-w-1024", "mx-auto", "mb-60"], [4, "ngFor", "ngForOf"], ["alignment", "center", 3, "text"], [1, "py-16"], [1, "flex", "flex-wrap", "justify-center", "gap-32"], [4, "ngIf"], [3, "sponsor"]],
     template: function SponsorsComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](0, "router-outlet")(1, "app-header");
@@ -563,7 +543,7 @@ class SponsorsComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtext"](12, "!");
         _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementStart"](13, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](14, SponsorsComponent_ng_container_14_Template, 8, 4, "ng-container", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵtemplate"](14, SponsorsComponent_ng_container_14_Template, 7, 3, "ng-container", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵelement"](15, "app-footer");
       }
@@ -599,7 +579,7 @@ module.exports = JSON.parse('{"contact_info":{"website":"www.iowacodecamp.com","
   \***************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('[{"name":"Event Sponsor","sponsors":[{"url":"https://www.wewritecode.com","name":"We Write Code","logoURL":"/assets/images/sponsors/wwc.png"}]},{"name":"After Party Sponsor","sponsors":[]},{"name":"Registration Desk Sponsor","sponsors":[{"url":"https://www.qci.com","name":"QCI","logoURL":"/assets/images/sponsors/qci.jpeg"}]},{"name":"Speaker Dinner Sponsor","sponsors":[]},{"name":"Lunch Sponsor","sponsors":[]},{"name":"Breakfast Sponsor","sponsors":[{"url":"https://www.zirous.com/","name":"Zirous","logoURL":"/assets/images/sponsors/zirous.jpg"}]},{"name":"Table Sponsors","sponsors":[{"url":"https://www.vgmgroup.com/","name":"VGM","logoURL":"/assets/images/sponsors/vgm.png"},{"url":"https://leantechniques.com/","name":"Lean TECHniques","logoURL":"/assets/images/sponsors/lt.png"}]},{"name":"Room Sponsors","sponsors":[{"url":"https://delta3consulting.com/","name":"Delta3Consulting","logoURL":"/assets/images/sponsors/delta3.png"},{"url":"https://www.sourceallies.com/","name":"Source Allies","logoURL":"/assets/images/sponsors/source-allies.png"},{"url":"https://www.farreachinc.com/","name":"Far Reach","logoURL":"/assets/images/sponsors/far-reach.png"},{"url":"https://executiveresources.com/","name":"Executive Resources","logoURL":"/assets/images/sponsors/executive-resources.png"},{"url":"https://www.turnberrysolutions.com/","name":"Turnberry Solutions","logoURL":"/assets/images/sponsors/turnberry.png"},{"url":"https://innoventureiowa.com/","name":"InnoVenture Iowa","logoURL":"/assets/images/sponsors/innoventure.jpg"},{"url":"https://cole-consulting.net/","name":"Cole Consulting","logoURL":"/assets/images/sponsors/cole-consulting.png"}]},{"name":"Keynote Sponsor","sponsors":[]},{"name":"Supporters","sponsors":[{"url":"https://discountasp.net/","name":"DiscountASP.NET","logoURL":"/assets/images/sponsors/discount-asp.png"}]}]');
+module.exports = JSON.parse('[{"name":"Event Sponsor","sponsors":[]},{"name":"After Party Sponsor","sponsors":[]},{"name":"Registration Desk Sponsor","sponsors":[]},{"name":"Speaker Dinner Sponsor","sponsors":[]},{"name":"Lunch Sponsor","sponsors":[]},{"name":"Breakfast Sponsor","sponsors":[]},{"name":"Table Sponsors","sponsors":[]},{"name":"Room Sponsors","sponsors":[]},{"name":"Keynote Sponsor","sponsors":[]},{"name":"Supporters","sponsors":[{"url":"https://discountasp.net/","name":"DiscountASP.NET","logoURL":"/assets/images/sponsors/discount-asp.png"}]}]');
 
 /***/ })
 

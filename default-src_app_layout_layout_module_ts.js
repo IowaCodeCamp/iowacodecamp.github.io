@@ -16,7 +16,7 @@ const appConfig = {
   registrationUrl: 'https://buytickets.at/iowacodecamp/1300554',
   eventDate: 'Coming Soon!',
   eventLocation: '',
-  year: 2024,
+  year: 2026,
   showResources: false,
   showSchedule: false,
   showSpeakers: false,
