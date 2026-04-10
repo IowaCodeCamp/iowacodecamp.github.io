@@ -124,11 +124,24 @@ function HomeComponent_ng_container_13_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx_r0.eventLocation);
   }
 }
+function HomeComponent_div_18_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 13)(1, "a", 14)(2, "span", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](3, "Call for Speakers");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()();
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("href", ctx_r1.speakersLink, _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsanitizeUrl"]);
+  }
+}
 class HomeComponent {
   constructor() {
     this.eventDate = _app_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.eventDate;
     this.eventLocation = _app_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.eventLocation;
-    this.speakersLink = "https://sessionize.com/iowa-code-camp-fall-2024";
+    this.showCallForSpeakers = _app_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.showCallForSpeakers;
+    this.speakersLink = _app_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.callForSpeakersUrl;
   }
   ngOnInit() {}
   static #_ = this.ɵfac = function HomeComponent_Factory(t) {
@@ -137,9 +150,9 @@ class HomeComponent {
   static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({
     type: HomeComponent,
     selectors: [["app-home"]],
-    decls: 19,
-    vars: 3,
-    consts: [[1, "h-screen", "bg-cover", "relative", 2, "background-image", "url(assets/images/background-splash.png)"], [1, "relative", "z-mg", "h-full", "w-full", "flex", "items-center", "justify-center", "px-16"], [1, "text-white", "text-center", "max-w-640"], [1, "w-140", "mx-auto"], [3, "reverse"], [1, "sr-only"], [1, "block", "py-48", "text-white", "font-sans", "text-60"], [1, "mb-32"], [4, "ngIf"], [1, "flex", "gap-20", "justify-center", "items-center", "mx-auto", "max-w-640"], [1, "w-140"], [1, "bg-black", "opacity-60", "inset-0", "absolute", "z-bg"]],
+    decls: 20,
+    vars: 4,
+    consts: [[1, "h-screen", "bg-cover", "relative", 2, "background-image", "url(assets/images/background-splash.png)"], [1, "relative", "z-mg", "h-full", "w-full", "flex", "items-center", "justify-center", "px-16"], [1, "text-white", "text-center", "max-w-640"], [1, "w-140", "mx-auto"], [3, "reverse"], [1, "sr-only"], [1, "block", "py-48", "text-white", "font-sans", "text-60"], [1, "mb-32"], [4, "ngIf"], [1, "flex", "gap-20", "justify-center", "items-center", "mx-auto", "max-w-640"], [1, "w-140"], ["class", "w-180", 4, "ngIf"], [1, "bg-black", "opacity-60", "inset-0", "absolute", "z-bg"], [1, "w-180"], ["target", "_blank", 1, "block", "border-2", "text-center", "rounded-8", "px-16", "py-8", "rounded", "transition", "w-full", "bg-transparent", "border-white", 3, "href"], [1, "strong", "text-white", "whitespace-nowrap"]],
     template: function HomeComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "section", 2)(3, "div")(4, "h1")(5, "div", 3);
@@ -157,8 +170,10 @@ class HomeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](15, "div", 9)(16, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](17, "app-register-button");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](18, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](18, HomeComponent_div_18_Template, 4, 1, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](19, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
       }
       if (rf & 2) {
@@ -168,6 +183,8 @@ class HomeComponent {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", ctx.eventDate, " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.eventLocation);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.showCallForSpeakers);
       }
     },
     dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.NgIf, _layout_components_register_button_register_button_component__WEBPACK_IMPORTED_MODULE_1__.RegisterButtonComponent, _layout_components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_2__.LogoComponent],
