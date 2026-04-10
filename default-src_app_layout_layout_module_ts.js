@@ -21,7 +21,7 @@ const appConfig = {
   showSchedule: false,
   showSpeakers: false,
   showSessions: false,
-  showCallForSpeakers: false,
+  showCallForSpeakers: true,
   callForSpeakersUrl: 'https://sessionize.com/iowa-code-camp-fall-2026/'
 };
 
