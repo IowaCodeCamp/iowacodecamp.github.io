@@ -20,7 +20,9 @@ const appConfig = {
   showResources: false,
   showSchedule: false,
   showSpeakers: false,
-  showSessions: false
+  showSessions: false,
+  showCallForSpeakers: false,
+  callForSpeakersUrl: 'https://sessionize.com/iowa-code-camp-fall-2026/'
 };
 
 /***/ }),
@@ -1316,15 +1318,12 @@ class HeaderComponent {
     }, {
       text: 'Contact',
       url: '/contact'
-    }
-    // {
-    //   text: 'Call for Speakers',
-    //   url: 'https://sessionize.com/iowa-code-camp-fall-2024/',
-    //   external: true
-    // },
-    ];
+    }, ...(_app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.showCallForSpeakers ? [{
+      text: 'Call for Speakers',
+      url: _app_config__WEBPACK_IMPORTED_MODULE_0__.appConfig.callForSpeakersUrl,
+      external: true
+    }] : [])];
   }
-
   ngOnInit() {}
   ngOnDestroy() {
     this.unsubscribe$.next(true);
