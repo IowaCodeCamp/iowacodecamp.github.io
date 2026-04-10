@@ -14,8 +14,8 @@ __webpack_require__.r(__webpack_exports__);
 const appConfig = {
   registrationOpen: false,
   registrationUrl: 'https://buytickets.at/iowacodecamp/1300554',
-  eventDate: 'Coming Soon!',
-  eventLocation: '',
+  eventDate: 'November 7, 2026',
+  eventLocation: 'Ankeny, IA',
   year: 2026,
   showResources: false,
   showSchedule: false,
