@@ -43,7 +43,7 @@
     },
     {
       "sponsor_level": "Lunch",
-      "remaining": "1",
+      "remaining": "0",
       "cost": "$2,000",
       "benefits": [
         "Lunch is promoted as 'sponsored by' your organization",
@@ -65,7 +65,7 @@
     },
     {
       "sponsor_level": "Speaker and Sponsor Dinner",
-      "remaining": "1",
+      "remaining": "0",
       "cost": "$2,000",
       "benefits": [
         "Speaker and Sponsor Dinner is promoted as 'sponsored by' your organization.",
@@ -97,7 +97,7 @@
     },
     {
       "sponsor_level": "Room",
-      "remaining": "8",
+      "remaining": "7",
       "cost": "$500",
       "benefits": [
         "A room named after your organization during the event.",
