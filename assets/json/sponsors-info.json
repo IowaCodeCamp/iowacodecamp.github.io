@@ -19,7 +19,7 @@
   "sponsor_levels": [
     {
       "sponsor_level": "Event",
-      "remaining": "0",
+      "remaining": "0/1",
       "cost": "$3,500",
       "benefits": [
         "The overall Iowa Code Camp is promoted as 'sponsored by' your organization.",
@@ -43,7 +43,7 @@
     },
     {
       "sponsor_level": "Lunch",
-      "remaining": "0",
+      "remaining": "0/1",
       "cost": "$2,000",
       "benefits": [
         "Lunch is promoted as 'sponsored by' your organization",
@@ -65,7 +65,7 @@
     },
     {
       "sponsor_level": "Speaker and Sponsor Dinner",
-      "remaining": "0",
+      "remaining": "0/1",
       "cost": "$2,000",
       "benefits": [
         "Speaker and Sponsor Dinner is promoted as 'sponsored by' your organization.",
@@ -86,7 +86,7 @@
     },
     {
       "sponsor_level": "Table",
-      "remaining": "8",
+      "remaining": "7/8",
       "cost": "$1,500",
       "benefits": [
         "A table and black tablecloth at the event to use how you see fit.",
@@ -97,7 +97,7 @@
     },
     {
       "sponsor_level": "Room",
-      "remaining": "7",
+      "remaining": "6/8",
       "cost": "$500",
       "benefits": [
         "A room named after your organization during the event.",
