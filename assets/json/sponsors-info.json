@@ -55,7 +55,7 @@
     },
     {
       "sponsor_level": "Registration Desk",
-      "remaining": "1",
+      "remaining": "0/1",
       "cost": "$2,000",
       "benefits": [
         "Exclusive access to support the registration desk the day of the event.",
@@ -86,7 +86,7 @@
     },
     {
       "sponsor_level": "Table",
-      "remaining": "7/8",
+      "remaining": "6/8",
       "cost": "$1,500",
       "benefits": [
         "A table and black tablecloth at the event to use how you see fit.",

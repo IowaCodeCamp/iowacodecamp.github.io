@@ -2,6 +2,11 @@
   {
     "name": "Event Sponsor",
     "sponsors": [
+      {
+        "name": "We Write Code",
+        "url": "https://wewritecode.com/",
+        "logoURL": "/assets/images/sponsors/wwc.png"
+      }
     ]
   },
   {
@@ -12,11 +17,21 @@
   {
     "name": "Registration Desk Sponsor",
     "sponsors": [
+      {
+        "url": "https://www.sourceallies.com/",
+        "name": "Source Allies",
+        "logoURL": "/assets/images/sponsors/source-allies.png"
+      }
     ]
   },
   {
     "name": "Speaker Dinner Sponsor",
     "sponsors": [
+      {
+        "url": "https://www.vgmgroup.com/",
+        "name": "VGM",
+        "logoURL": "/assets/images/sponsors/vgm.png"
+      }
     ]
   },
   {
@@ -37,6 +52,11 @@
   {
     "name": "Room Sponsors",
     "sponsors": [
+      {
+        "name": "Cole Consulting",
+        "url": "https://cole-consulting.net/",
+        "logoURL": "/assets/images/sponsors/cole-consulting.png"
+      }
     ]
   },
   {
