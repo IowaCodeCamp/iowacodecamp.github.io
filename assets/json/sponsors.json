@@ -17,11 +17,6 @@
   {
     "name": "Registration Desk Sponsor",
     "sponsors": [
-      {
-        "url": "https://www.sourceallies.com/",
-        "name": "Source Allies",
-        "logoURL": "/assets/images/sponsors/source-allies.png"
-      }
     ]
   },
   {
@@ -37,6 +32,11 @@
   {
     "name": "Lunch Sponsor",
     "sponsors": [
+      {
+        "url": "https://www.sourceallies.com/",
+        "name": "Source Allies",
+        "logoURL": "/assets/images/sponsors/source-allies.png"
+      }
     ]
   },
   {
