@@ -47,6 +47,11 @@
   {
     "name": "Table Sponsors",
     "sponsors": [
+      {
+        "name": "Lean TECHniques",
+        "url": "https://leantechniques.com/",
+        "logoURL": "/assets/images/sponsors/lt.png"
+      }
     ]
   },
   {
