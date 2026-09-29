@@ -51,6 +51,11 @@
         "name": "Lean TECHniques",
         "url": "https://leantechniques.com/",
         "logoURL": "/assets/images/sponsors/lt.png"
+      },
+      {
+        "name": "Shazam",
+        "url": "https://www.shazam.net/who-we-are/careers",
+        "logoURL": "/assets/images/sponsors/shazam.png"
       }
     ]
   },
@@ -61,6 +66,11 @@
         "name": "Cole Consulting",
         "url": "https://cole-consulting.net/",
         "logoURL": "/assets/images/sponsors/cole-consulting.png"
+      },
+      {
+        "name": "Delta3 Consulting",
+        "url": "https://delta3consulting.com/",
+        "logoURL": "/assets/images/sponsors/delta3.png"
       }
     ]
   },
