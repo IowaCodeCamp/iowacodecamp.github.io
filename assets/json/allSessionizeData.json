@@ -161,26 +161,6 @@
       "isConfirmed": true
     },
     {
-      "id": "1346721",
-      "title": "Creating Domain Invariants: Keeping Your Business Logic Out of the Callers",
-      "description": "Domain invariants define the conditions that must remain true throughout a domain object’s lifecycle. Enforcing these conditions within the domain model ensures that object creation and subsequent changes follow business rules without requiring calling code to implement those rules independently.\r\n\r\nThis session examines how to establish and preserve invariants in C# using principles of domain-driven design. Topics include private constructors and factory methods for controlled creation, guard clauses for validation, private setters and backing fields for encapsulation, read-only collections for protecting aggregate contents, and domain methods for governing state transitions and object mutation. Value objects provide an additional means of enforcing rules for related values.\r\n\r\nAn Order aggregate serves as the implementation example, demonstrating how these techniques work together and how EF Core persists and materializes the resulting model. Attendees will learn to design domain classes that enforce valid state through their public operations and maintain a clear boundary between business behavior and persistence concerns.",
-      "startsAt": null,
-      "endsAt": null,
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "0c4f74c9-6be8-40d0-b588-674d3b783472"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": null,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": false
-    },
-    {
       "id": "1214876",
       "title": "Creating Shared Space XR Experiences with Meta Colocation",
       "description": "Discover how to create shared space XR experiences utilizing the colocation features of the Meta Quest 3 XR headsets. Whether you are currently an XR developer, looking to get started, or simply curious to learn more about XR, you will leave with practical strategies for building your own dynamic shared space experiences.",
@@ -340,26 +320,6 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
-    },
-    {
-      "id": "1219234",
-      "title": "I tried to crash the universe and all I got was this stupid Chrome Denial of Service Bug",
-      "description": "As part of a mad scientist blog post I worked on last year, I developed a JavaScript implementation of the TREE(3) algorithm.  TREE(3) is a well documented solution to a problem in Graph Theory that results in some pretty big numbers.  The theory was if some universal computer could be tricked into running arbitrary code, it would be possible to cause resource exhaustion of all the computable matter in the universe.\r\n\r\nThat's a lofty goal which I am happy to say I did not achieve (I do not have a universal computer handy), but when I ran the JavaScript implementation of TREE(3), I discovered that it crashed the production version of Chrome.  This presentation will talk about what TREE(3) is, how I implemented it in JavaScript, how it uncovered a bug in Chrome, and what the process was like triaging and fixing the issue with the Chromium team.",
-      "startsAt": null,
-      "endsAt": null,
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "1cacbbcc-84f5-4add-96b9-eee5449db9ca"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": null,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": false
     },
     {
       "id": "1207464",
@@ -814,22 +774,6 @@
       "questionAnswers": []
     },
     {
-      "id": "0c4f74c9-6be8-40d0-b588-674d3b783472",
-      "firstName": "Brian",
-      "lastName": "Gorman",
-      "bio": "Brian is a Microsoft Azure MVP, speaker, author, trainer, and .NET developer with deep expertise across cloud and application development. He holds MCSA: Web App Certification, MCSD: App Builder, and thirteen Azure and GitHub certifications, including Developer, Administrator, DevOps Engineer, Solutions Architect, Data Administrator, Security Engineer, AI Engineer, and Cosmos DB — along with multiple Fundamentals certifications. Since 2019, he has also been a Microsoft Certified Trainer (MCT). \r\n\r\nBrian earned a Master of Science in Computer Information Systems and a Bachelor of Science in Computer Science. Along with 25 years of development experience, he brings over 15 years of experience teaching computer science, SQL databases, object-oriented programming (C#, VB.NET, Java), and Microsoft Office in online university settings and professional training environments.\r\n\r\nAs an educator and creator, Brian has developed numerous online training courses available across multiple platforms and has authored several books with APress, including Practical Entity Framework Core 10 (with two earlier editions) and Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204. ",
-      "tagLine": "Microsoft Azure MVP, Speaker, Author, Trainer, and .Net Developer",
-      "profilePicture": "https://cdn.sessionize.com/image/a37c-400o400o1-sVRrSNiPt7mLPSR5B51GZs.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        1346721
-      ],
-      "fullName": "Brian Gorman",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "770d6b80-a16a-4acd-a261-2467ea84e3c0",
       "firstName": "Cecil",
       "lastName": "Williams",
@@ -1132,22 +1076,6 @@
         1348613
       ],
       "fullName": "Morgan Lyddon",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
-      "id": "1cacbbcc-84f5-4add-96b9-eee5449db9ca",
-      "firstName": "Nicholas",
-      "lastName": "Starke",
-      "bio": "Nick is a professional reverse engineer with a background in low level software analysis",
-      "tagLine": "Reverse Engineer",
-      "profilePicture": "https://cdn.sessionize.com/image/c621-400o400o1-Ld3TztvW5tmTBoKFDMEqhR.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        1219234
-      ],
-      "fullName": "Nicholas Starke",
       "categoryItems": [],
       "questionAnswers": []
     },
