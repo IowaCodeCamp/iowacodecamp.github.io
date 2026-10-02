@@ -322,6 +322,26 @@
       "isConfirmed": true
     },
     {
+      "id": "1272269",
+      "title": "It’s Just a While Loop: Building Your First AI Coding Agent",
+      "description": "Behind every AI coding assistant is a surprisingly small idea: a loop that lets a language model think, call tools, and react to the results. In this intro-level session, we’ll break down how harnesses like Claude Code, OpenCode, and Pi are built, the agent loop, tool definitions, reading and editing files, running commands, and keeping the model on track. Then we’ll write a minimal coding agent together so you can see exactly where the “magic” lives. No prior AI experience required; if you can read a for-loop, you can follow along.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "0453c171-9578-4d66-a9ce-ae6bf259639e"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": null,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
       "id": "1207464",
       "title": "Juggling the Hats: Sustaining Career, Family, and Sanity in Tech",
       "description": "Software professionals operate in an environment of constant change, high expectations, and competing responsibilities. Architects, developers, leaders, parents, mentors, we often wear all the hats at once. Drawing on more than two decades as an independent consultant and technology executive, this session shares practical strategies for maintaining balance without sacrificing career momentum or personal well-being. We’ll explore managing professional timelines, protecting family commitments, investing in continuous learning, and prioritizing mental health in demanding roles. Attendees leave with concrete tools and habits they can apply immediately to reduce burnout, make better decisions, and build a sustainable long-term career in technology.",
@@ -834,6 +854,22 @@
         1212177
       ],
       "fullName": "Dustin Thostenson",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "0453c171-9578-4d66-a9ce-ae6bf259639e",
+      "firstName": "Elmin",
+      "lastName": "Didic",
+      "bio": "Elmin Didic is a Software Engineer at Claimable, wearing many hats from AI evaluation to user experience improvements. He is passionate about building things that matter with real users, focusing on human-centered design, developer experience, and building high-quality software.\r\n\r\nPreviously, Elmin worked at The Waldinger Corporation, John Deere, Source Allies, and Casey’s, gaining experience across a range of industries and technical challenges. He earned his Bachelor’s degree in Software Engineering from Iowa State University and is currently pursuing a Master’s in Computer Science at Georgia Tech, specializing in Human-Computer Interaction and Artificial Intelligence.",
+      "tagLine": "Software Engineer @ Claimable ",
+      "profilePicture": "https://cdn.sessionize.com/image/a48a-400o400o1-4ADgeSEcfbLVPxyJek7R61.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1272269
+      ],
+      "fullName": "Elmin Didic",
       "categoryItems": [],
       "questionAnswers": []
     },
