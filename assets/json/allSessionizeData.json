@@ -742,9 +742,45 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "1348880",
+      "title": "Your Own Private AI",
+      "description": "Abstract\r\n\r\nIn an era where \"everything is AI,\" the convenience of cloud-based Large Language Models (LLMs) often comes with a significant trade-off: your data privacy. But what if you could harness the power of state-of-the-art models without your sensitive information ever leaving your local network?\r\n\r\nThis session provides a practical, hands-on roadmap for setting up a Private AI environment. We will move beyond the hype to explore how to run  LLMs on hardware ranging from budget-friendly mini-PCs to high-performance NPU-equipped systems.\r\n\r\nYou will learn how to:\r\n* Deploy Local LLMs: Use tools like Ollama and Llamafile to get models running on Windows, Mac, and Linux in minutes\r\nImplement RAG (Retrieval-Augmented Generation): Learn how to \"feed\" your personal documents and data into an LLM to get context-aware answers without retraining the models\r\nEnhance the Experience: Use Open WebUI to create a polished, \"ChatGPT-like\" interface for your local models, complete with user management and sub-model restrictions.\r\nLocal Coding Assistants: Set up local, privacy-respecting alternatives to GitHub Copilot using Continue and Codium.\r\nWhether you are a developer looking for a secure coding assistant or a privacy advocate wanting to experiment with the latest AI breakthroughs, this talk will give you the tools to take control of your AI future.\r\n\r\nKey Takeaways\r\nHardware Realities: Understanding the teraflops needed for modern AI, from Raspberry Pi add-ons (18 teraflops) to the latest M5 and Co-Pilot PCs (38–45+ teraflops), and combined APUs like the Intel 285h/Panther Lake chips\r\nModel Selection & Licensing: Navigating the differences between Meta’s Community License, Mistral’s Non-Production License, and truly open-source options like Molmo (MIT license).\r\nPractical RAG: A demonstration of how to turn a simple text file or PDF into a live knowledge base for your local AI.\r\nBypassing Filters: Insights into how different local models handle \"unethical\" prompts and why \"model hopping\" is a valid engineering strategy.\r\nTarget Audience\r\nDevelopers, system administrators, and AI enthusiasts who want to implement AI solutions while maintaining 100% data sovereignty.\r\nRecommended Prerequisites\r\nBasic familiarity with the command line.\r\nAn interest in Linux (Debian/Ubuntu), macOS, or Windows (WSL2).\r\nNo prior AI/Machine Learning experience is required—this is a \"getting started\" guide.",
+      "startsAt": null,
+      "endsAt": null,
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "fd9e287d-b276-43bb-82ac-a5b568931f2c"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": null,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
     }
   ],
   "speakers": [
+    {
+      "id": "fd9e287d-b276-43bb-82ac-a5b568931f2c",
+      "firstName": "Aaron",
+      "lastName": "Grothe",
+      "bio": "Aaron Grothe has been a developer for many years.  He is a two-time winner of the International Obfuscated C Code Contest https://www.ioccc.org and has a couple of small pieces of code in the Linux kernel.  He is interested in code correctness and how we can write safer code as we head into the future.",
+      "tagLine": "Thunder Ocean/Founder",
+      "profilePicture": "https://cdn.sessionize.com/image/f706-400o400o1-ECa68YVuCkW4rWhADUfYMq.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1348880
+      ],
+      "fullName": "Aaron Grothe",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
     {
       "id": "e1a0f90d-87dd-4eaa-aced-f5f08719da07",
       "firstName": "Anwar",
@@ -813,7 +849,7 @@
       "id": "28ec08f5-eb4b-4883-9a58-88b1c084e473",
       "firstName": "Corey",
       "lastName": "McSparen",
-      "bio": "Corey McSparen is Partner and COO at We Write Code, where he wrangles all the things across business functions to ensure client success. Oh...and he deals with lots of software development contracts too. Over a 25-year career across aerospace, finance, insurance, agtech, and professional services, Corey has served as a software architect, technical lead, and full-stack developer. A graduate of the University of Iowa, Corey is passionate about building sustainable delivery processes and delivering value.",
+      "bio": "Corey McSparen is Partner and COO at WWC, where he wrangles all the things across business functions to ensure client success. Oh...and he deals with lots of software development contracts too. Over a 25-year career across aerospace, finance, insurance, agtech, and professional services, Corey has served as a software architect, technical lead, and full-stack developer. A graduate of the University of Iowa, Corey is passionate about building sustainable delivery processes and delivering value.",
       "tagLine": "COO and Partner at We Write Code",
       "profilePicture": "https://cdn.sessionize.com/image/b508-400o400o1-DN7jJQtyWDd9K6FXvux2f6.jpg",
       "isTopSpeaker": false,
@@ -974,9 +1010,9 @@
       "id": "30251a8b-c740-4110-abe3-835eccda2ff0",
       "firstName": "Levi",
       "lastName": "Rosol",
-      "bio": "Levi Rosol is the founder of We Write Code, a custom software development company based in Iowa, where he has spent more than two decades building software for clients ranging from startups to established businesses. He's also the creator of GridSmith, a modular 3D-printed tabletop terrain system born from a love of Dungeons & Dragons, rapid prototyping, and solving interesting problems.",
-      "tagLine": "Today we will GSD",
-      "profilePicture": "https://cdn.sessionize.com/image/2b47-400o400o1-BqkyandFnpKobJRcEmuYUx.jpg",
+      "bio": "Levi Rosol is the founding partner of WWC, a custom software development and technology company based in Central Iowa. He has spent more than two decades building software for clients ranging from large enterprises to startup businesses. ",
+      "tagLine": "CEO",
+      "profilePicture": "https://cdn.sessionize.com/image/591d-400o400o1-N4vaJjtA3HihEjBLe2z5Z9.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
@@ -1055,7 +1091,7 @@
       "firstName": "Mike",
       "lastName": "Clancy",
       "bio": "Specialize in agentic coding standards and enterprise AI integration. I help engineering organizations scale developer productivity and build autonomous agentic workflows into production applications.",
-      "tagLine": "Director of AI Adoption and Enablement at We Write Code",
+      "tagLine": "Director of AI Adoption and Enablement at WWC",
       "profilePicture": "https://cdn.sessionize.com/image/8504-400o400o1-hfbWsjEkZ5ygmVHq3vkLH9.jpg",
       "isTopSpeaker": false,
       "links": [],
@@ -1279,9 +1315,9 @@
       "id": "bc37b410-4640-4bcb-91d6-6181e3b30473",
       "firstName": "Tyler",
       "lastName": "Riker",
-      "bio": "Tyler Riker is a Principal Engineer and CTO at We Write Code, a software development consultancy. With 25 years of experience building software, Tyler has architected and delivered systems across industries including agriculture, healthcare, renewable energy, defense, and financial technology.\r\n\r\nHis recent work centers on agentic coding, leveraging AI to accelerate development velocity and improve software quality without sacrificing security, pragmatism, or human control. Hands-on in both architecture and code, he focuses on integrating AI models into practical developer workflows, building custom agent extensions, and enforcing robust host sandboxing.\r\n\r\nTyler’s engineering philosophy is simple: cut through unnecessary complexity, build reliable software that delivers real utility, and make sure humans stay firmly in the driver’s seat.",
-      "tagLine": "CTO at We Write Code. Pragmatic engineering, secure AI, humans in control.",
-      "profilePicture": null,
+      "bio": "Tyler Riker is a Principal Engineer and CTO at WWC, a software development consultancy. With 25 years of experience building software, Tyler has architected and delivered systems across industries including agriculture, healthcare, renewable energy, defense, and financial technology.\r\n\r\nHis recent work centers on agentic coding, leveraging AI to accelerate development velocity and improve software quality without sacrificing security, pragmatism, or human control. Hands-on in both architecture and code, he focuses on integrating AI models into practical developer workflows, building custom agent extensions, and enforcing robust host sandboxing.\r\n\r\nTyler’s engineering philosophy is simple: cut through unnecessary complexity, build reliable software that delivers real utility, and make sure humans stay firmly in the driver’s seat.",
+      "tagLine": "CTO at WWC. Pragmatic engineering, secure AI, humans in control.",
+      "profilePicture": "https://cdn.sessionize.com/image/f43a-400o400o1-VbcY3uzxiPShTi1Bx6MDgs.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
