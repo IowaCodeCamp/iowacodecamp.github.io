@@ -3083,6 +3083,7 @@ function SponsorComponent_ng_container_0_Template(rf, ctx) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("href", ctx_r0.sponsor.url, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("title", ctx_r0.sponsor.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("alt", "", ctx_r0.sponsor.name, " logo");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx_r0.sponsor.logoURL, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
@@ -3101,10 +3102,10 @@ class SponsorComponent {
     },
     decls: 1,
     vars: 1,
-    consts: [[4, "ngIf"], ["target", "_blank", 1, "inline-block", 3, "href"], ["height", "180", "width", "180", 1, "aspect-square", "object-contain", 3, "alt", "src"]],
+    consts: [[4, "ngIf"], ["target", "_blank", 1, "inline-block", 3, "href", "title"], ["height", "180", "width", "180", 1, "aspect-square", "object-contain", 3, "alt", "src"]],
     template: function SponsorComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SponsorComponent_ng_container_0_Template, 3, 3, "ng-container", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SponsorComponent_ng_container_0_Template, 3, 4, "ng-container", 0);
       }
       if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.sponsor);
