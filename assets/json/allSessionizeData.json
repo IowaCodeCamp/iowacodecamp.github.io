@@ -302,26 +302,6 @@
       "isConfirmed": true
     },
     {
-      "id": "1302474",
-      "title": "From Sidebar to Sub-Agents: A Live, Hands-On Guide to Building with AI Agents",
-      "description": "AI-assisted development has come a long way from autocomplete, further than most of us are actually using it. After a year-plus of using these tools daily on real client work, I’ve watched them go from a glorified search box to agents that can build an entire feature while I review the results from my phone.\r\n\r\nIn this session we’ll make that whole climb live, with no slides full of setup screens and “here’s my results.” We’ll start from a completely empty project and build a real REST API feature end to end, using tools like Claude Code and GitHub Copilot.\r\n\r\nWe’ll go one step at a time: asking the assistant questions, letting it edit code, then handing it tools to test and fix its own work. From there we’ll teach it your standards with custom skills, wire up the guardrails that keep it honest, and finally turn a team of sub-agents loose while we review the result.\r\n\r\nWhether you’ve never opened an AI assistant or you’re already running agents daily, there’s a place to jump in. You’ll walk away understanding how the pieces actually fit together, and how to start building this way on your own projects.",
-      "startsAt": null,
-      "endsAt": null,
-      "isServiceSession": false,
-      "isPlenumSession": false,
-      "speakers": [
-        "848de13d-1c85-4fbf-b627-1c94b80fafa1"
-      ],
-      "categoryItems": [],
-      "questionAnswers": [],
-      "roomId": null,
-      "liveUrl": null,
-      "recordingUrl": null,
-      "status": "Accepted",
-      "isInformed": true,
-      "isConfirmed": true
-    },
-    {
       "id": "1272269",
       "title": "It’s Just a While Loop: Building Your First AI Coding Agent",
       "description": "Behind every AI coding assistant is a surprisingly small idea: a loop that lets a language model think, call tools, and react to the results. In this intro-level session, we’ll break down how harnesses like Claude Code, OpenCode, and Pi are built, the agent loop, tool definitions, reading and editing files, running commands, and keeping the model on track. Then we’ll write a minimal coding agent together so you can see exactly where the “magic” lives. No prior AI experience required; if you can read a for-loop, you can follow along.",
@@ -975,22 +955,6 @@
       "questionAnswers": []
     },
     {
-      "id": "848de13d-1c85-4fbf-b627-1c94b80fafa1",
-      "firstName": "Kyle",
-      "lastName": "Hoehns",
-      "bio": "Kyle is a seasoned Software Engineer with over 15 years of experience in the development and implementation of complex software solutions. With a strong foundation in backend technologies like Java and Go, Kyle has consistently delivered high-quality, scalable, and efficient solutions across various industries. He is passionate about solving problems and believes in not taking himself too seriously. ",
-      "tagLine": "Staff Software Engineer and Teammate Pipeline Architect at Source Allies",
-      "profilePicture": "https://cdn.sessionize.com/image/0d64-400o400o1-HkA6uxuiWECw7FFTnhbFJY.jpg",
-      "isTopSpeaker": false,
-      "links": [],
-      "sessions": [
-        1302474
-      ],
-      "fullName": "Kyle Hoehns",
-      "categoryItems": [],
-      "questionAnswers": []
-    },
-    {
       "id": "322780b2-ca8e-449a-894b-5f36bf8258bc",
       "firstName": "Lara",
       "lastName": "Newsom",
@@ -1299,8 +1263,8 @@
       "id": "371dd327-b1ac-42ab-9aca-41195638950c",
       "firstName": "Travis",
       "lastName": "Smith",
-      "bio": "Travis Smith is the Director of Engineering at Shift Interactive, a lead engineer on teams that build applications across healthcare, agriculture, insurance, and other industries. Over his 17+ year career, he's worked with organizations ranging from Fortune 500 companies to startups.\r\n\r\nTravis is a passionate advocate for Test-Driven Development and Extreme Programming practices. He speaks regularly at Des Moines-area meetups and conferences, covering topics including DORA metrics implementation, branching strategies, delivering software extremely quickly, DevOps, Claude Code, and automated testing for AI features.\r\n\r\nBased in the Des Moines metro, Travis is dedicated to helping engineers grow throughout the Midwest.",
-      "tagLine": "Director of Engineering at Shift Interactive",
+      "bio": "Travis Smith is a professional software engineer/builder based in the Des Moines, IA area, with 18+ years shipping full-stack web, mobile, and cloud products. Travis cares most about building software that is well-crafted, well-tested, and genuinely useful to the people who depend on it.\r\n\r\nTravis is a passionate advocate for Test-Driven Development and Extreme Programming practices. He speaks regularly at Des Moines-area meetups and conferences, covering topics including DORA metrics implementation, branching strategies, delivering software extremely quickly, DevOps, Claude Code, and automated testing for AI features.\r\n\r\nBased in the Des Moines metro, Travis is dedicated to helping engineers grow throughout the Midwest.",
+      "tagLine": "Professional Software Engineer/Builder",
       "profilePicture": "https://cdn.sessionize.com/image/0b03-400o400o1-EL9u6M6eQQhf7BGUzxthe1.jpg",
       "isTopSpeaker": false,
       "links": [],
