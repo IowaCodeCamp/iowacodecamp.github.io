@@ -18,7 +18,7 @@ const appConfig = {
   eventLocation: 'Ankeny, IA',
   year: 2026,
   showResources: false,
-  showSchedule: false,
+  showSchedule: true,
   showSpeakers: true,
   showSessions: true,
   showCallForSpeakers: false,
