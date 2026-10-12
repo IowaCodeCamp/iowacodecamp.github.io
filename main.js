@@ -490,7 +490,8 @@ __webpack_require__.r(__webpack_exports__);
 const environment = {
   production: false,
   apiUrl: 'http://localhost:81/api',
-  tokenAuthority: 'http://localhost:5001'
+  tokenAuthority: 'http://localhost:5001',
+  showSignupCallout: false
 };
 /*
  * For easier debugging in development mode, you can import the following file

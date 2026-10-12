@@ -2718,13 +2718,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   ShellComponent: () => (/* binding */ ShellComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _app_shared_services_registration_count_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @app/shared/services/registration-count.service */ 4983);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _attendees_banner_attendees_banner_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../attendees-banner/attendees-banner.component */ 3786);
-/* harmony import */ var _callout_signup_callout_signup_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../callout-signup/callout-signup.component */ 3159);
-/* harmony import */ var _callout_social_callout_social_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../callout-social/callout-social.component */ 4289);
-/* harmony import */ var _page_title_page_title_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../page-title/page-title.component */ 1562);
+/* harmony import */ var src_environments_environment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! src/environments/environment */ 553);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _app_shared_services_registration_count_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @app/shared/services/registration-count.service */ 4983);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _attendees_banner_attendees_banner_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../attendees-banner/attendees-banner.component */ 3786);
+/* harmony import */ var _callout_signup_callout_signup_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../callout-signup/callout-signup.component */ 3159);
+/* harmony import */ var _callout_social_callout_social_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../callout-social/callout-social.component */ 4289);
+/* harmony import */ var _page_title_page_title_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../page-title/page-title.component */ 1562);
+
 
 
 
@@ -2734,9 +2736,14 @@ __webpack_require__.r(__webpack_exports__);
 
 function ShellComponent_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](1, "app-attendees-banner");
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](1, "app-attendees-banner");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+  }
+}
+function ShellComponent_app_callout_signup_5_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "app-callout-signup");
   }
 }
 const _c0 = function (a0) {
@@ -2750,11 +2757,12 @@ class ShellComponent {
     this.registrationCountService = registrationCountService;
     this.pageTitle = 'Page Title';
     this.showAttendeesBanner = this.registrationCountService.showBanner;
+    this.showSignupCallout = src_environments_environment__WEBPACK_IMPORTED_MODULE_0__.environment.showSignupCallout;
   }
   static #_ = this.ɵfac = function ShellComponent_Factory(t) {
-    return new (t || ShellComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_app_shared_services_registration_count_service__WEBPACK_IMPORTED_MODULE_0__.RegistrationCountService));
+    return new (t || ShellComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_app_shared_services_registration_count_service__WEBPACK_IMPORTED_MODULE_1__.RegistrationCountService));
   };
-  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({
     type: ShellComponent,
     selectors: [["app-shell"]],
     inputs: {
@@ -2762,29 +2770,32 @@ class ShellComponent {
     },
     ngContentSelectors: _c1,
     decls: 7,
-    vars: 5,
-    consts: [[1, "block", 3, "ngClass"], ["class", "mb-40", 4, "ngIf"], [1, "px-16"], [3, "text"], [1, "mb-40"]],
+    vars: 6,
+    consts: [[1, "block", 3, "ngClass"], ["class", "mb-40", 4, "ngIf"], [1, "px-16"], [3, "text"], [4, "ngIf"], [1, "mb-40"]],
     template: function ShellComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵprojectionDef"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "main", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](1, ShellComponent_div_1_Template, 2, 0, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](3, "app-page-title", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵprojection"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](5, "app-callout-signup")(6, "app-callout-social");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵprojectionDef"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "main", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](1, ShellComponent_div_1_Template, 2, 0, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](3, "app-page-title", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵprojection"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](5, ShellComponent_app_callout_signup_5_Template, 1, 0, "app-callout-signup", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](6, "app-callout-social");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
       }
       if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction1"](3, _c0, !ctx.showAttendeesBanner));
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngIf", ctx.showAttendeesBanner);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("text", ctx.pageTitle);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction1"](4, _c0, !ctx.showAttendeesBanner));
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.showAttendeesBanner);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("text", ctx.pageTitle);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngIf", ctx.showSignupCallout);
       }
     },
-    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_6__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_6__.NgIf, _attendees_banner_attendees_banner_component__WEBPACK_IMPORTED_MODULE_1__.AttendeesBannerComponent, _callout_signup_callout_signup_component__WEBPACK_IMPORTED_MODULE_2__.CalloutSignupComponent, _callout_social_callout_social_component__WEBPACK_IMPORTED_MODULE_3__.CalloutSocialComponent, _page_title_page_title_component__WEBPACK_IMPORTED_MODULE_4__.PageTitleComponent],
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_7__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_7__.NgIf, _attendees_banner_attendees_banner_component__WEBPACK_IMPORTED_MODULE_2__.AttendeesBannerComponent, _callout_signup_callout_signup_component__WEBPACK_IMPORTED_MODULE_3__.CalloutSignupComponent, _callout_social_callout_social_component__WEBPACK_IMPORTED_MODULE_4__.CalloutSocialComponent, _page_title_page_title_component__WEBPACK_IMPORTED_MODULE_5__.PageTitleComponent],
     encapsulation: 2
   });
 }
