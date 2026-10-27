@@ -921,6 +921,10 @@ html,
   -moz-column-gap: 2rem;
        column-gap: 2rem;
 }
+.gap-x-48 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
 .gap-y-32 {
   row-gap: 2rem;
 }

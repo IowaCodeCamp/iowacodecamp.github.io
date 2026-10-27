@@ -3139,7 +3139,7 @@ class SponsorComponent {
     },
     decls: 1,
     vars: 1,
-    consts: [[4, "ngIf"], ["target", "_blank", 1, "inline-block", 3, "href", "title"], ["height", "180", "width", "180", 1, "aspect-square", "object-contain", 3, "alt", "src"]],
+    consts: [[4, "ngIf"], ["target", "_blank", 1, "inline-block", 3, "href", "title"], ["height", "180", "width", "180", 1, "aspect-square", "object-contain", "p-16", 3, "alt", "src"]],
     template: function SponsorComponent_Template(rf, ctx) {
       if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, SponsorComponent_ng_container_0_Template, 3, 4, "ng-container", 0);

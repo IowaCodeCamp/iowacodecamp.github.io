@@ -56,6 +56,11 @@
         "name": "Shazam",
         "url": "https://www.shazam.net/who-we-are/careers",
         "logoURL": "/assets/images/sponsors/shazam.png"
+      },
+      {
+        "name": "Aviron Software",
+        "url": "https://www.avironsoftware.com/",
+        "logoURL": "/assets/images/sponsors/aviron.png"
       }
     ]
   },
