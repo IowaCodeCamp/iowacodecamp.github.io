@@ -690,8 +690,8 @@
     },
     {
       "id": "1285739",
-      "title": "Terraform Plan Prettier: A Lesson on Signal vs Noise in the AI world",
-      "description": "I've wrote a GHA that turns a Terraform Plan into a collapsible Markdown file with diff highlighting for the changes. This talk will be about why problem the team faced at the beginning, the problem we're trying to solve, where we ended up, and how this can be taken further. There will also be a brief introduction of Terraform and the lessons learnt, including Signal vs Noise in the modern SDLC. ",
+      "title": "Terraform Plan Prettier: A Lesson on Signal vs Noise in the age of AI",
+      "description": "A simple effort to make Terraform plans easier to review uncovered a much larger problem: information overload. This talk explores how reducing noise improved engineering decisions, and why the same challenge is becoming even more important in an AI-powered world.",
       "startsAt": "2026-11-07T14:15:00",
       "endsAt": "2026-11-07T15:15:00",
       "isServiceSession": false,
