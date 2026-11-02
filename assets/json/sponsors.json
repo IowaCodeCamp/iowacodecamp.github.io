@@ -17,6 +17,11 @@
   {
     "name": "Registration Desk Sponsor",
     "sponsors": [
+      {
+        "name": "QCI",
+        "url": "https://www.qci.com/",
+        "logoURL": "/assets/images/sponsors/qci.jpeg"
+      }
     ]
   },
   {
