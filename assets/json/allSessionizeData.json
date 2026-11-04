@@ -689,6 +689,26 @@
       "isConfirmed": true
     },
     {
+      "id": "1346721",
+      "title": "Creating Domain Invariants: Keeping Your Business Logic Out of the Callers",
+      "description": "Domain invariants define the conditions that must remain true throughout a domain object’s lifecycle. Enforcing these conditions within the domain model ensures that object creation and subsequent changes follow business rules without requiring calling code to implement those rules independently.\r\n\r\nThis session examines how to establish and preserve invariants in C# using principles of domain-driven design. Topics include private constructors and factory methods for controlled creation, guard clauses for validation, private setters and backing fields for encapsulation, read-only collections for protecting aggregate contents, and domain methods for governing state transitions and object mutation. Value objects provide an additional means of enforcing rules for related values.\r\n\r\nAn Order aggregate serves as the implementation example, demonstrating how these techniques work together and how EF Core persists and materializes the resulting model. Attendees will learn to design domain classes that enforce valid state through their public operations and maintain a clear boundary between business behavior and persistence concerns.",
+      "startsAt": "2026-11-07T14:15:00",
+      "endsAt": "2026-11-07T15:15:00",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "0c4f74c9-6be8-40d0-b588-674d3b783472"
+      ],
+      "categoryItems": [],
+      "questionAnswers": [],
+      "roomId": 82329,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": true
+    },
+    {
       "id": "1285739",
       "title": "Terraform Plan Prettier: A Lesson on Signal vs Noise in the age of AI",
       "description": "A simple effort to make Terraform plans easier to review uncovered a much larger problem: information overload. This talk explores how reducing noise improved engineering decisions, and why the same challenge is becoming even more important in an AI-powered world.",
@@ -968,6 +988,22 @@
         1347292
       ],
       "fullName": "Benjamin Sampica",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "0c4f74c9-6be8-40d0-b588-674d3b783472",
+      "firstName": "Brian",
+      "lastName": "Gorman",
+      "bio": "Brian is a Microsoft Azure MVP, speaker, author, trainer, and .NET developer with deep expertise across cloud and application development. He holds MCSA: Web App Certification, MCSD: App Builder, and thirteen Azure and GitHub certifications, including Developer, Administrator, DevOps Engineer, Solutions Architect, Data Administrator, Security Engineer, AI Engineer, and Cosmos DB — along with multiple Fundamentals certifications. Since 2019, he has also been a Microsoft Certified Trainer (MCT). \r\n\r\nBrian earned a Master of Science in Computer Information Systems and a Bachelor of Science in Computer Science. Along with 25 years of development experience, he brings over 15 years of experience teaching computer science, SQL databases, object-oriented programming (C#, VB.NET, Java), and Microsoft Office in online university settings and professional training environments.\r\n\r\nAs an educator and creator, Brian has developed numerous online training courses available across multiple platforms and has authored several books with APress, including Practical Entity Framework Core 10 (with two earlier editions) and Developing Solutions for Microsoft Azure Certification Companion: Hands-on Preparation and Practice for Exam AZ-204. ",
+      "tagLine": "Microsoft Azure MVP, Speaker, Author, Trainer, and .Net Developer",
+      "profilePicture": "https://cdn.sessionize.com/image/a37c-400o400o1-sVRrSNiPt7mLPSR5B51GZs.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1346721
+      ],
+      "fullName": "Brian Gorman",
       "categoryItems": [],
       "questionAnswers": []
     },
