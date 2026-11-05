@@ -3,8 +3,8 @@
     "name": "Event Sponsor",
     "sponsors": [
       {
-        "name": "We Write Code",
-        "url": "https://wewritecode.com/",
+        "name": "WWC",
+        "url": "https://gowwc.com/",
         "logoURL": "/assets/images/sponsors/wwc.png"
       }
     ]
