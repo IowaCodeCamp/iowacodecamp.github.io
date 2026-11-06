@@ -7,7 +7,7 @@
   {
     "linkType": "linkedin",
     "title": "linkedin",
-    "url": "https://www.linkedin.com/groups/1857235/"
+    "url": "https://www.linkedin.com/company/iowa-code-camp"
   },
   {
     "linkType": "github",
@@ -23,6 +23,11 @@
     "linkType": "mastodon",
     "title": "mastodon",
     "url": "https://mastodon.social/@iowacodecamp"
+  },
+  {
+    "linkType": "bluesky",
+    "title": "bluesky",
+    "url": "https://bsky.app/profile/iowacodecamp.bsky.social"
   },
   {
     "linkType": "email",

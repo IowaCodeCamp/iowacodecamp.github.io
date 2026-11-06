@@ -2800,8 +2800,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SocialLinksComponent: () => (/* binding */ SocialLinksComponent)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 1699);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ 6575);
 /* harmony import */ var _svg_components_website_website_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../svg-components/website/website.component */ 7815);
 /* harmony import */ var _svg_components_facebook_facebook_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../svg-components/facebook/facebook.component */ 2783);
 /* harmony import */ var _svg_components_twitter_twitter_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../svg-components/twitter/twitter.component */ 7858);
@@ -2809,6 +2809,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _svg_components_email_email_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../svg-components/email/email.component */ 9216);
 /* harmony import */ var _svg_components_linkedin_linkedin_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../svg-components/linkedin/linkedin.component */ 4865);
 /* harmony import */ var _svg_components_mastodon_mastodon_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../svg-components/mastodon/mastodon.component */ 9616);
+/* harmony import */ var _svg_components_bluesky_bluesky_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../svg-components/bluesky/bluesky.component */ 6144);
+
 
 
 
@@ -2820,98 +2822,108 @@ __webpack_require__.r(__webpack_exports__);
 
 function SocialLinksComponent_ng_container_0_li_2_ng_container_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-linkedin");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "app-linkedin");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
 }
 function SocialLinksComponent_ng_container_0_li_2_ng_container_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-github");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "app-github");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
 }
 function SocialLinksComponent_ng_container_0_li_2_ng_container_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-twitter");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "app-twitter");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
 }
 function SocialLinksComponent_ng_container_0_li_2_ng_container_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-facebook");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "app-facebook");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
 }
 function SocialLinksComponent_ng_container_0_li_2_ng_container_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-website");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "app-website");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
 }
 function SocialLinksComponent_ng_container_0_li_2_ng_container_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-email");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "app-email");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
 }
 function SocialLinksComponent_ng_container_0_li_2_ng_container_8_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelement"](1, "app-mastodon");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "app-bluesky");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
+  }
+}
+function SocialLinksComponent_ng_container_0_li_2_ng_container_9_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "app-mastodon");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
 }
 function SocialLinksComponent_ng_container_0_li_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "li")(1, "a", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, SocialLinksComponent_ng_container_0_li_2_ng_container_2_Template, 2, 0, "ng-container", 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](3, SocialLinksComponent_ng_container_0_li_2_ng_container_3_Template, 2, 0, "ng-container", 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](4, SocialLinksComponent_ng_container_0_li_2_ng_container_4_Template, 2, 0, "ng-container", 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](5, SocialLinksComponent_ng_container_0_li_2_ng_container_5_Template, 2, 0, "ng-container", 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](6, SocialLinksComponent_ng_container_0_li_2_ng_container_6_Template, 2, 0, "ng-container", 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](7, SocialLinksComponent_ng_container_0_li_2_ng_container_7_Template, 2, 0, "ng-container", 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](8, SocialLinksComponent_ng_container_0_li_2_ng_container_8_Template, 2, 0, "ng-container", 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "li")(1, "a", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](2, SocialLinksComponent_ng_container_0_li_2_ng_container_2_Template, 2, 0, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](3, SocialLinksComponent_ng_container_0_li_2_ng_container_3_Template, 2, 0, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](4, SocialLinksComponent_ng_container_0_li_2_ng_container_4_Template, 2, 0, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](5, SocialLinksComponent_ng_container_0_li_2_ng_container_5_Template, 2, 0, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](6, SocialLinksComponent_ng_container_0_li_2_ng_container_6_Template, 2, 0, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, SocialLinksComponent_ng_container_0_li_2_ng_container_7_Template, 2, 0, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](8, SocialLinksComponent_ng_container_0_li_2_ng_container_8_Template, 2, 0, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](9, SocialLinksComponent_ng_container_0_li_2_ng_container_9_Template, 2, 0, "ng-container", 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
     const link_r2 = ctx.$implicit;
-    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("href", link_r2.url, _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵsanitizeUrl"])("ngClass", ctx_r1.isBlack ? "text-black" : "text-orange");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "linkedin");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "github");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "twitter");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "facebook");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "website");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "email");
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "mastodon");
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("href", link_r2.url, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵsanitizeUrl"])("ngClass", ctx_r1.isBlack ? "text-black" : "text-orange");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "linkedin");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "github");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "twitter");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "facebook");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "website");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "email");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "bluesky");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", (link_r2.linkType == null ? null : link_r2.linkType.toLowerCase()) === "mastodon");
   }
 }
 function SocialLinksComponent_ng_container_0_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](1, "ul", 1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](2, SocialLinksComponent_ng_container_0_li_2_Template, 9, 9, "li", 2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "ul", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](2, SocialLinksComponent_ng_container_0_li_2_Template, 10, 10, "li", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
-    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngForOf", ctx_r0.links);
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngForOf", ctx_r0.links);
   }
 }
 class SocialLinksComponent {
@@ -2922,7 +2934,7 @@ class SocialLinksComponent {
   static #_ = this.ɵfac = function SocialLinksComponent_Factory(t) {
     return new (t || SocialLinksComponent)();
   };
-  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineComponent"]({
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineComponent"]({
     type: SocialLinksComponent,
     selectors: [["app-social-links"]],
     inputs: {
@@ -2934,13 +2946,13 @@ class SocialLinksComponent {
     consts: [[4, "ngIf"], [1, "flex", "justify-center", "items-center", "flex-wrap", "gap-x-20", "gap-y-32"], [4, "ngFor", "ngForOf"], ["target", "_blank", 1, "block", "w-20", 3, "href", "ngClass"]],
     template: function SocialLinksComponent_Template(rf, ctx) {
       if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtemplate"](0, SocialLinksComponent_ng_container_0_Template, 3, 1, "ng-container", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](0, SocialLinksComponent_ng_container_0_Template, 3, 1, "ng-container", 0);
       }
       if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("ngIf", ctx.links);
+        _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.links);
       }
     },
-    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_8__.NgIf, _svg_components_website_website_component__WEBPACK_IMPORTED_MODULE_0__.WebsiteComponent, _svg_components_facebook_facebook_component__WEBPACK_IMPORTED_MODULE_1__.FacebookComponent, _svg_components_twitter_twitter_component__WEBPACK_IMPORTED_MODULE_2__.TwitterComponent, _svg_components_github_github_component__WEBPACK_IMPORTED_MODULE_3__.GithubComponent, _svg_components_email_email_component__WEBPACK_IMPORTED_MODULE_4__.EmailComponent, _svg_components_linkedin_linkedin_component__WEBPACK_IMPORTED_MODULE_5__.LinkedinComponent, _svg_components_mastodon_mastodon_component__WEBPACK_IMPORTED_MODULE_6__.MastodonComponent],
+    dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_9__.NgIf, _svg_components_website_website_component__WEBPACK_IMPORTED_MODULE_0__.WebsiteComponent, _svg_components_facebook_facebook_component__WEBPACK_IMPORTED_MODULE_1__.FacebookComponent, _svg_components_twitter_twitter_component__WEBPACK_IMPORTED_MODULE_2__.TwitterComponent, _svg_components_github_github_component__WEBPACK_IMPORTED_MODULE_3__.GithubComponent, _svg_components_email_email_component__WEBPACK_IMPORTED_MODULE_4__.EmailComponent, _svg_components_linkedin_linkedin_component__WEBPACK_IMPORTED_MODULE_5__.LinkedinComponent, _svg_components_mastodon_mastodon_component__WEBPACK_IMPORTED_MODULE_6__.MastodonComponent, _svg_components_bluesky_bluesky_component__WEBPACK_IMPORTED_MODULE_7__.BlueskyComponent],
     encapsulation: 2
   });
 }
@@ -3189,6 +3201,46 @@ class SponsorshipDocLinkComponent {
       }
     },
     dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLink],
+    encapsulation: 2
+  });
+}
+
+/***/ }),
+
+/***/ 6144:
+/*!*******************************************************************************!*\
+  !*** ./src/app/layout/components/svg-components/bluesky/bluesky.component.ts ***!
+  \*******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   BlueskyComponent: () => (/* binding */ BlueskyComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 1699);
+
+class BlueskyComponent {
+  constructor() {}
+  static #_ = this.ɵfac = function BlueskyComponent_Factory(t) {
+    return new (t || BlueskyComponent)();
+  };
+  static #_2 = this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+    type: BlueskyComponent,
+    selectors: [["app-bluesky"]],
+    decls: 4,
+    vars: 0,
+    consts: [["aria-labelledby", "title description", "width", "100%", "viewBox", "0 0 24 24", "fill", "none", "xmlns", "http://www.w3.org/2000/svg", 1, "w-full", "h-auto", "fill-inherit"], ["fill", "currentColor", "d", "M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"]],
+    template: function BlueskyComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnamespaceSVG"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "svg", 0)(1, "title");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Bluesky logo");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "path", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+      }
+    },
     encapsulation: 2
   });
 }
@@ -3884,8 +3936,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   LayoutModule: () => (/* binding */ LayoutModule)
 /* harmony export */ });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! @angular/common */ 6575);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! @angular/router */ 7947);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! @angular/common */ 6575);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! @angular/router */ 7947);
 /* harmony import */ var _app_shared_shared_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @app/shared/shared.module */ 6208);
 /* harmony import */ var _components_load_spinner_load_spinner_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/load-spinner/load-spinner.component */ 7955);
 /* harmony import */ var _components_modal_components_base_modal_base_modal_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/modal-components/base-modal/base-modal.component */ 1798);
@@ -3911,7 +3963,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_tables_table_cell_table_cell_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/tables/table-cell/table-cell.component */ 8091);
 /* harmony import */ var _components_tables_table_header_table_header_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/tables/table-header/table-header.component */ 1996);
 /* harmony import */ var _components_tables_table_table_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/tables/table/table.component */ 1082);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! @angular/forms */ 8849);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! @angular/forms */ 8849);
 /* harmony import */ var _components_sponsor_sponsor_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/sponsor/sponsor.component */ 8823);
 /* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/header/header.component */ 8246);
 /* harmony import */ var _components_nav_nav_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/nav/nav.component */ 6317);
@@ -3944,7 +3996,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_attendees_banner_attendees_banner_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./components/attendees-banner/attendees-banner.component */ 3786);
 /* harmony import */ var _components_sponsorship_doc_link_sponsorship_doc_link_component__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./components/sponsorship-doc-link/sponsorship-doc-link.component */ 9223);
 /* harmony import */ var _components_svg_components_mastodon_mastodon_component__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./components/svg-components/mastodon/mastodon.component */ 9616);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! @angular/core */ 1699);
+/* harmony import */ var _components_svg_components_bluesky_bluesky_component__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./components/svg-components/bluesky/bluesky.component */ 6144);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! @angular/core */ 1699);
 
 
 
@@ -4011,25 +4064,26 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 class LayoutModule {
   static #_ = this.ɵfac = function LayoutModule_Factory(t) {
     return new (t || LayoutModule)();
   };
-  static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_57__["ɵɵdefineNgModule"]({
+  static #_2 = this.ɵmod = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_58__["ɵɵdefineNgModule"]({
     type: LayoutModule
   });
-  static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_57__["ɵɵdefineInjector"]({
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_58__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_59__.RouterModule, _angular_forms__WEBPACK_IMPORTED_MODULE_60__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_60__.ReactiveFormsModule, _app_shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule]
+  static #_3 = this.ɵinj = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_58__["ɵɵdefineInjector"]({
+    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_59__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_60__.RouterModule, _angular_forms__WEBPACK_IMPORTED_MODULE_61__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_61__.ReactiveFormsModule, _app_shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule]
   });
 }
 (function () {
-  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_57__["ɵɵsetNgModuleScope"](LayoutModule, {
-    declarations: [_components_sponsorship_doc_link_sponsorship_doc_link_component__WEBPACK_IMPORTED_MODULE_55__.SponsorshipDocLinkComponent, _components_attendees_banner_attendees_banner_component__WEBPACK_IMPORTED_MODULE_54__.AttendeesBannerComponent, _components_register_button_register_button_component__WEBPACK_IMPORTED_MODULE_53__.RegisterButtonComponent, _components_callout_signup_callout_signup_component__WEBPACK_IMPORTED_MODULE_52__.CalloutSignupComponent, _components_callout_social_callout_social_component__WEBPACK_IMPORTED_MODULE_51__.CalloutSocialComponent, _components_speaker_speaker_component__WEBPACK_IMPORTED_MODULE_50__.SpeakerComponent, _components_social_links_social_links_component__WEBPACK_IMPORTED_MODULE_49__.SocialLinksComponent, _components_nav_mobile_nav_mobile_component__WEBPACK_IMPORTED_MODULE_17__.NavMobileComponent, _components_hamburger_menu_hamburger_menu_component__WEBPACK_IMPORTED_MODULE_7__.HamburgerMenuComponent, _components_persona_modal_persona_modal_component__WEBPACK_IMPORTED_MODULE_18__.PersonaModalComponent, _components_form_components_required_message_required_message_component__WEBPACK_IMPORTED_MODULE_16__.RequiredMessageComponent, _components_form_components_required_asterisk_required_asterisk_component__WEBPACK_IMPORTED_MODULE_15__.RequiredAsteriskComponent, _components_form_components_label_label_component__WEBPACK_IMPORTED_MODULE_14__.LabelComponent, _components_form_components_textarea_textarea_component__WEBPACK_IMPORTED_MODULE_13__.TextareaComponent, _components_form_components_select_select_component__WEBPACK_IMPORTED_MODULE_9__.SelectComponent, _components_svg_components_triangle_triangle_component__WEBPACK_IMPORTED_MODULE_48__.TriangleComponent, _components_accordion_button_accordion_button_component__WEBPACK_IMPORTED_MODULE_40__.AccordionButtonComponent, _components_hr_hr_component__WEBPACK_IMPORTED_MODULE_39__.HRComponent, _components_svg_components_website_website_component__WEBPACK_IMPORTED_MODULE_47__.WebsiteComponent, _components_svg_components_facebook_facebook_component__WEBPACK_IMPORTED_MODULE_46__.FacebookComponent, _components_svg_components_twitter_twitter_component__WEBPACK_IMPORTED_MODULE_45__.TwitterComponent, _components_svg_components_github_github_component__WEBPACK_IMPORTED_MODULE_44__.GithubComponent, _components_svg_components_email_email_component__WEBPACK_IMPORTED_MODULE_43__.EmailComponent, _components_svg_components_linkedin_linkedin_component__WEBPACK_IMPORTED_MODULE_42__.LinkedinComponent, _components_svg_components_mastodon_mastodon_component__WEBPACK_IMPORTED_MODULE_56__.MastodonComponent, _components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_41__.LogoComponent, _components_persona_short_persona_short_component__WEBPACK_IMPORTED_MODULE_38__.PersonaShortComponent, _components_session_session_component__WEBPACK_IMPORTED_MODULE_37__.SessionComponent, _components_sponsor_sponsor_component__WEBPACK_IMPORTED_MODULE_25__.SponsorComponent, _components_persona_persona_component__WEBPACK_IMPORTED_MODULE_36__.PersonaComponent, _components_tag_tag_component__WEBPACK_IMPORTED_MODULE_35__.TagComponent, _components_button_button_component__WEBPACK_IMPORTED_MODULE_34__.ButtonComponent, _components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_33__.UnderlinedHeadingComponent, _components_divider_divider_component__WEBPACK_IMPORTED_MODULE_32__.DividerComponent, _components_shell_shell_component__WEBPACK_IMPORTED_MODULE_30__.ShellComponent, _components_page_title_page_title_component__WEBPACK_IMPORTED_MODULE_31__.PageTitleComponent, _components_nav_nav_component__WEBPACK_IMPORTED_MODULE_27__.NavComponent, _components_header_header_component__WEBPACK_IMPORTED_MODULE_26__.HeaderComponent, _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_28__.FooterComponent, _components_confirm_modal_confirm_modal_component__WEBPACK_IMPORTED_MODULE_29__.ConfirmModalComponent, _components_load_spinner_load_spinner_component__WEBPACK_IMPORTED_MODULE_1__.LoadSpinnerComponent, _components_modal_components_base_modal_base_modal_component__WEBPACK_IMPORTED_MODULE_2__.BaseModalComponent, _components_modal_components_modal_shell_modal_shell_component__WEBPACK_IMPORTED_MODULE_3__.ModalShellComponent, _components_modal_components_modal_header_modal_header_component__WEBPACK_IMPORTED_MODULE_4__.ModalHeaderComponent, _components_modal_components_modal_body_modal_body_component__WEBPACK_IMPORTED_MODULE_5__.ModalBodyComponent, _components_modal_components_modal_footer_modal_footer_component__WEBPACK_IMPORTED_MODULE_20__.ModalFooterComponent, _components_form_components_input_group_input_group_component__WEBPACK_IMPORTED_MODULE_11__.InputGroupComponent, _components_tables_table_table_component__WEBPACK_IMPORTED_MODULE_24__.TableComponent, _components_form_components_checkbox_checkbox_component__WEBPACK_IMPORTED_MODULE_10__.CheckboxComponent, _components_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_21__.SearchBarComponent, _components_form_components_input_requirements_list_input_requirements_list_component__WEBPACK_IMPORTED_MODULE_12__.InputRequirementsListComponent, _components_error_message_error_message_component__WEBPACK_IMPORTED_MODULE_6__.ErrorMessageComponent, _components_form_components_autofocus_input_group_autofocus_input_group_component__WEBPACK_IMPORTED_MODULE_8__.AutofocusInputGroupComponent, _components_modal_components_confirmation_modal_confirmation_modal_component__WEBPACK_IMPORTED_MODULE_19__.ConfirmationModalComponent, _components_tables_table_header_table_header_component__WEBPACK_IMPORTED_MODULE_23__.TableHeaderComponent, _components_tables_table_cell_table_cell_component__WEBPACK_IMPORTED_MODULE_22__.TableCellComponent],
-    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_58__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_59__.RouterModule, _angular_forms__WEBPACK_IMPORTED_MODULE_60__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_60__.ReactiveFormsModule, _app_shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule],
-    exports: [_components_sponsorship_doc_link_sponsorship_doc_link_component__WEBPACK_IMPORTED_MODULE_55__.SponsorshipDocLinkComponent, _components_attendees_banner_attendees_banner_component__WEBPACK_IMPORTED_MODULE_54__.AttendeesBannerComponent, _components_register_button_register_button_component__WEBPACK_IMPORTED_MODULE_53__.RegisterButtonComponent, _components_callout_signup_callout_signup_component__WEBPACK_IMPORTED_MODULE_52__.CalloutSignupComponent, _components_callout_social_callout_social_component__WEBPACK_IMPORTED_MODULE_51__.CalloutSocialComponent, _components_speaker_speaker_component__WEBPACK_IMPORTED_MODULE_50__.SpeakerComponent, _components_social_links_social_links_component__WEBPACK_IMPORTED_MODULE_49__.SocialLinksComponent, _components_nav_mobile_nav_mobile_component__WEBPACK_IMPORTED_MODULE_17__.NavMobileComponent, _components_hamburger_menu_hamburger_menu_component__WEBPACK_IMPORTED_MODULE_7__.HamburgerMenuComponent, _components_persona_modal_persona_modal_component__WEBPACK_IMPORTED_MODULE_18__.PersonaModalComponent, _components_form_components_required_message_required_message_component__WEBPACK_IMPORTED_MODULE_16__.RequiredMessageComponent, _components_form_components_required_asterisk_required_asterisk_component__WEBPACK_IMPORTED_MODULE_15__.RequiredAsteriskComponent, _components_form_components_label_label_component__WEBPACK_IMPORTED_MODULE_14__.LabelComponent, _components_form_components_textarea_textarea_component__WEBPACK_IMPORTED_MODULE_13__.TextareaComponent, _components_form_components_select_select_component__WEBPACK_IMPORTED_MODULE_9__.SelectComponent, _components_svg_components_triangle_triangle_component__WEBPACK_IMPORTED_MODULE_48__.TriangleComponent, _components_accordion_button_accordion_button_component__WEBPACK_IMPORTED_MODULE_40__.AccordionButtonComponent, _components_hr_hr_component__WEBPACK_IMPORTED_MODULE_39__.HRComponent, _components_svg_components_website_website_component__WEBPACK_IMPORTED_MODULE_47__.WebsiteComponent, _components_svg_components_facebook_facebook_component__WEBPACK_IMPORTED_MODULE_46__.FacebookComponent, _components_svg_components_twitter_twitter_component__WEBPACK_IMPORTED_MODULE_45__.TwitterComponent, _components_svg_components_github_github_component__WEBPACK_IMPORTED_MODULE_44__.GithubComponent, _components_svg_components_email_email_component__WEBPACK_IMPORTED_MODULE_43__.EmailComponent, _components_svg_components_linkedin_linkedin_component__WEBPACK_IMPORTED_MODULE_42__.LinkedinComponent, _components_svg_components_mastodon_mastodon_component__WEBPACK_IMPORTED_MODULE_56__.MastodonComponent, _components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_41__.LogoComponent, _components_persona_short_persona_short_component__WEBPACK_IMPORTED_MODULE_38__.PersonaShortComponent, _components_session_session_component__WEBPACK_IMPORTED_MODULE_37__.SessionComponent, _components_sponsor_sponsor_component__WEBPACK_IMPORTED_MODULE_25__.SponsorComponent, _components_persona_persona_component__WEBPACK_IMPORTED_MODULE_36__.PersonaComponent, _components_tag_tag_component__WEBPACK_IMPORTED_MODULE_35__.TagComponent, _components_button_button_component__WEBPACK_IMPORTED_MODULE_34__.ButtonComponent, _components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_33__.UnderlinedHeadingComponent, _components_divider_divider_component__WEBPACK_IMPORTED_MODULE_32__.DividerComponent, _components_shell_shell_component__WEBPACK_IMPORTED_MODULE_30__.ShellComponent, _components_page_title_page_title_component__WEBPACK_IMPORTED_MODULE_31__.PageTitleComponent, _components_nav_nav_component__WEBPACK_IMPORTED_MODULE_27__.NavComponent, _components_header_header_component__WEBPACK_IMPORTED_MODULE_26__.HeaderComponent, _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_28__.FooterComponent, _components_confirm_modal_confirm_modal_component__WEBPACK_IMPORTED_MODULE_29__.ConfirmModalComponent, _components_load_spinner_load_spinner_component__WEBPACK_IMPORTED_MODULE_1__.LoadSpinnerComponent, _components_modal_components_base_modal_base_modal_component__WEBPACK_IMPORTED_MODULE_2__.BaseModalComponent, _components_modal_components_modal_shell_modal_shell_component__WEBPACK_IMPORTED_MODULE_3__.ModalShellComponent, _components_modal_components_modal_header_modal_header_component__WEBPACK_IMPORTED_MODULE_4__.ModalHeaderComponent, _components_modal_components_modal_body_modal_body_component__WEBPACK_IMPORTED_MODULE_5__.ModalBodyComponent, _components_modal_components_modal_footer_modal_footer_component__WEBPACK_IMPORTED_MODULE_20__.ModalFooterComponent, _components_form_components_input_group_input_group_component__WEBPACK_IMPORTED_MODULE_11__.InputGroupComponent, _components_tables_table_table_component__WEBPACK_IMPORTED_MODULE_24__.TableComponent, _components_form_components_checkbox_checkbox_component__WEBPACK_IMPORTED_MODULE_10__.CheckboxComponent, _components_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_21__.SearchBarComponent, _components_form_components_input_requirements_list_input_requirements_list_component__WEBPACK_IMPORTED_MODULE_12__.InputRequirementsListComponent, _components_error_message_error_message_component__WEBPACK_IMPORTED_MODULE_6__.ErrorMessageComponent, _components_form_components_autofocus_input_group_autofocus_input_group_component__WEBPACK_IMPORTED_MODULE_8__.AutofocusInputGroupComponent, _components_modal_components_confirmation_modal_confirmation_modal_component__WEBPACK_IMPORTED_MODULE_19__.ConfirmationModalComponent, _components_tables_table_header_table_header_component__WEBPACK_IMPORTED_MODULE_23__.TableHeaderComponent, _components_tables_table_cell_table_cell_component__WEBPACK_IMPORTED_MODULE_22__.TableCellComponent]
+  (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_58__["ɵɵsetNgModuleScope"](LayoutModule, {
+    declarations: [_components_sponsorship_doc_link_sponsorship_doc_link_component__WEBPACK_IMPORTED_MODULE_55__.SponsorshipDocLinkComponent, _components_attendees_banner_attendees_banner_component__WEBPACK_IMPORTED_MODULE_54__.AttendeesBannerComponent, _components_register_button_register_button_component__WEBPACK_IMPORTED_MODULE_53__.RegisterButtonComponent, _components_callout_signup_callout_signup_component__WEBPACK_IMPORTED_MODULE_52__.CalloutSignupComponent, _components_callout_social_callout_social_component__WEBPACK_IMPORTED_MODULE_51__.CalloutSocialComponent, _components_speaker_speaker_component__WEBPACK_IMPORTED_MODULE_50__.SpeakerComponent, _components_social_links_social_links_component__WEBPACK_IMPORTED_MODULE_49__.SocialLinksComponent, _components_nav_mobile_nav_mobile_component__WEBPACK_IMPORTED_MODULE_17__.NavMobileComponent, _components_hamburger_menu_hamburger_menu_component__WEBPACK_IMPORTED_MODULE_7__.HamburgerMenuComponent, _components_persona_modal_persona_modal_component__WEBPACK_IMPORTED_MODULE_18__.PersonaModalComponent, _components_form_components_required_message_required_message_component__WEBPACK_IMPORTED_MODULE_16__.RequiredMessageComponent, _components_form_components_required_asterisk_required_asterisk_component__WEBPACK_IMPORTED_MODULE_15__.RequiredAsteriskComponent, _components_form_components_label_label_component__WEBPACK_IMPORTED_MODULE_14__.LabelComponent, _components_form_components_textarea_textarea_component__WEBPACK_IMPORTED_MODULE_13__.TextareaComponent, _components_form_components_select_select_component__WEBPACK_IMPORTED_MODULE_9__.SelectComponent, _components_svg_components_triangle_triangle_component__WEBPACK_IMPORTED_MODULE_48__.TriangleComponent, _components_accordion_button_accordion_button_component__WEBPACK_IMPORTED_MODULE_40__.AccordionButtonComponent, _components_hr_hr_component__WEBPACK_IMPORTED_MODULE_39__.HRComponent, _components_svg_components_website_website_component__WEBPACK_IMPORTED_MODULE_47__.WebsiteComponent, _components_svg_components_facebook_facebook_component__WEBPACK_IMPORTED_MODULE_46__.FacebookComponent, _components_svg_components_twitter_twitter_component__WEBPACK_IMPORTED_MODULE_45__.TwitterComponent, _components_svg_components_github_github_component__WEBPACK_IMPORTED_MODULE_44__.GithubComponent, _components_svg_components_email_email_component__WEBPACK_IMPORTED_MODULE_43__.EmailComponent, _components_svg_components_linkedin_linkedin_component__WEBPACK_IMPORTED_MODULE_42__.LinkedinComponent, _components_svg_components_mastodon_mastodon_component__WEBPACK_IMPORTED_MODULE_56__.MastodonComponent, _components_svg_components_bluesky_bluesky_component__WEBPACK_IMPORTED_MODULE_57__.BlueskyComponent, _components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_41__.LogoComponent, _components_persona_short_persona_short_component__WEBPACK_IMPORTED_MODULE_38__.PersonaShortComponent, _components_session_session_component__WEBPACK_IMPORTED_MODULE_37__.SessionComponent, _components_sponsor_sponsor_component__WEBPACK_IMPORTED_MODULE_25__.SponsorComponent, _components_persona_persona_component__WEBPACK_IMPORTED_MODULE_36__.PersonaComponent, _components_tag_tag_component__WEBPACK_IMPORTED_MODULE_35__.TagComponent, _components_button_button_component__WEBPACK_IMPORTED_MODULE_34__.ButtonComponent, _components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_33__.UnderlinedHeadingComponent, _components_divider_divider_component__WEBPACK_IMPORTED_MODULE_32__.DividerComponent, _components_shell_shell_component__WEBPACK_IMPORTED_MODULE_30__.ShellComponent, _components_page_title_page_title_component__WEBPACK_IMPORTED_MODULE_31__.PageTitleComponent, _components_nav_nav_component__WEBPACK_IMPORTED_MODULE_27__.NavComponent, _components_header_header_component__WEBPACK_IMPORTED_MODULE_26__.HeaderComponent, _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_28__.FooterComponent, _components_confirm_modal_confirm_modal_component__WEBPACK_IMPORTED_MODULE_29__.ConfirmModalComponent, _components_load_spinner_load_spinner_component__WEBPACK_IMPORTED_MODULE_1__.LoadSpinnerComponent, _components_modal_components_base_modal_base_modal_component__WEBPACK_IMPORTED_MODULE_2__.BaseModalComponent, _components_modal_components_modal_shell_modal_shell_component__WEBPACK_IMPORTED_MODULE_3__.ModalShellComponent, _components_modal_components_modal_header_modal_header_component__WEBPACK_IMPORTED_MODULE_4__.ModalHeaderComponent, _components_modal_components_modal_body_modal_body_component__WEBPACK_IMPORTED_MODULE_5__.ModalBodyComponent, _components_modal_components_modal_footer_modal_footer_component__WEBPACK_IMPORTED_MODULE_20__.ModalFooterComponent, _components_form_components_input_group_input_group_component__WEBPACK_IMPORTED_MODULE_11__.InputGroupComponent, _components_tables_table_table_component__WEBPACK_IMPORTED_MODULE_24__.TableComponent, _components_form_components_checkbox_checkbox_component__WEBPACK_IMPORTED_MODULE_10__.CheckboxComponent, _components_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_21__.SearchBarComponent, _components_form_components_input_requirements_list_input_requirements_list_component__WEBPACK_IMPORTED_MODULE_12__.InputRequirementsListComponent, _components_error_message_error_message_component__WEBPACK_IMPORTED_MODULE_6__.ErrorMessageComponent, _components_form_components_autofocus_input_group_autofocus_input_group_component__WEBPACK_IMPORTED_MODULE_8__.AutofocusInputGroupComponent, _components_modal_components_confirmation_modal_confirmation_modal_component__WEBPACK_IMPORTED_MODULE_19__.ConfirmationModalComponent, _components_tables_table_header_table_header_component__WEBPACK_IMPORTED_MODULE_23__.TableHeaderComponent, _components_tables_table_cell_table_cell_component__WEBPACK_IMPORTED_MODULE_22__.TableCellComponent],
+    imports: [_angular_common__WEBPACK_IMPORTED_MODULE_59__.CommonModule, _angular_router__WEBPACK_IMPORTED_MODULE_60__.RouterModule, _angular_forms__WEBPACK_IMPORTED_MODULE_61__.FormsModule, _angular_forms__WEBPACK_IMPORTED_MODULE_61__.ReactiveFormsModule, _app_shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule],
+    exports: [_components_sponsorship_doc_link_sponsorship_doc_link_component__WEBPACK_IMPORTED_MODULE_55__.SponsorshipDocLinkComponent, _components_attendees_banner_attendees_banner_component__WEBPACK_IMPORTED_MODULE_54__.AttendeesBannerComponent, _components_register_button_register_button_component__WEBPACK_IMPORTED_MODULE_53__.RegisterButtonComponent, _components_callout_signup_callout_signup_component__WEBPACK_IMPORTED_MODULE_52__.CalloutSignupComponent, _components_callout_social_callout_social_component__WEBPACK_IMPORTED_MODULE_51__.CalloutSocialComponent, _components_speaker_speaker_component__WEBPACK_IMPORTED_MODULE_50__.SpeakerComponent, _components_social_links_social_links_component__WEBPACK_IMPORTED_MODULE_49__.SocialLinksComponent, _components_nav_mobile_nav_mobile_component__WEBPACK_IMPORTED_MODULE_17__.NavMobileComponent, _components_hamburger_menu_hamburger_menu_component__WEBPACK_IMPORTED_MODULE_7__.HamburgerMenuComponent, _components_persona_modal_persona_modal_component__WEBPACK_IMPORTED_MODULE_18__.PersonaModalComponent, _components_form_components_required_message_required_message_component__WEBPACK_IMPORTED_MODULE_16__.RequiredMessageComponent, _components_form_components_required_asterisk_required_asterisk_component__WEBPACK_IMPORTED_MODULE_15__.RequiredAsteriskComponent, _components_form_components_label_label_component__WEBPACK_IMPORTED_MODULE_14__.LabelComponent, _components_form_components_textarea_textarea_component__WEBPACK_IMPORTED_MODULE_13__.TextareaComponent, _components_form_components_select_select_component__WEBPACK_IMPORTED_MODULE_9__.SelectComponent, _components_svg_components_triangle_triangle_component__WEBPACK_IMPORTED_MODULE_48__.TriangleComponent, _components_accordion_button_accordion_button_component__WEBPACK_IMPORTED_MODULE_40__.AccordionButtonComponent, _components_hr_hr_component__WEBPACK_IMPORTED_MODULE_39__.HRComponent, _components_svg_components_website_website_component__WEBPACK_IMPORTED_MODULE_47__.WebsiteComponent, _components_svg_components_facebook_facebook_component__WEBPACK_IMPORTED_MODULE_46__.FacebookComponent, _components_svg_components_twitter_twitter_component__WEBPACK_IMPORTED_MODULE_45__.TwitterComponent, _components_svg_components_github_github_component__WEBPACK_IMPORTED_MODULE_44__.GithubComponent, _components_svg_components_email_email_component__WEBPACK_IMPORTED_MODULE_43__.EmailComponent, _components_svg_components_linkedin_linkedin_component__WEBPACK_IMPORTED_MODULE_42__.LinkedinComponent, _components_svg_components_mastodon_mastodon_component__WEBPACK_IMPORTED_MODULE_56__.MastodonComponent, _components_svg_components_bluesky_bluesky_component__WEBPACK_IMPORTED_MODULE_57__.BlueskyComponent, _components_svg_components_logo_logo_component__WEBPACK_IMPORTED_MODULE_41__.LogoComponent, _components_persona_short_persona_short_component__WEBPACK_IMPORTED_MODULE_38__.PersonaShortComponent, _components_session_session_component__WEBPACK_IMPORTED_MODULE_37__.SessionComponent, _components_sponsor_sponsor_component__WEBPACK_IMPORTED_MODULE_25__.SponsorComponent, _components_persona_persona_component__WEBPACK_IMPORTED_MODULE_36__.PersonaComponent, _components_tag_tag_component__WEBPACK_IMPORTED_MODULE_35__.TagComponent, _components_button_button_component__WEBPACK_IMPORTED_MODULE_34__.ButtonComponent, _components_underlined_heading_underlined_heading_component__WEBPACK_IMPORTED_MODULE_33__.UnderlinedHeadingComponent, _components_divider_divider_component__WEBPACK_IMPORTED_MODULE_32__.DividerComponent, _components_shell_shell_component__WEBPACK_IMPORTED_MODULE_30__.ShellComponent, _components_page_title_page_title_component__WEBPACK_IMPORTED_MODULE_31__.PageTitleComponent, _components_nav_nav_component__WEBPACK_IMPORTED_MODULE_27__.NavComponent, _components_header_header_component__WEBPACK_IMPORTED_MODULE_26__.HeaderComponent, _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_28__.FooterComponent, _components_confirm_modal_confirm_modal_component__WEBPACK_IMPORTED_MODULE_29__.ConfirmModalComponent, _components_load_spinner_load_spinner_component__WEBPACK_IMPORTED_MODULE_1__.LoadSpinnerComponent, _components_modal_components_base_modal_base_modal_component__WEBPACK_IMPORTED_MODULE_2__.BaseModalComponent, _components_modal_components_modal_shell_modal_shell_component__WEBPACK_IMPORTED_MODULE_3__.ModalShellComponent, _components_modal_components_modal_header_modal_header_component__WEBPACK_IMPORTED_MODULE_4__.ModalHeaderComponent, _components_modal_components_modal_body_modal_body_component__WEBPACK_IMPORTED_MODULE_5__.ModalBodyComponent, _components_modal_components_modal_footer_modal_footer_component__WEBPACK_IMPORTED_MODULE_20__.ModalFooterComponent, _components_form_components_input_group_input_group_component__WEBPACK_IMPORTED_MODULE_11__.InputGroupComponent, _components_tables_table_table_component__WEBPACK_IMPORTED_MODULE_24__.TableComponent, _components_form_components_checkbox_checkbox_component__WEBPACK_IMPORTED_MODULE_10__.CheckboxComponent, _components_search_bar_search_bar_component__WEBPACK_IMPORTED_MODULE_21__.SearchBarComponent, _components_form_components_input_requirements_list_input_requirements_list_component__WEBPACK_IMPORTED_MODULE_12__.InputRequirementsListComponent, _components_error_message_error_message_component__WEBPACK_IMPORTED_MODULE_6__.ErrorMessageComponent, _components_form_components_autofocus_input_group_autofocus_input_group_component__WEBPACK_IMPORTED_MODULE_8__.AutofocusInputGroupComponent, _components_modal_components_confirmation_modal_confirmation_modal_component__WEBPACK_IMPORTED_MODULE_19__.ConfirmationModalComponent, _components_tables_table_header_table_header_component__WEBPACK_IMPORTED_MODULE_23__.TableHeaderComponent, _components_tables_table_cell_table_cell_component__WEBPACK_IMPORTED_MODULE_22__.TableCellComponent]
   });
 })();
-_angular_core__WEBPACK_IMPORTED_MODULE_57__["ɵɵsetComponentScope"](_components_speaker_speaker_component__WEBPACK_IMPORTED_MODULE_50__.SpeakerComponent, [_angular_common__WEBPACK_IMPORTED_MODULE_58__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_58__.NgIf, _components_hr_hr_component__WEBPACK_IMPORTED_MODULE_39__.HRComponent, _components_session_session_component__WEBPACK_IMPORTED_MODULE_37__.SessionComponent, _components_persona_persona_component__WEBPACK_IMPORTED_MODULE_36__.PersonaComponent], []);
+_angular_core__WEBPACK_IMPORTED_MODULE_58__["ɵɵsetComponentScope"](_components_speaker_speaker_component__WEBPACK_IMPORTED_MODULE_50__.SpeakerComponent, [_angular_common__WEBPACK_IMPORTED_MODULE_59__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_59__.NgIf, _components_hr_hr_component__WEBPACK_IMPORTED_MODULE_39__.HRComponent, _components_session_session_component__WEBPACK_IMPORTED_MODULE_37__.SessionComponent, _components_persona_persona_component__WEBPACK_IMPORTED_MODULE_36__.PersonaComponent], []);
 
 /***/ }),
 
